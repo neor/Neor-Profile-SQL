@@ -1,0 +1,280 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<general>
+<version>
+	<language>English</language>
+    <compatible>3.0</compatible>
+    <date>2014-02-05</date>
+    <translator>Neor</translator>
+</version>
+
+<toolbar>
+    <start_btn>Start</start_btn>
+	<stop_btn>Stop</stop_btn>
+	<sql_btn>SQL</sql_btn>
+    <connections_btn>Connections</connections_btn>
+	<settings_btn>Settings</settings_btn>
+	<about_btn>About</about_btn>
+    <archive_btn>Archive</archive_btn>
+</toolbar>
+
+<settings_view>
+	<settings_title>Settings</settings_title>
+	
+	<general_group>General</general_group>
+	<language_str>Language</language_str>
+    <check_new_str>Check new versions</check_new_str>
+	<auto_open_str>Auto open new session in tab</auto_open_str>
+    <auto_start_str>Auto start</auto_start_str>
+    <stay_on_top_str>Stay on top</stay_on_top_str>
+</settings_view>
+
+<about_view>
+	<about_title>About</about_title>
+	
+	<version_str>Version</version_str>
+	<license_str>License: Freeware</license_str>
+	<disclaimer_str>Disclaimer: This software is provided by Neor LLC "as is" and any express or implied warranties, including, but not limited to, the implied warranties of merchantability and fitness for a particular purpose are disclaimed. In no event shall the copyright owner or contributors be liable for any direct, indirect, incidental, special, exemplary, or consequential damages (including, but not limited to, procurement of substitute goods or services; loss of use, data, or profits; or business interruption) however caused and on any theory of liability, whether in contract, strict liability, or tort (including negligence or otherwise) arising in any way out of the use of this software, even if advised of the possibility of such damage.</disclaimer_str>
+    <update_btn>Check update</update_btn>
+    <close_btn>Close</close_btn>
+</about_view>
+
+<statistics_view>
+    <statistics_title>Monitor</statistics_title>
+	
+	<stat_schedule_str>Schedule queries in DB</stat_schedule_str>
+	<stat_shedule_other_str>Other</stat_shedule_other_str>
+    <stat_shedule_no_status_str>Can't get SHOW STATUS</stat_shedule_no_status_str>
+	
+    <stat_server_group>DB server</stat_server_group>
+	<server_uptime_str>Uptime:</server_uptime_str>
+	<stat_avgqueries_str>Queries per sec:</stat_avgqueries_str>
+	<stat_nodata_str>None</stat_nodata_str>
+    <stat_username>Username:</stat_username>
+    <stopped_str>Stopped</stopped_str>
+    <running_str>Running</running_str>
+	
+    <profiler_stat_group>Profiler statistics</profiler_stat_group>
+	<queries_sent_str>Queries sent:</queries_sent_str>
+	<rows_str>Rows received:</rows_str>
+	<data_str>Data received:</data_str>
+    <sessions_str>Sessions:</sessions_str>
+    <error_con_str>Error connections:</error_con_str>
+    <error_queries_str>Error queries:</error_queries_str>
+	
+    <profiler_group>Profiler</profiler_group>
+
+    <server_tab>DB Server</server_tab>
+    <profiler_tab>Profiler</profiler_tab>
+    <connections_graph_str>Connections</connections_graph_str>
+    <queries_graph_str>Queries</queries_graph_str>
+    <upload_graph_str>Traffic upload</upload_graph_str>
+    <download_graph_str>Traffic download</download_graph_str>
+
+    <top_db_group>TOP</top_db_group>
+    <databases_db_group>Open databases</databases_db_group>
+    <tables_db_group>Open tables</tables_db_group>
+    <queries_db_group>Queries</queries_db_group>
+	<processes_group>Processes</processes_group>
+
+    <top_prof_group>TOP</top_prof_group>
+    <databases_prof_group>Databases</databases_prof_group>
+    <queries_prof_group>Queries</queries_prof_group>
+
+    <num_col>#</num_col>
+    <user_col>User</user_col>
+    <query_col>Query</query_col>
+    <table_col>Table</table_col>
+    <database_col>Database</database_col>
+    <count_col>Count</count_col>
+    <id_col>Id</id_col>
+    <host_col>Host</host_col>
+    <db_col>DB</db_col>
+    <command_col>Command</command_col>
+    <time_col>Time</time_col>
+</statistics_view>
+
+<sessions_view>
+	<session_title>Sessions</session_title>
+	
+	<clear_all_btn>Clear all</clear_all_btn>
+	<save_session_btn>Save session</save_session_btn>
+	<compare_btn>Compare</compare_btn>
+	<open_tab_btn>Open in tab</open_tab_btn>
+	
+	<id_col>ID</id_col>
+	<datetime_col>Datetime</datetime_col>
+	<db_col>DB</db_col>
+	<user_col>User</user_col>
+	<queries_col>Queries</queries_col>
+	<elapsed_col>Elapsed</elapsed_col>
+	<rows_col>Rows</rows_col>
+	<recieved_col>Rcv Kb</recieved_col>
+	<saved_col>Session saved</saved_col>
+
+	<sess_performed_str>Performed</sess_performed_str>
+	<sess_saved_yes_str>Yes</sess_saved_yes_str>
+	<sess_saved_no_str>No</sess_saved_no_str>
+</sessions_view>
+
+<archive_view>
+    <archive_title>Archive</archive_title>
+
+	<clear_all_btn>Clear all</clear_all_btn>
+	<delete_btn>Delete</delete_btn>
+	<comment_btn>Comment</comment_btn>	
+	<compare_btn>Compare</compare_btn>
+	<open_tab_btn>Open in tab</open_tab_btn>	
+
+	<id_col>ID</id_col>
+	<datetime_col>Datetime</datetime_col>
+	<db_col>DB</db_col>
+	<user_col>User</user_col>
+	<queries_col>Queries</queries_col>
+	<elapsed_col>Elapsed</elapsed_col>
+	<rows_col>Rows</rows_col>
+	<recieved_col>Rcv Kb</recieved_col>
+	<comment_col>Comment</comment_col>
+</archive_view>
+
+<session_view>
+	<queries_str>queries</queries_str>
+	<get_str>received</get_str>
+	<sent_str>sent</sent_str>
+	<kb_str>Kb</kb_str>
+	<rows_str>rows</rows_str>
+	<elapsed_str>elapsed</elapsed_str>
+	<performed_str>performed</performed_str>
+    <export_btn>Export</export_btn>
+    <twin_btn>Replays</twin_btn>
+	<code_query_str>SQL query code</code_query_str>
+	<copy_btn>Copy to clipboard</copy_btn>
+    <to_sql_editor_btn>Execute</to_sql_editor_btn>
+    <explain_btn>Explain</explain_btn>
+	<num_col>#</num_col>
+	<time_ms_col>Time ms</time_ms_col>
+	<time_per_col>Time %</time_per_col>
+	<longest_per_col>Longest %</longest_per_col>
+	<rows_col>Rows</rows_col>
+	<get_col>Get Kb</get_col>
+	<sent_col>Sent Kb</sent_col>
+	<query_col>Query</query_col>
+    <filter_btn>Filter</filter_btn>
+    <filter_all_str>All</filter_all_str>
+    <filter_read_str>Read requests (SELECT, SHOW, DESCRIBE)</filter_read_str>
+    <filter_write_str>Write requests (INSERT, DELETE, UPDATE, CREATE, DROP, ALTER)</filter_write_str>
+    <filter_error_str>Error requests</filter_error_str>
+    <filter_keyword_str>Keyword</filter_keyword_str>
+    <filter_type_str>Type of a request</filter_type_str>
+</session_view>
+
+<flow_view>
+    <flow_title>Flow</flow_title>
+    <num_col>#</num_col>
+    <query_col>Query</query_col>
+    <time_ms_col>Time ms</time_ms_col>
+    <get_col>Get Kb</get_col>
+    <rows_col>Rows</rows_col>
+    <code_query_str>SQL query code</code_query_str>
+    <copy_btn>Copy to clipboard</copy_btn>
+    <to_sql_editor_btn>Execute</to_sql_editor_btn>
+    <explain_btn>Explain</explain_btn>
+</flow_view>
+
+<update_view>
+	<update_title>Update</update_title>
+	<update_confirm1_str>New version is available.</update_confirm1_str>
+	<update_confirm2_str>Do you want to download?</update_confirm2_str>
+	<no_updates_str>Currently there are no updates</no_updates_str>
+	<no_get_info_str>Can't get update information</no_get_info_str>
+	<no_btn>No</no_btn>
+	<yes_btn>Yes</yes_btn>
+</update_view>
+
+<sql_view>
+    <sql_title>SQL</sql_title>
+    <db_name_str>Database name</db_name_str>
+    <execute_btn>Execute</execute_btn>
+    <profile_btn>Profile</profile_btn>
+    <explain_btn>Explain</explain_btn>
+    <vexplain_btn>Explain+</vexplain_btn>
+    <export_btn>Export</export_btn>
+    <error_sql>Error SQL query</error_sql>
+    <log_title_str>SQL execution log</log_title_str>
+    <execute_tab_title>Execution</execute_tab_title>
+    <profile_tab_title>Profile</profile_tab_title>
+    <explain_tab_title>Explain</explain_tab_title>
+    <explain_key_null>Query index not found</explain_key_null>
+    <explain_type_index>A full table scan is performed</explain_type_index>
+    <explain_type_all>Reads all data from the table</explain_type_all>
+    <explain_rows_100>Result is too many rows</explain_rows_100>
+    <filter_str>Filter</filter_str>
+    <num_col>#</num_col>
+    <query_col>Query</query_col>
+    <rows_col>Rows</rows_col>
+    <duration_col>Duration ms</duration_col>
+</sql_view>
+
+<errors>
+    <error_str>Error</error_str>
+	<lang_error>The language file is not compatible 
+with this version of the program</lang_error>
+	<sess_run_error>Session runs!</sess_run_error>
+    <mysql_conn_error>Error connection to MySQL server.
+Try to correct the Connection.</mysql_conn_error>
+</errors>
+
+<twin_view>
+	<title_str>Query replays</title_str>
+	<replays_col>Replays</replays_col>
+	<rows_col>Rows</rows_col>
+	<sql_col>SQL code</sql_col>
+	<not_found>Query replays not found</not_found>
+</twin_view>
+
+<connections_view>
+    <connections_title>Connections</connections_title>
+    <new_btn>New</new_btn>
+    <delete_btn>Delete</delete_btn>
+    <test_btn>Test</test_btn>
+    <cancel_btn>Cancel</cancel_btn>
+    <server_group>Database server</server_group>
+    <connect_name_str>Connection name</connect_name_str>
+    <db_type_str>Database type</db_type_str>
+    <connect_meth_str>Connection method</connect_meth_str>
+    <server_host_str>Hostname or IP</server_host_str>
+    <server_port_str>Port</server_port_str>
+    <server_username>Username</server_username>
+    <server_password>Password</server_password>
+    <compres_str>Compression protocol</compres_str>
+    <local_socket_str>Local socket/Pipe</local_socket_str>
+    <interact_pass_str>Don't save password</interact_pass_str>
+    <interact_pass_enter_title>Enter password</interact_pass_enter_title>
+
+    <status_group>Status</status_group>
+    <check_status_str>Check status of the database</check_status_str>
+    <status_str>Status period</status_str>
+    <status_sec_str>sec</status_sec_str>
+
+    <profiler_group>Profiler</profiler_group>
+    <profiler_port_str>Profiler port</profiler_port_str>
+    <net_connect>Enable access from remote machines</net_connect>
+
+    <exists_error_title>Error</exists_error_title>
+    <exists_error_str>Profile with the same name already exists</exists_error_str>
+    <delete_question_title>Delete</delete_question_title>
+    <delete_question_str>Do you want to remove the profile</delete_question_str>
+    <test_title>Test</test_title>
+    <test_success_str>Test is successful</test_success_str>
+    <test_failed_str>Test is failed</test_failed_str>
+</connections_view>
+
+<data_view>
+    <data_title>Data</data_title>
+    <copy_to_clipboard>Copy to clipboard</copy_to_clipboard>
+</data_view>
+
+<compare_view>
+    <title_str>Compare sessions</title_str>
+</compare_view>
+
+</general>

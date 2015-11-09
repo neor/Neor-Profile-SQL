@@ -1,0 +1,280 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<general>
+<version>
+	<language>Русский</language>
+	<compatible>3.0</compatible>
+	<date>2014-02-05</date>
+	<translator>Neor</translator>
+</version>
+
+<toolbar>
+	<start_btn>Старт</start_btn>
+	<stop_btn>Стоп</stop_btn>
+	<sql_btn>SQL</sql_btn>
+	<connections_btn>Соединения</connections_btn>
+	<settings_btn>Настройки</settings_btn>
+	<about_btn>О программе</about_btn>
+	<archive_btn>Архив</archive_btn>
+</toolbar>
+
+<settings_view>
+	<settings_title>Настройки</settings_title>
+	
+	<general_group>Общие</general_group>
+	<language_str>Язык</language_str>
+	<check_new_str>Проверять обновление программы</check_new_str>
+	<auto_open_str>Открыть сессию в закладке автоматически</auto_open_str>
+	<auto_start_str>Авто старт</auto_start_str>
+	<stay_on_top_str>Оставаться поверх окон</stay_on_top_str>
+</settings_view>
+
+<about_view>
+	<about_title>О программе</about_title>
+	
+	<version_str>Версия</version_str>
+	<license_str>Лицензия: Бесплатное ПО</license_str>
+	<disclaimer_str>Отказ от ответственности: Это программное обеспечение предоставляется ООО Неор "как есть" и никаких явных или подразумеваемых гарантий, включая, но не ограничиваясь, подразумеваемые гарантии товарного состояния и пригодности не предоставляется. Ни в коем случае владелец авторского права или участники не несут ответственности за любые прямые, косвенные, случайные, специальные или косвенные убытки (включая, но не ограничиваясь, приобретение заменяющих товаров или услуг; потери данных или прибыли).</disclaimer_str>
+    <update_btn>Проверить обновление</update_btn>
+    <close_btn>Закрыть</close_btn>
+</about_view>
+
+<statistics_view>
+	<statistics_title>Монитор</statistics_title>
+	
+	<stat_schedule_str>График загрузки базы данных</stat_schedule_str>
+	<stat_shedule_other_str>Прочие</stat_shedule_other_str>
+    <stat_shedule_no_status_str>Не возможно получить SHOW STATUS</stat_shedule_no_status_str>
+	
+	<stat_server_group>Сервер СУБД</stat_server_group>
+	<server_uptime_str>Время работы:</server_uptime_str>
+	<stat_avgqueries_str>Запросов в сек:</stat_avgqueries_str>
+	<stat_nodata_str>Нет</stat_nodata_str>
+    <stat_username>Пользователь:</stat_username>
+    <stopped_str>Остановлен</stopped_str>
+    <running_str>Запущен</running_str>
+	
+    <profiler_stat_group>Статистика профайлера</profiler_stat_group>
+	<queries_sent_str>Запросов отправлено:</queries_sent_str>
+	<rows_str>Строк получено:</rows_str>
+	<data_str>Данных получено:</data_str>
+    <sessions_str>Сессии:</sessions_str>
+    <error_con_str>Ошибочных соединений:</error_con_str>
+    <error_queries_str>Ошибочных запросов:</error_queries_str>
+	
+    <profiler_group>Профайлер</profiler_group>
+
+    <server_tab>Сервер СУБД</server_tab>
+    <profiler_tab>Профайлер</profiler_tab>
+    <connections_graph_str>Соединения</connections_graph_str>
+    <queries_graph_str>Запросы</queries_graph_str>
+    <upload_graph_str>Исходящий трафик</upload_graph_str>
+    <download_graph_str>Входящий трафик</download_graph_str>
+
+    <top_db_group>ТОП</top_db_group>
+    <databases_db_group>Открытые БД</databases_db_group>
+    <tables_db_group>Открытые таблицы</tables_db_group>
+    <queries_db_group>Запросы</queries_db_group>
+	<processes_group>Процессы</processes_group>
+
+    <top_prof_group>ТОП</top_prof_group>
+    <databases_prof_group>Базы данных</databases_prof_group>
+    <queries_prof_group>Запросы</queries_prof_group>
+
+    <num_col>№</num_col>
+    <user_col>Пользователь</user_col>
+    <query_col>Запрос</query_col>
+    <table_col>Таблица</table_col>
+    <database_col>База данных</database_col>
+    <count_col>Количество</count_col>
+    <id_col>Ид.</id_col>
+    <host_col>Хост</host_col>
+    <db_col>БД</db_col>
+    <command_col>Команда</command_col>
+    <time_col>Время</time_col>
+</statistics_view>
+
+<sessions_view>
+	<session_title>Сессии</session_title>
+	
+	<clear_all_btn>Очистить все</clear_all_btn>
+	<save_session_btn>Сохранить сессию</save_session_btn>
+	<compare_btn>Сравнить</compare_btn>
+	<open_tab_btn>Открыть во вкладке</open_tab_btn>
+	
+	<id_col>Ид.</id_col>
+	<datetime_col>Дата/время</datetime_col>
+	<db_col>БД</db_col>
+	<user_col>Пользователь</user_col>
+	<queries_col>Запросы</queries_col>
+	<elapsed_col>Прошло</elapsed_col>
+	<rows_col>Строк</rows_col>
+	<recieved_col>Принято Кб</recieved_col>
+	<saved_col>Сессия сохранена</saved_col>
+
+	<sess_performed_str>Выполняется</sess_performed_str>
+	<sess_saved_yes_str>Да</sess_saved_yes_str>
+	<sess_saved_no_str>Нет</sess_saved_no_str>
+</sessions_view>
+
+<archive_view>
+    <archive_title>Архив</archive_title>
+
+	<clear_all_btn>Очистить все</clear_all_btn>
+	<delete_btn>Удалить</delete_btn>
+	<comment_btn>Комментарий</comment_btn>	
+	<compare_btn>Сравнить</compare_btn>
+	<open_tab_btn>Открыть во вкладке</open_tab_btn>	
+
+	<id_col>Ид.</id_col>
+	<datetime_col>Дата/время</datetime_col>
+	<db_col>БД</db_col>
+	<user_col>Пользователь</user_col>
+	<queries_col>Запросы</queries_col>
+	<elapsed_col>Прошло</elapsed_col>
+	<rows_col>Строки</rows_col>
+	<recieved_col>Принято Кб</recieved_col>
+	<comment_col>Комментарий</comment_col>
+</archive_view>
+
+<session_view>
+	<queries_str>запросы</queries_str>
+	<get_str>получено</get_str>
+	<sent_str>отправлено</sent_str>
+	<kb_str>Кб</kb_str>
+	<rows_str>строки</rows_str>
+	<elapsed_str>длительность</elapsed_str>
+	<performed_str>выполняется</performed_str>
+	<export_btn>Экспорт</export_btn>
+	<twin_btn>Повторы</twin_btn>
+	<code_query_str>Код SQL запроса</code_query_str>
+	<copy_btn>Копировать в буфер</copy_btn>
+    <to_sql_editor_btn>Выполнить</to_sql_editor_btn>
+    <explain_btn>Оценить</explain_btn>
+	<num_col>№</num_col>
+	<time_ms_col>Время мс</time_ms_col>
+	<time_per_col>Время %</time_per_col>
+	<longest_per_col>Длительность %</longest_per_col>
+	<rows_col>Строки</rows_col>
+	<get_col>Принято Кб</get_col>
+	<sent_col>Отправлено Кб</sent_col>
+	<query_col>Запрос</query_col>
+    <filter_btn>Фильтр</filter_btn>
+    <filter_all_str>Все</filter_all_str>
+    <filter_read_str>Запросы чтения (SELECT, SHOW, DESCRIBE)</filter_read_str>
+    <filter_write_str>Запросы записи (INSERT, DELETE, UPDATE, CREATE, DROP, ALTER)</filter_write_str>
+    <filter_error_str>Ошибочные запросы</filter_error_str>
+    <filter_keyword_str>Искать</filter_keyword_str>
+    <filter_type_str>Тип запроса</filter_type_str>
+</session_view>
+
+<flow_view>
+    <flow_title>Поток</flow_title>
+    <num_col>№</num_col>
+    <query_col>Запрос</query_col>
+    <time_ms_col>Время мс</time_ms_col>
+    <get_col>Принято Кб</get_col>
+    <rows_col>Строки</rows_col>
+    <code_query_str>Код SQL запроса</code_query_str>
+    <copy_btn>Копировать в буфер</copy_btn>
+    <to_sql_editor_btn>Выполнить</to_sql_editor_btn>
+    <explain_btn>Оценить</explain_btn>
+</flow_view>
+
+<update_view>
+	<update_title>Обновление</update_title>	
+	<update_confirm1_str>Доступна новая версия программы.</update_confirm1_str>
+	<update_confirm2_str>Желаете загрузить?</update_confirm2_str>	
+	<no_updates_str>В данный момент  обновлений нет</no_updates_str>
+	<no_get_info_str>Не возможно получить данные об обновлении</no_get_info_str>
+	<no_btn>Нет</no_btn>
+	<yes_btn>Да</yes_btn>
+</update_view>
+
+<sql_view>
+	<sql_title>SQL</sql_title>
+	<db_name_str>База данных</db_name_str>
+	<execute_btn>Выполнить</execute_btn>
+	<profile_btn>Профилировать</profile_btn>
+    <explain_btn>Оценить</explain_btn>
+    <vexplain_btn>Оценить+</vexplain_btn>
+    <export_btn>Экспорт</export_btn>
+	<error_sql>Ошибка SQL запроса</error_sql>
+    <log_title_str>Лог запуска SQL</log_title_str>
+    <execute_tab_title>Выполнение</execute_tab_title>
+    <profile_tab_title>Профилирование</profile_tab_title>
+    <explain_tab_title>Оценка</explain_tab_title>
+    <explain_key_null>Индекс запроса не найден</explain_key_null>
+    <explain_type_index>Выполнилась переборка всей таблицы</explain_type_index>
+    <explain_type_all>Читаются все данные с таблицы</explain_type_all>
+    <explain_rows_100>Выдается слишком много строк</explain_rows_100>
+    <filter_str>Фильтр</filter_str>
+    <num_col>№</num_col>
+    <query_col>Запрос</query_col>
+    <rows_col>Строки</rows_col>
+    <duration_col>Время мс</duration_col>
+</sql_view>
+
+<errors>
+	<error_str>Ошибка</error_str>
+	<lang_error>Версия файла перевода несовместима 
+с данной версией программы</lang_error>
+	<sess_run_error>Сессия выполняется!</sess_run_error>
+	<mysql_conn_error>Ошибка подключения к MySQL серверу.
+Попробуйте исправить данные в Соединении.</mysql_conn_error>
+</errors>
+
+<twin_view>
+	<title_str>Повторяющиеся запросы</title_str>
+	<replays_col>Повторов</replays_col>
+	<rows_col>Строки</rows_col>
+	<sql_col>SQL код</sql_col>
+	<not_found>Повторяющиеся запросы не найдены</not_found>
+</twin_view>
+
+<connections_view>
+    <connections_title>Соединения</connections_title>
+    <new_btn>Новый</new_btn>
+    <delete_btn>Удалить</delete_btn>
+    <test_btn>Тест</test_btn>
+    <cancel_btn>Закрыть</cancel_btn>
+    <server_group>Сервер СУБД</server_group>
+    <connect_name_str>Название соединения</connect_name_str>
+    <db_type_str>Тип базы данных</db_type_str>
+    <connect_meth_str>Метод соединения</connect_meth_str>
+    <server_host_str>Хост или IP</server_host_str>
+    <server_port_str>Порт</server_port_str>
+    <server_username>Пользователь</server_username>
+    <server_password>Пароль</server_password>
+    <compres_str>Протокол компрессии</compres_str>
+    <local_socket_str>Локальный сокет/Pipe</local_socket_str>
+    <interact_pass_str>Не сохранять пароль</interact_pass_str>
+    <interact_pass_enter_title>Ввод пароля</interact_pass_enter_title>
+
+    <status_group>Статус</status_group>
+    <check_status_str>Проверять статус СУБД</check_status_str>
+    <status_str>Интервал проверки</status_str>
+    <status_sec_str>сек</status_sec_str>
+
+    <profiler_group>Профайлер</profiler_group>
+    <profiler_port_str>Порт профайлера</profiler_port_str>
+    <net_connect>Доступ подключения с удаленных машин</net_connect>
+
+    <exists_error_title>Ошибка</exists_error_title>
+    <exists_error_str>Профиль с таким же названием уже есть</exists_error_str>
+    <delete_question_title>Удалить</delete_question_title>
+    <delete_question_str>Хотите удалить профиль</delete_question_str>
+    <test_title>Тест</test_title>
+    <test_success_str>Тест прошел успешно</test_success_str>
+    <test_failed_str>Тест не удался</test_failed_str>
+</connections_view>
+
+<data_view>
+    <data_title>Данные</data_title>
+    <copy_to_clipboard>Копировать в буфер</copy_to_clipboard>
+</data_view>
+
+<compare_view>
+    <title_str>Сравнение сессий</title_str>
+</compare_view>
+
+</general>

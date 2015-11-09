@@ -1,0 +1,279 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<general>
+<version>
+	<language>Español</language>
+	<compatible>3.0</compatible>
+	<date>2014-02-05</date>
+	<translator>Emilio Melgarejo Kalinin, Nikolay Lisienko</translator>
+</version>
+
+<toolbar>
+	<start_btn>Start</start_btn>
+	<stop_btn>Stop</stop_btn>
+	<sql_btn>SQL</sql_btn>
+    <connections_btn>Conexiones</connections_btn>
+	<settings_btn>Configuración</settings_btn>
+	<about_btn>Acerca</about_btn>
+    <archive_btn>Archivo</archive_btn>
+</toolbar>
+
+<settings_view>
+	<settings_title>Configuración</settings_title>
+	
+	<general_group>Generales</general_group>
+	<language_str>Idioma</language_str>
+	<check_new_str>Comprobar actualización del programa</check_new_str>
+	<auto_open_str>Auto abrir nueva sesión en la pestaña</auto_open_str>
+    <auto_start_str>Inicio automático</auto_start_str>
+    <stay_on_top_str>Mantente al tanto</stay_on_top_str>
+</settings_view>
+
+<about_view>
+	<about_title>Acerca del programa</about_title>
+	
+	<version_str>Versión</version_str>
+	<license_str>Licencia: Freeware</license_str>
+	<disclaimer_str>Renuncia de responsabilidad: Este software se presenta por la SRL Neor en forma de versión “As Is” y no se dan ningunas garantías expresas o supuestas, incluyendo, pero sin limitarse, a garantías del estado y utilidad del producto. El propietario del derecho de autor o los participantes, en ningún caso, asumirán la responsabilidad por cualesquiera daños directos, indirectos, accidentales, especiales o indirectos, incluyendo, pero no limitándose con la adquisición de productos o servicios relevantes; pérdida de datos o beneficios).</disclaimer_str>
+    <update_btn>Compruebe la actualización</update_btn>
+    <close_btn>Cerrar</close_btn>
+</about_view>
+
+<statistics_view>
+	<statistics_title>Monitor</statistics_title>
+
+	<stat_schedule_str>Gráfico de carga de base de datos</stat_schedule_str>
+	<stat_shedule_other_str>Otro</stat_shedule_other_str>
+    <stat_shedule_no_status_str>No se puede obtener SHOW STATUS</stat_shedule_no_status_str>
+	
+    <stat_server_group>Servidor BD</stat_server_group>
+	<server_uptime_str>Tiempo de funcionamiento:</server_uptime_str>
+	<stat_avgqueries_str>Solicitudes a BD por seg:</stat_avgqueries_str>
+	<stat_nodata_str>No</stat_nodata_str>
+    <stat_username>Usuario:</stat_username>
+    <stopped_str>Detenido</stopped_str>
+    <running_str>Marcha</running_str>
+	
+    <profiler_stat_group>Estadística del profiler</profiler_stat_group>
+	<queries_sent_str>Solicitudes enviadas:</queries_sent_str>
+	<rows_str>Líneas recibidas:</rows_str>
+	<data_str>Datos recibidos:</data_str>
+    <sessions_str>Sesiones:</sessions_str>
+    <error_con_str>Conexiones de error:</error_con_str>
+    <error_queries_str>Solicitudes de error:</error_queries_str>
+	
+    <profiler_group>Profiler</profiler_group>
+
+    <server_tab>Servidor BD</server_tab>
+    <profiler_tab>Profiler</profiler_tab>
+    <connections_graph_str>Conexiones</connections_graph_str>
+    <queries_graph_str>Consultas</queries_graph_str>
+    <upload_graph_str>Carga de tráfico</upload_graph_str>
+    <download_graph_str>Descarga de tráfico</download_graph_str>
+
+    <top_db_group>TOP</top_db_group>
+    <databases_db_group>Abrir DB</databases_db_group>
+    <tables_db_group>Abrir tablas</tables_db_group>
+    <queries_db_group>Solicitudes</queries_db_group>
+	<processes_group>Procesos</processes_group>
+
+    <top_prof_group>TOP</top_prof_group>
+    <databases_prof_group>BD</databases_prof_group>
+    <queries_prof_group>Solicitudes</queries_prof_group>
+
+    <num_col>#</num_col>
+    <user_col>Usuario</user_col>
+    <query_col>Solicitud</query_col>
+    <table_col>Tabla</table_col>
+    <database_col>BD</database_col>
+    <count_col>Contar</count_col>
+    <id_col>Id</id_col>
+    <host_col>Host</host_col>
+    <db_col>BD</db_col>
+    <command_col>Comando</command_col>
+    <time_col>Tiempo</time_col>
+</statistics_view>
+
+<sessions_view>
+	<session_title>Sesiones</session_title>
+	
+	<clear_all_btn>Limpiar todo</clear_all_btn>
+	<save_session_btn>Guardar sesión</save_session_btn>
+	<compare_btn>Comparar</compare_btn>
+	<open_tab_btn>Abrir en pestaña</open_tab_btn>
+	
+	<id_col>Id</id_col>
+	<datetime_col>Fecha/hora</datetime_col>
+	<db_col>BD</db_col>
+	<user_col>Usuario</user_col>
+	<queries_col>Solicitudes</queries_col>
+	<elapsed_col>Pasó</elapsed_col>
+	<rows_col>Líneas</rows_col>
+	<recieved_col>Kb recibidos</recieved_col>
+	<saved_col>Guardado</saved_col>
+
+	<sess_performed_str>En curso</sess_performed_str>
+	<sess_saved_yes_str>Si</sess_saved_yes_str>
+	<sess_saved_no_str>No</sess_saved_no_str>
+</sessions_view>
+
+<archive_view>
+	<archive_title>Archivo</archive_title>
+
+	<clear_all_btn>Limpiar todo</clear_all_btn>
+	<delete_btn>Eliminar</delete_btn>
+	<comment_btn>Comentario</comment_btn>	
+	<compare_btn>Comparar</compare_btn>
+	<open_tab_btn>Abrir en pestaña</open_tab_btn>	
+
+	<id_col>Id</id_col>
+	<datetime_col>Fecha/hora</datetime_col>
+	<db_col>BD</db_col>
+	<user_col>Usuario</user_col>
+	<queries_col>Solicitudes</queries_col>
+	<elapsed_col>Pasó</elapsed_col>
+	<rows_col>Líneas</rows_col>
+	<recieved_col>Kb recibidos</recieved_col>
+	<comment_col>Comentario</comment_col>
+</archive_view>
+
+<session_view>
+	<queries_str>solicitudes</queries_str>
+	<get_str>recibido</get_str>
+	<sent_str>enviado</sent_str>
+	<kb_str>Kb</kb_str>
+	<rows_str>líneas</rows_str>
+	<elapsed_str>duración</elapsed_str>
+	<performed_str>en curso</performed_str>
+	<export_btn>Exportar</export_btn>
+	<twin_btn>Repeticiones</twin_btn>
+	<code_query_str>Código SQL de solicitud</code_query_str>
+	<copy_btn>Copiar al portapapeles</copy_btn>
+    <to_sql_editor_btn>Ejecutar</to_sql_editor_btn>
+    <explain_btn>Explain</explain_btn>
+	<num_col>#</num_col>
+	<time_ms_col>Tiempo ms</time_ms_col>
+	<time_per_col>Tiempo %</time_per_col>
+	<longest_per_col>Duración %</longest_per_col>
+	<rows_col>Líneas</rows_col>
+	<get_col>Kb recibidos</get_col>
+	<sent_col>Kb enviados</sent_col>
+	<query_col>Solicitud</query_col>
+    <filter_btn>Filtro</filter_btn>
+    <filter_all_str>Todo</filter_all_str>
+    <filter_read_str>Leer solicitudes (SELECT, SHOW, DESCRIBE)</filter_read_str>
+    <filter_write_str>Escribe solicitudes (INSERT, DELETE, UPDATE, CREATE, DROP, ALTER)</filter_write_str>
+    <filter_error_str>De error solicitudes</filter_error_str>
+    <filter_keyword_str>Palabra clave</filter_keyword_str>
+    <filter_type_str>Tipo de una solicitud</filter_type_str>
+</session_view>
+
+<flow_view>
+    <flow_title>Flujo</flow_title>
+    <num_col>#</num_col>
+    <query_col>Solicitud</query_col>
+    <time_ms_col>Tiempo ms</time_ms_col>
+    <get_col>Kb recibidos</get_col>
+    <rows_col>Líneas</rows_col>
+    <code_query_str>Código SQL de solicitud</code_query_str>
+    <copy_btn>Copiar al portapapeles</copy_btn>
+    <to_sql_editor_btn>Ejecutar</to_sql_editor_btn>
+    <explain_btn>Explain</explain_btn>
+</flow_view>
+
+<update_view>
+	<update_title>Actualización</update_title>
+	<update_confirm1_str>Está disponible la nueva versión del programa.</update_confirm1_str>
+	<update_confirm2_str>¿Desea descargarla?</update_confirm2_str>
+	<no_updates_str>Actualmente no hay actualizaciones</no_updates_str>
+	<no_get_info_str>No puedo recibir datos de la actualización</no_get_info_str>
+	<no_btn>No</no_btn>
+    <yes_btn>Si</yes_btn>
+</update_view>
+
+<sql_view>
+	<sql_title>SQL</sql_title>
+    <db_name_str>Servidor</db_name_str>
+	<execute_btn>Ejecutar</execute_btn>
+	<profile_btn>Perfilar</profile_btn>
+    <explain_btn>Explain</explain_btn>
+	<vexplain_btn>Explain+</vexplain_btn>
+    <export_btn>Exportar</export_btn>
+	<error_sql>Error de solicitud SQL</error_sql>
+    <log_title_str>SQL ejecutar log</log_title_str>
+    <execute_tab_title>Ejecutar</execute_tab_title>
+    <profile_tab_title>Perfilar</profile_tab_title>
+    <explain_tab_title>Explain</explain_tab_title>
+    <explain_key_null>Índice de consulta no se encuentra</explain_key_null>
+    <explain_type_index>Un escaneo completo de tabla se realiza</explain_type_index>
+    <explain_type_all>Lee todos los datos de la tabla</explain_type_all>
+    <explain_rows_100>El resultado es demasiadas filas</explain_rows_100>
+    <filter_str>Filtro</filter_str>
+    <num_col>#</num_col>
+    <query_col>Solicitud</query_col>
+    <rows_col>Líneas</rows_col>
+    <duration_col>Duración ms</duration_col>
+</sql_view>
+
+<errors>
+	<error_str>Error</error_str>
+	<lang_error>La versión del archivo de traducción 
+no es compatible con esta versión del programa</lang_error>
+	<sess_run_error>¡Sesión en curso!</sess_run_error>
+	<mysql_conn_error>Error de conexión a MySQL servidor</mysql_conn_error>
+</errors>
+
+<twin_view>
+	<title_str>Repeticiones de sesión</title_str>
+	<replays_col>Repeticiones</replays_col>
+	<rows_col>Líneas</rows_col>
+	<sql_col>Código SQL</sql_col>
+	<not_found>No se encontraron solicitudes repetidas</not_found>
+</twin_view>
+
+<connections_view>
+	<connections_title>Conexiones</connections_title>
+	<new_btn>Nuevo</new_btn>
+	<delete_btn>Borrar</delete_btn>
+	<test_btn>Ensayo</test_btn>
+    <cancel_btn>Cerrar</cancel_btn>
+	<server_group>Servidor</server_group>
+	<connect_name_str>Nombre de conexión</connect_name_str>
+	<db_type_str>Tipo</db_type_str>
+	<connect_meth_str>Método de conexión</connect_meth_str>
+	<server_host_str>Hostname o IP</server_host_str>
+	<server_port_str>Puerto</server_port_str>
+	<server_username>Usuario</server_username>
+	<server_password>Contraseña</server_password>
+	<compres_str>Protocolo de compresión</compres_str>
+    <local_socket_str>Local socket/Pipe</local_socket_str>
+    <interact_pass_str>No guarde la contraseña</interact_pass_str>
+    <interact_pass_enter_title>Introduce el password</interact_pass_enter_title>
+	
+	<status_group>Estado</status_group>
+	<check_status_str>Comprobar el estado</check_status_str>
+	<status_str>Periodo de comprobación</status_str>
+	<status_sec_str>seg</status_sec_str>
+	
+	<profiler_group>Profiler</profiler_group>
+	<profiler_port_str>Puerto del profiler</profiler_port_str>
+	<net_connect>Aceptar conexiones de red</net_connect>
+
+    <exists_error_title>Error</exists_error_title>
+    <exists_error_str>Perfil con el mismo nombre ya existe</exists_error_str>
+    <delete_question_title>Borrar</delete_question_title>
+    <delete_question_str>¿Quieres eliminar el perfil</delete_question_str>
+    <test_title>Prueba</test_title>
+    <test_success_str>La prueba es exitosa</test_success_str>
+    <test_failed_str>Prueba falla</test_failed_str>
+</connections_view>
+
+<data_view>
+    <data_title>Datos</data_title>
+    <copy_to_clipboard>Copiar al portapapeles</copy_to_clipboard>
+</data_view>
+
+<compare_view>
+    <title_str>Comparar sesiones</title_str>
+</compare_view>
+
+</general>
