@@ -1,0 +1,175 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<general>
+<version>
+	<language>Русский</language>
+	<compatible>1.1</compatible>
+	<date>2012-10-26</date>
+	<translator>Nikolay Lisienko nil@neor.ru</translator>
+</version>
+
+<toolbar>
+	<start_btn>Старт</start_btn>
+	<stop_btn>Стоп</stop_btn>
+	<sql_btn>SQL</sql_btn>
+	<settings_btn>Настройки</settings_btn>
+	<about_btn>О программе</about_btn>
+</toolbar>
+
+<settings_view>
+	<settings_title>Настройки</settings_title>
+	
+	<general_group>Общие</general_group>
+	<language_str>Язык</language_str>
+	<check_new_str>Проверять обновление программы</check_new_str>
+	
+	<server_group>Сервер базы данных</server_group>
+	<server_host_str>Хост</server_host_str>
+	<server_port_str>Порт</server_port_str>
+	<server_login>Логин</server_login>
+	<server_password>Пароль</server_password>
+	<check_status_str>Проверять статус</check_status_str>
+	<status_str>Период проверки</status_str>
+	<status_sec_str>сек</status_sec_str>
+	
+	<profiler_group>Профайлер</profiler_group>
+	<profiler_port_str>Порт профайлера</profiler_port_str>
+	<auto_open_str>Автоматически сессия в закладке</auto_open_str>
+	<auto_start_str>Авто старт</auto_start_str>
+	<net_connect>Принимать сетевые поключения</net_connect>
+</settings_view>
+
+<about_view>
+	<about_title>О программе</about_title>
+	
+	<version_str>Версия</version_str>
+	<license_str>Лицензия: Бесплатно</license_str>
+	<disclaimer_str>Отказ от ответственности: Это программное обеспечение предоставляется ООО Неор "как есть" и никаких явных или подразумеваемых гарантий, включая, но не ограничиваясь, подразумеваемые гарантии товарного состояния и пригодности не предоставляется. Ни в коем случае владелец авторского права или участники не несут ответственности за любые прямые, косвенные, случайные, специальные или косвенные убытки (включая, но не ограничиваясь, приобретение заменяющих товаров или услуг; потери данных или прибыли).</disclaimer_str>
+</about_view>
+
+<statistics_view>
+	<statistics_title>Статистика</statistics_title>
+	
+	<stat_schedule_str>График загрузки базы данных</stat_schedule_str>
+	
+	<stat_server_group>БД сервер</stat_server_group>
+	<server_version_str>MySQL версия:</server_version_str>
+	<server_uptime_str>Время работы:</server_uptime_str>
+	<stat_avgqueries_str>Сред. запросов в БД в сек:</stat_avgqueries_str>
+	<stat_nodata_str>Нет</stat_nodata_str>
+	
+	<profiler_group>Статистика профайлера</profiler_group>
+	<queries_sent_str>Запросов отправлено:</queries_sent_str>
+	<rows_str>Строк принято:</rows_str>
+	<data_str>Данных принято:</data_str>
+	
+	<settings_group>Настройки</settings_group>
+	<dbport_str>Порт БД:</dbport_str>
+	<dbhost_str>Хост БД:</dbhost_str>
+	<profiler_port_str>Порт профайлера:</profiler_port_str>
+
+	<top_group>ТОП 5 профайлера</top_group>
+	<database_group>Базы данных</database_group>
+	<tables_group>Таблицы</tables_group>
+	<queries_group>Запросы</queries_group>
+	
+	<profiler_stopped_str>остановлен</profiler_stopped_str>
+</statistics_view>
+
+<sessions_view>
+	<session_title>Сессии</session_title>
+	
+	<clear_all_btn>Очистить все</clear_all_btn>
+	<save_session_btn>Сохранить сессию</save_session_btn>
+	<compare_btn>Сравнить</compare_btn>
+	<open_tab_btn>Открыть во вкладке</open_tab_btn>
+	
+	<id_col>Ид.</id_col>
+	<datetime_col>Дата/время</datetime_col>
+	<db_col>БД</db_col>
+	<user_col>Пользователь</user_col>
+	<queries_col>Запросы</queries_col>
+	<elapsed_col>Прошло</elapsed_col>
+	<rows_col>Строк</rows_col>
+	<recieved_col>Принято Кб</recieved_col>
+	<saved_col>Сохранена</saved_col>
+
+	<sess_performed_str>Выполняется</sess_performed_str>
+	<sess_saved_yes_str>Да</sess_saved_yes_str>
+	<sess_saved_no_str>Нет</sess_saved_no_str>
+</sessions_view>
+
+<saved_sessions_view>
+	<saved_sessions_title>Сохраненные сессии</saved_sessions_title>
+
+	<clear_all_btn>Очистить все</clear_all_btn>
+	<delete_btn>Удалить</delete_btn>
+	<comment_btn>Комментарий</comment_btn>	
+	<compare_btn>Сравнить</compare_btn>
+	<open_tab_btn>Открыть во вкладке</open_tab_btn>	
+
+	<id_col>Ид.</id_col>
+	<datetime_col>Дата/время</datetime_col>
+	<db_col>БД</db_col>
+	<user_col>Пользователь</user_col>
+	<queries_col>Запросы</queries_col>
+	<elapsed_col>Прошло</elapsed_col>
+	<rows_col>Строки</rows_col>
+	<recieved_col>Принято Кб</recieved_col>
+	<comment_col>Комментарий</comment_col>
+</saved_sessions_view>
+
+<session_view>
+	<queries_str>запросы</queries_str>
+	<get_str>получено</get_str>
+	<sent_str>отправлено</sent_str>
+	<kb_str>Кб</kb_str>
+	<rows_str>строки</rows_str>
+	<elapsed_str>длительность</elapsed_str>
+	<performed_str>выполняется</performed_str>
+	<export_csv_btn>Экспорт CSV</export_csv_btn>
+	<export_xml_btn>Экспорт XML</export_xml_btn>
+	<twin_btn>Повторения</twin_btn>
+	<code_query_str>Код SQL запроса</code_query_str>
+	<copy_btn>Копировать в буфер</copy_btn>
+	<num_col>№</num_col>
+	<time_ms_col>Время мс</time_ms_col>
+	<time_per_col>Время %</time_per_col>
+	<longest_per_col>Длительность %</longest_per_col>
+	<rows_col>Строки</rows_col>
+	<get_col>Принято Кб</get_col>
+	<sent_col>Отправлено Кб</sent_col>
+	<query_col>Запрос</query_col>
+</session_view>
+
+<update_view>
+	<update_title>Обновление</update_title>	
+	<update_confirm1_str>Доступна новая версия программы.</update_confirm1_str>
+	<update_confirm2_str>Желаете загрузить?</update_confirm2_str>	
+	<no_updates_str>В данный момент нет обновлений</no_updates_str>
+	<no_get_info_str>Не могу получить данные об обновлении</no_get_info_str>
+	<no_btn>Нет</no_btn>
+	<yes_btn>Да</yes_btn>
+</update_view>
+
+<sql_view>
+	<sql_title>SQL</sql_title>
+	<execute_btn>Выполнить</execute_btn>
+	<profile_btn>Профилировать</profile_btn>
+	<error_sql>Ошибка SQL запроса</error_sql>
+</sql_view>
+
+<errors>
+	<error_str>Ошибка</error_str>
+	<lang_error>Версия файла перевода несовместима с данной версией программы</lang_error>
+	<sess_run_error>Сессия выполняется!</sess_run_error>
+	<mysql_conn_error>Ошибка подключения к MySQL серверу. Попробуйте исправить данные в Настройках.</mysql_conn_error>
+</errors>
+
+<twin_view>
+	<title_str>Повторения сессии</title_str>
+	<replays_col>Повторов</replays_col>
+	<rows_col>Строки</rows_col>
+	<sql_col>SQL код</sql_col>
+	<not_found>Повторяющиеся запросы не найдены</not_found>
+</twin_view>
+</general>

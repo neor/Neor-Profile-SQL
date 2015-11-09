@@ -1,0 +1,66 @@
+<html>
+<head>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+<script type="text/javascript">
+
+$(document).ready(function(){
+
+$("#compact").click(function(){
+var text = $("#src").val();
+$("#result").val(
+text.replace(/\>\n/gi,"\>")
+.replace(/\n\</gi,"\<")
+.replace(/\n\|\n/gi,"\|")
+);
+});
+
+$("#uncompact").click(function(){
+var text = $("#src").val();
+$("#result").val(
+text.replace(/\>/gi,"\>\n")
+.replace(/\</gi,"\n\<")
+.replace(/\|/gi,"\n\|\n")
+);
+});
+
+$("#clip").click(function(){
+$("#result").focus();
+$("#result").select();
+});
+
+$("#clear").click(function(){
+$("#src").val('');
+});
+
+});
+
+</script>
+<style>
+textarea { width:400px; height:400px;}
+.container {width:450px; float:left; }
+</style>
+
+<h1>(un)compact lang file</h1>
+
+<div class="container">
+<div>Source:</div>
+<div>
+<input id="compact" type="button" value="compact" />
+<input id="uncompact" type="button" value="uncompact" />
+<input id="clear" type="button" value="clear" />
+</div>
+<textarea id="src"></textarea>
+</div>
+
+<div class="container">
+<div>Result:</div>
+<input id="clip" type="button" value="select text" />
+<textarea id="result"></textarea>
+</div>
+
+</body>
+</html>
+

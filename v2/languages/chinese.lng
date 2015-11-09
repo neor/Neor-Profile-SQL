@@ -1,0 +1,230 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<general>
+<version>
+	<language>简体中文</language>
+    <compatible>2.0</compatible>
+	<date>2013-03-26</date>
+	<translator>Song Feixue</translator>
+</version>
+
+<toolbar>
+	<start_btn>启动</start_btn>
+	<stop_btn>停止</stop_btn>
+	<sql_btn>SQL</sql_btn>
+	<profiles_btn>配置</profiles_btn>
+	<settings_btn>设置</settings_btn>
+	<about_btn>关于</about_btn>
+</toolbar>
+
+<settings_view>
+	<settings_title>设置</settings_title>
+	
+	<general_group>一般属性</general_group>
+	<language_str>语言</language_str>
+	<check_new_str>检查新版本</check_new_str>
+	
+	<server_group>数据库服务器</server_group>
+	<server_host_str>服务器主机</server_host_str>
+	<server_port_str>端口</server_port_str>
+	<server_login>登录</server_login>
+	<server_password>密码</server_password>
+	<check_status_str>检查状态</check_status_str>
+	<status_str>状态周期</status_str>
+	<status_sec_str>秒</status_sec_str>
+	
+	<profiler_group>探查器组</profiler_group>
+	<profiler_port_str>探查端口</profiler_port_str>
+	<auto_open_str>自动打开新的会话选项</auto_open_str>
+	<auto_start_str>自动开始</auto_start_str>
+	<net_connect>接受网络连接</net_connect>
+</settings_view>
+
+<about_view>
+	<about_title>关于</about_title>
+	
+	<version_str>版本</version_str>
+	<license_str>授权: 免费软件</license_str>
+	<disclaimer_str>免责声明：本软件由Neor有限责任公司提供“作为”，任何明示或暗示的保证，包括但不限于针对特定目的实销性和适用性的暗示保证，均不承担任何责任。在任何情况下，著作权人或投稿人对任何直接的、间接的、附带的、特殊的、或惩罚性的或后果性的损害赔偿不承担责任（包括但不限于，购买替代商品或服务；丧失使用数据、或利润；或商业活动受阻这些情况），但是造成的任何的理论上的责任，无论是在合同、严格的赔偿责任上或使用本软件以任何方式产生的（包括疏忽或其它原因）侵权行为，即使被告知这种损害的可能性，不承担责任。</disclaimer_str>
+</about_view>
+
+<statistics_view>
+	<statistics_title>统计</statistics_title>
+	
+	<stat_schedule_str>数据库中的查询安排</stat_schedule_str>
+	<stat_shedule_other_str>其它</stat_shedule_other_str>
+	
+	<stat_server_group>数据库服务器</stat_server_group>
+	<server_version_str>MySQL 版本:</server_version_str>
+	<server_uptime_str>正常运行时间:</server_uptime_str>
+	<stat_avgqueries_str>每秒钟数据库平均查询的总体情况:</stat_avgqueries_str>
+	<stat_nodata_str>没有查询</stat_nodata_str>
+	
+	<profiler_group>探测器统计</profiler_group>
+	<queries_sent_str>发送查询:</queries_sent_str>
+	<rows_str>收到的结果行:</rows_str>
+	<data_str>收到的数据:</data_str>
+	
+	<settings_group>设置</settings_group>
+	<dbport_str>数据库端口:</dbport_str>
+	<dbhost_str>数据库服务器:</dbhost_str>
+	<profiler_port_str>探测器端口:</profiler_port_str>
+
+	<top_group>探查 TOP 5</top_group>
+	<database_group>数据库</database_group>
+	<tables_group>表单</tables_group>
+	<queries_group>查询</queries_group>
+	
+	<profiler_stopped_str>已经停止</profiler_stopped_str>
+</statistics_view>
+
+<sessions_view>
+	<session_title>会话</session_title>
+	
+	<clear_all_btn>清空全部</clear_all_btn>
+	<save_session_btn>保存会话</save_session_btn>
+	<compare_btn>比较</compare_btn>
+	<open_tab_btn>打开选项卡</open_tab_btn>
+	
+	<id_col>ID</id_col>
+	<datetime_col>日期时间</datetime_col>
+	<db_col>数据库</db_col>
+	<user_col>用户</user_col>
+	<queries_col>查询</queries_col>
+	<elapsed_col>已使用</elapsed_col>
+	<rows_col>行</rows_col>
+	<recieved_col>可接受kb</recieved_col>
+	<saved_col>已经保存</saved_col>
+
+	<sess_performed_str>执行</sess_performed_str>
+	<sess_saved_yes_str>保存</sess_saved_yes_str>
+	<sess_saved_no_str>不保存</sess_saved_no_str>
+</sessions_view>
+
+<saved_sessions_view>
+	<saved_sessions_title>保存的会话</saved_sessions_title>
+
+	<clear_all_btn>清空</clear_all_btn>
+	<delete_btn>删除</delete_btn>
+	<comment_btn>评论</comment_btn>	
+	<compare_btn>比较</compare_btn>
+	<open_tab_btn>在选项卡中打开</open_tab_btn>	
+
+	<id_col>编号</id_col>
+	<datetime_col>时间日期</datetime_col>
+	<db_col>数据库</db_col>
+	<user_col>用户</user_col>
+	<queries_col>查询</queries_col>
+	<elapsed_col>已用</elapsed_col>
+	<rows_col>行</rows_col>
+	<recieved_col>可接受的 Kb</recieved_col>
+	<comment_col>评论</comment_col>
+</saved_sessions_view>
+
+<session_view>
+	<queries_str>查询</queries_str>
+	<get_str>已经接受</get_str>
+	<sent_str>已经发送</sent_str>
+	<kb_str>Kb</kb_str>
+	<rows_str>行</rows_str>
+	<elapsed_str>已用</elapsed_str>
+	<performed_str>已执行</performed_str>
+	<export_csv_btn>输出 CSV格式</export_csv_btn>
+	<export_xml_btn>输出 XML格式</export_xml_btn>
+	<twin_btn>两种格式</twin_btn>
+	<code_query_str>SQL 查询代码</code_query_str>
+	<copy_btn>复制到剪贴板</copy_btn>
+    <to_sql_editor_btn>执行</to_sql_editor_btn>
+    <explain_btn>解释</explain_btn>
+	<num_col>#</num_col>
+	<time_ms_col>时间 ms</time_ms_col>
+	<time_per_col>时间 %</time_per_col>
+	<longest_per_col>最长时间 %</longest_per_col>
+	<rows_col>行</rows_col>
+	<get_col>获得 Kb</get_col>
+	<sent_col>发送 Kb</sent_col>
+	<query_col>查询</query_col>
+</session_view>
+
+<update_view>
+	<update_title>Update更新</update_title>
+	<update_confirm1_str>有可用的新版本。</update_confirm1_str>
+	<update_confirm2_str>你想要下载新版本吗?</update_confirm2_str>
+	<no_updates_str>目前没有更新</no_updates_str>
+	<no_get_info_str>无法获取更新信息</no_get_info_str>
+	<no_btn>不更新</no_btn>
+	<yes_btn>更新</yes_btn>
+</update_view>
+
+<sql_view>
+	<sql_title>SQL数据库</sql_title>
+    <db_name_str>数据库名称</db_name_str>
+	<execute_btn>执行</execute_btn>
+	<profile_btn>配置文件</profile_btn>
+    <explain_btn>解释</explain_btn>
+    <export_csv_btn>输出 CSV格式</export_csv_btn>
+	<error_sql>SQL查询出错</error_sql>
+    <log_title_str>SQL 执行日志</log_title_str>
+    <execute_tab_title>执行</execute_tab_title>
+    <profile_tab_title>简介</profile_tab_title>
+    <explain_tab_title>解释</explain_tab_title>
+    <explain_key_null>找不到查询索引</explain_key_null>
+    <explain_type_index>执行全表扫描</explain_type_index>
+    <explain_type_all>从表中读取所有数据</explain_type_all>
+    <explain_rows_100>结果包含太多的行</explain_rows_100>
+</sql_view>
+
+<errors>
+	<error_str>出错</error_str>
+	<lang_error>此语言包与这个版本的程序不兼容</lang_error>
+	<sess_run_error>会话运行</sess_run_error>
+	<mysql_conn_error>连接到MySQL服务器时出错。尝试正确的连接配置文件。</mysql_conn_error>
+</errors>
+
+<twin_view>
+	<title_str>双会话</title_str>
+	<replays_col>重新执行</replays_col>
+	<rows_col>行</rows_col>
+	<sql_col>SQL代码</sql_col>
+	<not_found>没有找到重新执行命令</not_found>
+</twin_view>
+
+<profiles_view>
+	<profiles_title>配置文件</profiles_title>
+	<new_btn>新的</new_btn>
+	<delete_btn>删除</delete_btn>
+	<test_btn>测试</test_btn>
+	<server_group>数据库服务器</server_group>
+	<connect_name_str>连接名称</connect_name_str>
+	<db_type_str>数据库类型</db_type_str>
+	<connect_meth_str>连接方法</connect_meth_str>
+	<server_host_str>主机名或IP地址</server_host_str>
+	<server_port_str>端口</server_port_str>
+	<server_username>用户名</server_username>
+	<server_password>密码</server_password>
+	<compres_str>压缩协议</compres_str>
+    <local_socket_str>本地端口/Pipe</local_socket_str>
+	
+	<status_group>状态</status_group>
+	<check_status_str>检查状态</check_status_str>
+	<status_str>状态周期</status_str>
+	<status_sec_str>秒</status_sec_str>
+	
+	<profiler_group>事件探查器</profiler_group>
+	<profiler_port_str>探查器端口</profiler_port_str>
+	<net_connect>接受网络连接</net_connect>
+
+    <exists_error_title>出错</exists_error_title>
+    <exists_error_str>已经具有相同名称的配置文件</exists_error_str>
+    <delete_question_title>删除</delete_question_title>
+    <delete_question_str>你想要删除此配置文件吗</delete_question_str>
+    <test_title>测试</test_title>
+    <test_success_str>测试成功</test_success_str>
+    <test_failed_str>测试失败</test_failed_str>
+</profiles_view>
+
+<data_view>
+    <data_title>数据</data_title>
+    <copy_to_clipboard>复制到剪贴板</copy_to_clipboard>
+</data_view>
+
+</general>

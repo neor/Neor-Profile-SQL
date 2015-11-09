@@ -1,0 +1,230 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<general>
+<version>
+	<language>Português</language>
+    <compatible>2.0</compatible>
+	<date>2013-03-25</date>
+	<translator>João Afonso joaodiasafonso@gmail.com</translator>
+</version>
+
+<toolbar>
+	<start_btn>Iniciar</start_btn>
+	<stop_btn>Parar</stop_btn>
+	<sql_btn>SQL</sql_btn>
+	<profiles_btn>Perfis</profiles_btn>
+	<settings_btn>Definições</settings_btn>
+	<about_btn>Sobre</about_btn>
+</toolbar>
+
+<settings_view>
+	<settings_title>Definições</settings_title>
+	
+	<general_group>Geral</general_group>
+	<language_str>Língua</language_str>
+	<check_new_str>Verificar novas versões</check_new_str>
+	
+	<server_group>Servidor de base de dados</server_group>
+	<server_host_str>Endereço</server_host_str>
+	<server_port_str>Porta</server_port_str>
+	<server_login>Login</server_login>
+	<server_password>Palavra-passe</server_password>
+	<check_status_str>Verificar estado</check_status_str>
+	<status_str>Período do estado</status_str>
+	<status_sec_str>seg</status_sec_str>
+	
+	<profiler_group>Perfis</profiler_group>
+	<profiler_port_str>Porta dos perfis</profiler_port_str>
+	<auto_open_str>Abrir nova sessão automaticamente na tab</auto_open_str>
+	<auto_start_str>Iniciar automaticamente</auto_start_str>
+	<net_connect>Aceitar ligação de rede</net_connect>
+</settings_view>
+
+<about_view>
+	<about_title>Sobre</about_title>
+	
+	<version_str>Versão</version_str>
+	<license_str>Licença: Freeware</license_str>
+	<disclaimer_str>Aviso de responsabilidade: Este software é fornecido pela Neor LLC no estado em que se encontra ("as is"), e quaisquer garantias implícitas ou explícitas incluindo, mas não limitadas a, garantias implícitas de comercialização e adequação a um fim específico, são negadas. Em nenhum caso deve o proprietário dos direitos de autor ou os seus colaboradores ser responsabilizados por quaisquer danos directos, indirectos, acidentais, especiais ou consequentes (incluindo, mas não limitado a, aquisição de bens ou serviços; falta de utilização, perda de dados ou receitas; interrupção do negócio) independentemente da causa e da teoria de responsabilidade, seja por responsabilidade contractual, estrita, ou acto ilícito (incluindo negligência ou nã, decorrentes da utilização deste software, mesmo que avisados acerca da possibilidade de tais danos.</disclaimer_str>
+</about_view>
+
+<statistics_view>
+	<statistics_title>Estatíicas</statistics_title>
+	
+	<stat_schedule_str>Agendar consultas na BD</stat_schedule_str>
+	<stat_shedule_other_str>Outras</stat_shedule_other_str>
+	
+	<stat_server_group>Servidor BD</stat_server_group>
+	<server_version_str>Versão MySQL:</server_version_str>
+	<server_uptime_str>Tempo de actividade:</server_uptime_str>
+	<stat_avgqueries_str>Média de consultas totais à BD por segundo:</stat_avgqueries_str>
+	<stat_nodata_str>Nada</stat_nodata_str>
+	
+	<profiler_group>Estatística de perfil</profiler_group>
+	<queries_sent_str>Consultas enviadas:</queries_sent_str>
+	<rows_str>Linhas recebidas:</rows_str>
+	<data_str>Dados recebidos:</data_str>
+	
+	<settings_group>Definições</settings_group>
+	<dbport_str>Porta da BD:</dbport_str>
+	<dbhost_str>Endereço da BD:</dbhost_str>
+	<profiler_port_str>Porta do perfil:</profiler_port_str>
+
+	<top_group>TOP 5 de perfis</top_group>
+	<database_group>Base de dados</database_group>
+	<tables_group>Tabelas</tables_group>
+	<queries_group>Consultas</queries_group>
+	
+	<profiler_stopped_str>parado</profiler_stopped_str>
+</statistics_view>
+
+<sessions_view>
+	<session_title>Sessões</session_title>
+	
+	<clear_all_btn>Limpar tudo</clear_all_btn>
+	<save_session_btn>Guardar sessão</save_session_btn>
+	<compare_btn>Comparar</compare_btn>
+	<open_tab_btn>Abrir na tab</open_tab_btn>
+	
+	<id_col>ID</id_col>
+	<datetime_col>Data e hora</datetime_col>
+	<db_col>BD</db_col>
+	<user_col>Utilizador</user_col>
+	<queries_col>Consultas</queries_col>
+	<elapsed_col>Decorrido</elapsed_col>
+	<rows_col>Linhas</rows_col>
+	<recieved_col>Kb recebidos</recieved_col>
+	<saved_col>Guardado</saved_col>
+
+	<sess_performed_str>Realizado</sess_performed_str>
+	<sess_saved_yes_str>Sim</sess_saved_yes_str>
+	<sess_saved_no_str>Não</sess_saved_no_str>
+</sessions_view>
+
+<saved_sessions_view>
+	<saved_sessions_title>Sessões guardadas</saved_sessions_title>
+
+	<clear_all_btn>Limpar tudo</clear_all_btn>
+	<delete_btn>Apagar</delete_btn>
+	<comment_btn>Comentar</comment_btn>	
+	<compare_btn>Comparar</compare_btn>
+	<open_tab_btn>Abrir na tab</open_tab_btn>	
+
+	<id_col>ID</id_col>
+	<datetime_col>Data e hora</datetime_col>
+	<db_col>BD</db_col>
+	<user_col>Utilizador</user_col>
+	<queries_col>Consultas</queries_col>
+	<elapsed_col>Decorrido</elapsed_col>
+	<rows_col>Linhas</rows_col>
+	<recieved_col>Kb recebidos</recieved_col>
+	<comment_col>Comentários</comment_col>
+</saved_sessions_view>
+
+<session_view>
+	<queries_str>consultas</queries_str>
+	<get_str>recebidas</get_str>
+	<sent_str>enviadas</sent_str>
+	<kb_str>Kb</kb_str>
+	<rows_str>linhas</rows_str>
+	<elapsed_str>decorrido</elapsed_str>
+	<performed_str>realizado</performed_str>
+	<export_csv_btn>Exportar para CSV</export_csv_btn>
+	<export_xml_btn>Exportar para XML</export_xml_btn>
+	<twin_btn>Gémeo</twin_btn>
+	<code_query_str>Código da consulta SQL<code_query_str>
+	<copy_btn>Copiar para a áa de transferêia</copy_btn>
+    <to_sql_editor_btn>Executar</to_sql_editor_btn>
+    <explain_btn>Explicar</explain_btn>
+	<num_col>#</num_col>
+	<time_ms_col>Tempo ms</time_ms_col>
+	<time_per_col>Tempo %</time_per_col>
+	<longest_per_col>Mais longa %</longest_per_col>
+	<rows_col>Linhas</rows_col>
+	<get_col>Kb recebidos</get_col>
+	<sent_col>Kb enviados</sent_col>
+	<query_col>Consulta</query_col>
+</session_view>
+
+<update_view>
+	<update_title>Actualizar</update_title>
+	<update_confirm1_str>Nova versão disponíl.</update_confirm1_str>
+	<update_confirm2_str>Quer fazer download?</update_confirm2_str>
+	<no_updates_str>Não há novas actualizações neste momento</no_updates_str>
+	<no_get_info_str>Nãp é possível obter informações de actualização</no_get_info_str>
+	<no_btn>Não</no_btn>
+	<yes_btn>Sim</yes_btn>
+</update_view>
+
+<sql_view>
+	<sql_title>SQL</sql_title>
+    <db_name_str>Nome da base de dados</db_name_str>
+	<execute_btn>Executar</execute_btn>
+	<profile_btn>Perfil</profile_btn>
+    <explain_btn>Explicar</explain_btn>
+    <export_csv_btn>Exportar para CSV</export_csv_btn>
+	<error_sql>Erro na consulta SQL</error_sql>
+    <log_title_str>Log da execução SQL</log_title_str>
+    <execute_tab_title>Execução</execute_tab_title>
+    <profile_tab_title>Perfil</profile_tab_title>
+    <explain_tab_title>Explicar</explain_tab_title>
+    <explain_key_null>Índice da consulta não encontrado</explain_key_null>
+    <explain_type_index>Uma pesquisa à tabela completa foi realizada</explain_type_index>
+    <explain_type_all>Lê todos os dados da tabela</explain_type_all>
+    <explain_rows_100>Resultado contém demasiadas linhas</explain_rows_100>
+</sql_view>
+
+<errors>
+	<error_str>Erro</error_str>
+	<lang_error>O ficheiro de linguagem não é compatível com esta versão do programa</lang_error>
+	<sess_run_error>Sessão em execução!</sess_run_error>
+	<mysql_conn_error>Erro de ligação ao servidor MySQL. Tente corrigir a ligação no Perfil.</mysql_conn_error>
+</errors>
+
+<twin_view>
+	<title_str>Sessões gémeas</title_str>
+	<replays_col>Repetições</replays_col>
+	<rows_col>Linhas</rows_col>
+	<sql_col>Código SQL</sql_col>
+	<not_found>Repetições não encontradas</not_found>
+</twin_view>
+
+<profiles_view>
+	<profiles_title>Perfis</profiles_title>
+	<new_btn>Novo</new_btn>
+	<delete_btn>Apagar</delete_btn>
+	<test_btn>Testar</test_btn>
+	<server_group>Servidor de base de dados</server_group>
+	<connect_name_str>Nome de ligação</connect_name_str>
+	<db_type_str>Tipo de base de dados</db_type_str>
+	<connect_meth_str>Método de ligação</connect_meth_str>
+	<server_host_str>Nome do servidor ou IP</server_host_str>
+	<server_port_str>Porta</server_port_str>
+	<server_username>Utilizador</server_username>
+	<server_password>Palavra-passe</server_password>
+	<compres_str>Protocolo de compressão</compres_str>
+    <local_socket_str>Socket/pipe local</local_socket_str>
+	
+	<status_group>Estado</status_group>
+	<check_status_str>Verificar estado</check_status_str>
+	<status_str>Período do estado</status_str>
+	<status_sec_str>seg</status_sec_str>
+	
+	<profiler_group>Perfis</profiler_group>
+	<profiler_port_str>Porta dos perfis</profiler_port_str>
+	<net_connect>Aceitar ligação de rede</net_connect>
+
+    <exists_error_title>Erro</exists_error_title>
+    <exists_error_str>Já existe um perfil com o mesmo nome</exists_error_str>
+    <delete_question_title>Apagar</delete_question_title>
+    <delete_question_str>Quer remover este perfil</delete_question_str>
+    <test_title>Testar</test_title>
+    <test_success_str>Teste com sucesso</test_success_str>
+    <test_failed_str>O teste falhou</test_failed_str>
+</profiles_view>
+
+<data_view>
+    <data_title>Dados</data_title>
+    <copy_to_clipboard>Copiar para a área de transferência</copy_to_clipboard>
+</data_view>
+
+</general>

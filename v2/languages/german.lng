@@ -1,0 +1,230 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<general>
+<version>
+	<language>Deutsch</language>
+	<compatible>2.0</compatible>
+	<date>2013-03-11</date>
+	<translator>Tatiana Chervova</translator>
+</version>
+
+<toolbar>
+	<start_btn>Start</start_btn>
+	<stop_btn>Stop</stop_btn>
+	<sql_btn>SQL</sql_btn>
+	<profiles_btn>Profile</profiles_btn>
+	<settings_btn>Einstellungen</settings_btn>
+	<about_btn>Info</about_btn>
+</toolbar>
+
+<settings_view>
+	<settings_title>Einstellungen</settings_title>
+	
+	<general_group>Allgemein</general_group>
+	<language_str>Sprache</language_str>
+	<check_new_str>Auf Updates überprüfen</check_new_str>
+	
+	<server_group>Server</server_group>
+	<server_host_str>Host</server_host_str>
+	<server_port_str>Port</server_port_str>
+	<server_login>Login</server_login>
+	<server_password>Passwort</server_password>
+	<check_status_str>Status überprüfen</check_status_str>
+	<status_str>Prüfintervall</status_str>
+	<status_sec_str>sec</status_sec_str>
+	
+	<profiler_group>Profiler</profiler_group>
+	<profiler_port_str>Profilerport</profiler_port_str>
+	<auto_open_str>Neue Session automat. im neuen Tab</auto_open_str>
+	<auto_start_str>Autostart</auto_start_str>
+	<net_connect>Netzwerkverbindungen aktivieren</net_connect>
+</settings_view>
+
+<about_view>
+	<about_title>Info</about_title>
+	
+	<version_str>Version</version_str>
+	<license_str>Lizenz: Freeware</license_str>
+	<disclaimer_str>Haftungsausschluss: Diese Software wird von Neor LLC "so wie sie ist" zur Verfügung gestellt und alle expliziten oder impliziten Garantien einschließlich, aber nicht beschränkt auf die stillschweigenden Garantien auf Mängelgewährleistung und Gebrauchstauglichkeit, sind ausgeschlossen. Der Eigentümer des Autorenrechts oder die Mitwirkenden haften auf keinen Fall für jegliche direkte, indirekte, zufällige oder spezielle Verluste (einschließlich, aber nicht beschränkt auf die Anschaffung der Ersatzwaren oder -Leistungen; Daten- oder Gewinnverlust).</disclaimer_str>
+</about_view>
+
+<statistics_view>
+	<statistics_title>Statistik</statistics_title>
+	
+	<stat_schedule_str>Auslastungsdiagramm der Datenbank</stat_schedule_str>
+	<stat_shedule_other_str>Sonstiges</stat_shedule_other_str>
+	
+	<stat_server_group>Datenbankserver</stat_server_group>
+	<server_version_str>MySQL-Version:</server_version_str>
+	<server_uptime_str>Laufzeit:</server_uptime_str>
+	<stat_avgqueries_str>Datendankanfragen pro sec i.D.:</stat_avgqueries_str>
+	<stat_nodata_str>Keine</stat_nodata_str>
+	
+	<profiler_group>Profilerstatistik</profiler_group>
+	<queries_sent_str>Anfragen gesendet:</queries_sent_str>
+	<rows_str>Zeilen empfangen:</rows_str>
+	<data_str>Daten empfangen:</data_str>
+	
+	<settings_group>Einstellungen</settings_group>
+	<dbport_str>DB-Port:</dbport_str>
+	<dbhost_str>DB-Host:</dbhost_str>
+	<profiler_port_str>Profilerport:</profiler_port_str>
+
+	<top_group>TOP 5 des Profilers</top_group>
+	<database_group>Datenbanken</database_group>
+	<tables_group>Tabellen</tables_group>
+	<queries_group>Anfragen</queries_group>
+	
+	<profiler_stopped_str>beendet</profiler_stopped_str>
+</statistics_view>
+
+<sessions_view>
+	<session_title>Sessions</session_title>
+	
+	<clear_all_btn>Alle löschen</clear_all_btn>
+	<save_session_btn>Session speichern</save_session_btn>
+	<compare_btn>Vergleichen</compare_btn>
+	<open_tab_btn>Im Tab öffnen</open_tab_btn>
+	
+	<id_col>ID</id_col>
+	<datetime_col>Datum/Zeit</datetime_col>
+	<db_col>DB</db_col>
+	<user_col>Benutzer</user_col>
+	<queries_col>Anfragen</queries_col>
+	<elapsed_col>Vergangen</elapsed_col>
+	<rows_col>Zeilen</rows_col>
+	<recieved_col>Empfangen Kb</recieved_col>
+	<saved_col>Gespeichert</saved_col>
+
+	<sess_performed_str>Wird ausgeführt</sess_performed_str>
+	<sess_saved_yes_str>Ja</sess_saved_yes_str>
+	<sess_saved_no_str>Nein</sess_saved_no_str>
+</sessions_view>
+
+<saved_sessions_view>
+	<saved_sessions_title>Gespeicherte Sessions</saved_sessions_title>
+
+	<clear_all_btn>Alle löschen</clear_all_btn>
+	<delete_btn>Löschen</delete_btn>
+	<comment_btn>Kommentar</comment_btn>	
+	<compare_btn>Vergleichen</compare_btn>
+	<open_tab_btn>Im Tab öffnen</open_tab_btn>	
+
+	<id_col>ID</id_col>
+	<datetime_col>Datum/Zeit</datetime_col>
+	<db_col>DB</db_col>
+	<user_col>Benutzer</user_col>
+	<queries_col>Anfragen</queries_col>
+	<elapsed_col>Vergangen</elapsed_col>
+	<rows_col>Zeilen</rows_col>
+	<recieved_col>Empfangen Kb</recieved_col>
+	<comment_col>Kommentar</comment_col>
+</saved_sessions_view>
+
+<session_view>
+	<queries_str>Anfragen</queries_str>
+	<get_str>Empfangen</get_str>
+	<sent_str>Gesendet</sent_str>
+	<kb_str>Kb</kb_str>
+	<rows_str>Zeilen</rows_str>
+	<elapsed_str>Dauer</elapsed_str>
+	<performed_str>Wird ausgeführt</performed_str>
+	<export_csv_btn>Exportieren CSV</export_csv_btn>
+	<export_xml_btn>Exportieren XML</export_xml_btn>
+	<twin_btn>Wiederholungen</twin_btn>
+	<code_query_str>Code der SQL-Anfrage</code_query_str>
+	<copy_btn>In den Puffer kopieren</copy_btn>
+    <to_sql_editor_btn>Ausführen</to_sql_editor_btn>
+    <explain_btn>Erklären</explain_btn>
+	<num_col>Nr.</num_col>
+	<time_ms_col>Zeit ms</time_ms_col>
+	<time_per_col>Zeit %</time_per_col>
+	<longest_per_col>Dauer %</longest_per_col>
+	<rows_col>Zeilen</rows_col>
+	<get_col>Empfangen Kb</get_col>
+	<sent_col>Gesendet Kb</sent_col>
+	<query_col>Anfrage</query_col>
+</session_view>
+
+<update_view>
+	<update_title>Update</update_title> 
+	<update_confirm1_str>Eine neue Version des Programms ist verfügbar.</update_confirm1_str>
+	<update_confirm2_str>Möchten Sie sie installieren?</update_confirm2_str> 
+	<no_updates_str>Keine Updates sind im Moment verfügbar</no_updates_str>
+	<no_get_info_str>Keine Informationen über Updates sind verfügbar</no_get_info_str>
+	<no_btn>Nein</no_btn>
+	<yes_btn>Ja</yes_btn>
+</update_view>
+
+<sql_view>
+	<sql_title>SQL</sql_title>
+    <db_name_str>Datenbank</db_name_str>
+	<execute_btn>Ausführen</execute_btn>
+	<profile_btn>Profile</profile_btn>
+    <explain_btn>Erklären</explain_btn>
+    <export_csv_btn>Exportieren CSV</export_csv_btn>
+	<error_sql>Fehler der SQL-Anfrage</error_sql>
+    <log_title_str>SQL ausführung log</log_title_str>
+    <execute_tab_title>Ausführung</execute_tab_title>
+    <profile_tab_title>Profilierung</profile_tab_title>
+    <explain_tab_title>Erklärung</explain_tab_title>
+    <explain_key_null>Anfrageschlüssel nicht gefunden</explain_key_null>
+    <explain_type_index>Die ganze Tabelle wurde sortiert</explain_type_index>
+    <explain_type_all>Alle Daten aus der Tabelle werden gelesen</explain_type_all>
+    <explain_rows_100>Zu viel Zeilen im Ergebnis</explain_rows_100>
+</sql_view>
+
+<errors>
+	<error_str>Fehler</error_str>
+	<lang_error>Die Version der Sprachdatei ist inkompatibel mit dieser Programmversion</lang_error>
+	<sess_run_error>Session läuft!</sess_run_error>
+	<mysql_conn_error>MySQL-Verbindungsfehler. Versuchen Sie, die Verbindung im Profil korrigieren.</mysql_conn_error>
+</errors>
+
+<twin_view>
+	<title_str>Wiederholende Sessions</title_str>
+	<replays_col>Wiederholungen</replays_col>
+	<rows_col>Zeilen</rows_col>
+	<sql_col>SQL-Code</sql_col>
+	<not_found>Keine wiederholenden Anfragen gefunden</not_found>
+</twin_view>
+
+<profiles_view>
+	<profiles_title>Profile</profiles_title>
+	<new_btn>Neu</new_btn>
+	<delete_btn>Löschen</delete_btn>
+	<test_btn>Test</test_btn>
+	<server_group>Datenbankserver</server_group>
+	<connect_name_str>Name der Verbindung</connect_name_str>
+	<db_type_str>Typ der Datenbank</db_type_str>
+	<connect_meth_str>Verbindungsmethode</connect_meth_str>
+	<server_host_str>Host oder IP</server_host_str>
+	<server_port_str>Port</server_port_str>
+	<server_username>Benutzer</server_username>
+	<server_password>Passwort</server_password>
+	<compres_str>Komprimierungsprotokoll</compres_str>
+    <local_socket_str>Lokaler Socket/Pipe</local_socket_str>
+	
+	<status_group>Status</status_group>
+	<check_status_str>Statuscheck</check_status_str>
+	<status_str>Checkintervall</status_str>
+	<status_sec_str>Sek.</status_sec_str>
+	
+	<profiler_group>Profiler</profiler_group>
+	<profiler_port_str>Profilerport</profiler_port_str>
+	<net_connect>Netzwerkverbindungen erlauben</net_connect>
+
+    <exists_error_title>Fehler</exists_error_title>
+    <exists_error_str>Profil mit solchem Namen existiert schon</exists_error_str>
+    <delete_question_title>Löschen</delete_question_title>
+    <delete_question_str>Möchten Sie den Profil löschen</delete_question_str>
+    <test_title>Test</test_title>
+    <test_success_str>Test wurde erfolgreich ausgeführt</test_success_str>
+    <test_failed_str>Test ist fehlgeschlagen</test_failed_str>
+</profiles_view>
+
+<data_view>
+    <data_title>Daten</data_title>
+    <copy_to_clipboard>In den Puffer kopieren</copy_to_clipboard>
+</data_view>
+
+</general>

@@ -1,0 +1,230 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<general>
+<version>
+	<language>Français</language>
+    <compatible>2.0</compatible>
+	<date>2013-03-25</date>
+	<translator>Romain Austin</translator>
+</version>
+
+<toolbar>
+	<start_btn>Commencer</start_btn>
+	<stop_btn>Stop</stop_btn>
+	<sql_btn>SQL</sql_btn>
+	<profiles_btn>Profils</profiles_btn>
+	<settings_btn>Paramètres</settings_btn>
+	<about_btn>À propos</about_btn>
+</toolbar>
+
+<settings_view>
+	<settings_title>Paramètres</settings_title>
+	
+	<general_group>Général</general_group>
+	<language_str>Langue</language_str>
+	<check_new_str>Vérifier les nouvelles versions</check_new_str>
+	
+	<server_group>Serveur de base de données</server_group>
+	<server_host_str>Hôte</server_host_str>
+	<server_port_str>Port</server_port_str>
+	<server_login>Identifiant</server_login>
+	<server_password>Mot de passe</server_password>
+	<check_status_str> Vérifier les statuts </check_status_str>
+	<status_str>Période des status</status_str>
+	<status_sec_str>sec</status_sec_str>
+	
+	<profiler_group>Profileur</profiler_group>
+	<profiler_port_str>Port du profileur</profiler_port_str>
+	<auto_open_str>Ouvrir automatiquement la nouvelle session dans un onglet</auto_open_str>
+	<auto_start_str>Démarrage automatique</auto_start_str>
+	<net_connect>Accepter une connexion réseau</net_connect>
+</settings_view>
+
+<about_view>
+	<about_title>À propos</about_title>
+	
+	<version_str>Version</version_str>
+	<license_str>Licence: Freeware</license_str>
+	<disclaimer_str>Avertissement: Ce logiciel est fourni par Neor LLC "en l'état" et toute garantie expresse ou implicite, y compris, mais sans s'y limiter, les garanties implicites de qualité marchande et d'adéquation à un usage particulier, est rejetée. En aucun cas, le propriétaire du copyright ou les contributeurs ne peuvent être tenus pour responsables des dommages directs, indirects, fortuits, spéciaux, exemplaires ou consécutifs (y compris, mais sans s'y limiter, l'achat de biens ou de services de substitution; la perte d'utilisation, de données ou de profits; ou l'interruption d'activité), quelles qu'en soient les causes et quel que soit le type de responsabilité,  qu'elle soit contractuelle, sans faute ou délictuelle (y compris la négligence ou autre), découlant de quelque façon de l'utilisation de ce logiciel, même s'ils sont informés de l'éventualité de tels dommages.</disclaimer_str>
+</about_view>
+
+<statistics_view>
+	<statistics_title>Statistiques</statistics_title>
+	
+	<stat_schedule_str>Programmer les requêtes à la base de données</stat_schedule_str>
+	<stat_shedule_other_str>Autre</stat_shedule_other_str>
+	
+	<stat_server_group>Serveur de base de données</stat_server_group>
+	<server_version_str>Version MySQL:</server_version_str>
+	<server_uptime_str>temps de fonctionnement:</server_uptime_str>
+	<stat_avgqueries_str>Moyenne globale de requêtes par seconde à la base de données:</stat_avgqueries_str>
+	<stat_nodata_str>Aucun</stat_nodata_str>
+	
+	<profiler_group>Statistique du profileur</profiler_group>
+	<queries_sent_str>Requêtes envoyées:</queries_sent_str>
+	<rows_str>Lignes reçues:</rows_str>
+	<data_str>Données reçues:</data_str>
+	
+	<settings_group>Paramètres</settings_group>
+	<dbport_str>Port de la base de données:</dbport_str>
+	<dbhost_str>Hôte de la base de données:</dbhost_str>
+	<profiler_port_str>Port du profileur:</profiler_port_str>
+
+	<top_group>TOP 5 des Profileurs</top_group>
+	<database_group>Base de données</database_group>
+	<tables_group>Tables</tables_group>
+	<queries_group>Requêtes</queries_group>
+	
+	<profiler_stopped_str>Arrêtés</profiler_stopped_str>
+</statistics_view>
+
+<sessions_view>
+	<session_title>Sessions</session_title>
+	
+	<clear_all_btn>Effacer tout</clear_all_btn>
+	<save_session_btn>Enregistrer la session</save_session_btn>
+	<compare_btn>Comparer</compare_btn>
+	<open_tab_btn>Ouvrir dans un onglet</open_tab_btn>
+	
+	<id_col>ID</id_col>
+	<datetime_col>Date et heure</datetime_col>
+	<db_col>Base de données</db_col>
+	<user_col>Utilisateur</user_col>
+	<queries_col>Requêtes</queries_col>
+	<elapsed_col>Passé</elapsed_col>
+	<rows_col>Lignes</rows_col>
+	<recieved_col>Ko reçus</recieved_col>
+	<saved_col>Sauvé</saved_col>
+
+	<sess_performed_str>Effectué</sess_performed_str>
+	<sess_saved_yes_str>Oui</sess_saved_yes_str>
+	<sess_saved_no_str>Non</sess_saved_no_str>
+</sessions_view>
+
+<saved_sessions_view>
+	<saved_sessions_title>Sessions enregistrées</saved_sessions_title>
+
+	<clear_all_btn>Effacer tout</clear_all_btn>
+	<delete_btn>Effacer</delete_btn>
+	<comment_btn>Commentaire</comment_btn>	
+	<compare_btn>Comparer</compare_btn>
+	<open_tab_btn>Ouvrir dans un onglet</open_tab_btn>	
+
+	<id_col>ID</id_col>
+	<datetime_col>Date et heure</datetime_col>
+	<db_col>Base de données</db_col>
+	<user_col>Utilisateur</user_col>
+	<queries_col>Requêtes</queries_col>
+	<elapsed_col>Passé</elapsed_col>
+	<rows_col>Lignes</rows_col>
+	<recieved_col>Ko reçus</recieved_col>
+	<comment_col>Commentaire</comment_col>
+</saved_sessions_view>
+
+<session_view>
+	<queries_str>requête</queries_str>
+	<get_str>reçu</get_str>
+	<sent_str>envoyé</sent_str>
+	<kb_str>Ko</kb_str>
+	<rows_str>lignes</rows_str>
+	<elapsed_str>écoulé</elapsed_str>
+	<performed_str>Effectué</performed_str>
+	<export_csv_btn>Exporter en CSV</export_csv_btn>
+	<export_xml_btn>Exporter en XML</export_xml_btn>
+	<twin_btn>Double</twin_btn>
+	<code_query_str>Code de requête SQL</code_query_str>
+	<copy_btn>Copier dans le presse-papier</copy_btn>
+    <to_sql_editor_btn>Exécuter</to_sql_editor_btn>
+    <explain_btn>Expliquer</explain_btn>
+	<num_col>#</num_col>
+	<time_ms_col>Temps ms</time_ms_col>
+	<time_per_col>Temps %</time_per_col>
+	<longest_per_col>Le plus long %</longest_per_col>
+	<rows_col>Lignes</rows_col>
+	<get_col>Ko récupérés</get_col>
+	<sent_col>Ko envoyés</sent_col>
+	<query_col>Requête</query_col>
+</session_view>
+
+<update_view>
+	<update_title>Mise à jour</update_title>
+	<update_confirm1_str>Une nouvelle version est disponible.</update_confirm1_str>
+	<update_confirm2_str>Voulez-vous la télécharger ?</update_confirm2_str>
+	<no_updates_str>Aucune mise à jour n'est actuellement disponible</no_updates_str>
+	<no_get_info_str>Impossible de récupérer les informations de mise à jour</no_get_info_str>
+	<no_btn>Non</no_btn>
+	<yes_btn>Oui</yes_btn>
+</update_view>
+
+<sql_view>
+	<sql_title>SQL</sql_title>
+    <db_name_str>Nom de la base de données</db_name_str>
+	<execute_btn>Éxécuter</execute_btn>
+	<profile_btn>Profil</profile_btn>
+    <explain_btn>Expliquer</explain_btn>
+    <export_csv_btn>Exporter en CSV</export_csv_btn>
+	<error_sql>Erreur de requête SQL</error_sql>
+    <log_title_str>Journal des exécutions SQL</log_title_str>
+    <execute_tab_title>Exécution</execute_tab_title>
+    <profile_tab_title>Profil</profile_tab_title>
+    <explain_tab_title>Expliquer</explain_tab_title>
+    <explain_key_null>Index des requêtes non trouvées</explain_key_null>
+    <explain_type_index>Un scan complet de la table est exécuté</explain_type_index>
+    <explain_type_all>Lit toutes les données de la table</explain_type_all>
+    <explain_rows_100>Le résultat occupe trop de lignes</explain_rows_100>
+</sql_view>
+
+<errors>
+	<error_str>Erreur</error_str>
+	<lang_error>La langue de ce fichier n'est pas compatible avec cette version du programme</lang_error>
+	<sess_run_error>Session en cours !</sess_run_error>
+	<mysql_conn_error>Erreur de connexion au serveur MySQL. Essayez de corriger la connexion dans Profil. </mysql_conn_error>
+</errors>
+
+<twin_view>
+	<title_str>Sessions jumelles</title_str>
+	<replays_col>Répète</replays_col>
+	<rows_col>Lignes</rows_col>
+	<sql_col>Code SQL</sql_col>
+	<not_found>Répétition non trouvée</not_found>
+</twin_view>
+
+<profiles_view>
+	<profiles_title>Profils</profiles_title>
+	<new_btn>Nouveau</new_btn>
+	<delete_btn>Effacer</delete_btn>
+	<test_btn>Test</test_btn>
+	<server_group>Serveur de base de données</server_group>
+	<connect_name_str>Nom de la connexion</connect_name_str>
+	<db_type_str>Type de base de données</db_type_str>
+	<connect_meth_str>Méthode de connexion</connect_meth_str>
+	<server_host_str>nom d'hôte ou IP</server_host_str>
+	<server_port_str>Port</server_port_str>
+	<server_username>Nom d'utilisateur</server_username>
+	<server_password>Mot de passe</server_password>
+	<compres_str>Protocole de compression</compres_str>
+    <local_socket_str> Socket local/Pipe</local_socket_str>
+	
+	<status_group>Statut</status_group>
+	<check_status_str> Vérifier les statuts </check_status_str>
+	<status_str>Période des status</status_str>
+	<status_sec_str>sec</status_sec_str>
+	
+	<profiler_group>Profileur</profiler_group>
+	<profiler_port_str>Port du profileur</profiler_port_str>
+	<net_connect> Accepter une connexion réseau </net_connect>
+
+    <exists_error_title>Erreur</exists_error_title>
+    <exists_error_str>Un profile avec le même nom existe déjà</exists_error_str>
+    <delete_question_title>Effacer</delete_question_title>
+    <delete_question_str>Voulez-vous effacer le profil?</delete_question_str>
+    <test_title>Test</test_title>
+    <test_success_str>Test réussi</test_success_str>
+    <test_failed_str>Le test a échoué</test_failed_str>
+</profiles_view>
+
+<data_view>
+    <data_title>Données</data_title>
+    <copy_to_clipboard>Copier dans le presse-papier</copy_to_clipboard>
+</data_view>
+
+</general>

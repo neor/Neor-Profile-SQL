@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<general>
+<version>
+	<language>English</language>
+	<compatible>1.1</compatible>
+	<date>2012-10-26</date>
+	<translator>Nikolay Lisienko nil@neor.ru</translator>
+</version>
+
+<toolbar>
+	<start_btn>Start</start_btn>
+	<stop_btn>Stop</stop_btn>
+	<sql_btn>SQL</sql_btn>
+	<settings_btn>Settings</settings_btn>
+	<about_btn>About</about_btn>
+</toolbar>
+
+<settings_view>
+	<settings_title>Settings</settings_title>
+	
+	<general_group>General</general_group>
+	<language_str>Language</language_str>
+	<check_new_str>Check new versions</check_new_str>
+	
+	<server_group>Database server</server_group>
+	<server_host_str>Host</server_host_str>
+	<server_port_str>Port</server_port_str>
+	<server_login>Login</server_login>
+	<server_password>Password</server_password>
+	<check_status_str>Check status</check_status_str>
+	<status_str>Status period</status_str>
+	<status_sec_str>sec</status_sec_str>
+	
+	<profiler_group>Profiler</profiler_group>
+	<profiler_port_str>Profiler port</profiler_port_str>
+	<auto_open_str>Auto open new session in tab</auto_open_str>
+	<auto_start_str>Auto start</auto_start_str>
+	<net_connect>Accept network connection</net_connect>
+</settings_view>
+
+<about_view>
+	<about_title>About</about_title>
+	
+	<version_str>Version</version_str>
+	<license_str>License: Freeware</license_str>
+	<disclaimer_str>Disclaimer: This software is provided by Neor LLC "as is" and any express or implied warranties, including, but not limited to, the implied warranties of merchantability and fitness for a particular purpose are disclaimed. In no event shall the copyright owner or contributors be liable for any direct, indirect, incidental, special, exemplary, or consequential damages (including, but not limited to, procurement of substitute goods or services; loss of use, data, or profits; or business interruption) however caused and on any theory of liability, whether in contract, strict liability, or tort (including negligence or otherwise) arising in any way out of the use of this software, even if advised of the possibility of such damage.</disclaimer_str>
+</about_view>
+
+<statistics_view>
+	<statistics_title>Statistics</statistics_title>
+	
+	<stat_schedule_str>Schedule queries in DB</stat_schedule_str>
+	
+	<stat_server_group>DB server</stat_server_group>
+	<server_version_str>MySQL version:</server_version_str>
+	<server_uptime_str>Uptime:</server_uptime_str>
+	<stat_avgqueries_str>Overall DB avg queries per sec:</stat_avgqueries_str>
+	<stat_nodata_str>None</stat_nodata_str>
+	
+	<profiler_group>Profiler statistic</profiler_group>
+	<queries_sent_str>Queries sent:</queries_sent_str>
+	<rows_str>Rows received:</rows_str>
+	<data_str>Data received:</data_str>
+	
+	<settings_group>Settings</settings_group>
+	<dbport_str>DB port:</dbport_str>
+	<dbhost_str>DB host:</dbhost_str>
+	<profiler_port_str>Profiler port:</profiler_port_str>
+
+	<top_group>Profiler TOP 5</top_group>
+	<database_group>Database</database_group>
+	<tables_group>Tables</tables_group>
+	<queries_group>Queries</queries_group>
+	
+	<profiler_stopped_str>stopped</profiler_stopped_str>
+</statistics_view>
+
+<sessions_view>
+	<session_title>Sessions</session_title>
+	
+	<clear_all_btn>Clear all</clear_all_btn>
+	<save_session_btn>Save session</save_session_btn>
+	<compare_btn>Compare</compare_btn>
+	<open_tab_btn>Open in tab</open_tab_btn>
+	
+	<id_col>ID</id_col>
+	<datetime_col>Datetime</datetime_col>
+	<db_col>DB</db_col>
+	<user_col>User</user_col>
+	<queries_col>Queries</queries_col>
+	<elapsed_col>Elapsed</elapsed_col>
+	<rows_col>Rows</rows_col>
+	<recieved_col>Rcv Kb</recieved_col>
+	<saved_col>Saved</saved_col>
+
+	<sess_performed_str>Performed</sess_performed_str>
+	<sess_saved_yes_str>Yes</sess_saved_yes_str>
+	<sess_saved_no_str>No</sess_saved_no_str>
+</sessions_view>
+
+<saved_sessions_view>
+	<saved_sessions_title>Saved sessions</saved_sessions_title>
+
+	<clear_all_btn>Clear all</clear_all_btn>
+	<delete_btn>Delete</delete_btn>
+	<comment_btn>Comment</comment_btn>	
+	<compare_btn>Compare</compare_btn>
+	<open_tab_btn>Open in tab</open_tab_btn>	
+
+	<id_col>ID</id_col>
+	<datetime_col>Datetime</datetime_col>
+	<db_col>DB</db_col>
+	<user_col>User</user_col>
+	<queries_col>Queries</queries_col>
+	<elapsed_col>Elapsed</elapsed_col>
+	<rows_col>Rows</rows_col>
+	<recieved_col>Rcv Kb</recieved_col>
+	<comment_col>Comment</comment_col>
+</saved_sessions_view>
+
+<session_view>
+	<queries_str>queries</queries_str>
+	<get_str>received</get_str>
+	<sent_str>sent</sent_str>
+	<kb_str>Kb</kb_str>
+	<rows_str>rows</rows_str>
+	<elapsed_str>elapsed</elapsed_str>
+	<performed_str>performed</performed_str>
+	<export_csv_btn>Export CSV</export_csv_btn>
+	<export_xml_btn>Export XML</export_xml_btn>
+	<twin_btn>Twin</twin_btn>
+	<code_query_str>SQL query code</code_query_str>
+	<copy_btn>Copy to clipboard</copy_btn>
+	<num_col>#</num_col>
+	<time_ms_col>Time ms</time_ms_col>
+	<time_per_col>Time %</time_per_col>
+	<longest_per_col>Longest %</longest_per_col>
+	<rows_col>Rows</rows_col>
+	<get_col>Get Kb</get_col>
+	<sent_col>Sent Kb</sent_col>
+	<query_col>Query</query_col>
+</session_view>
+
+<update_view>
+	<update_title>Update</update_title>
+	<update_confirm1_str>New version is available.</update_confirm1_str>
+	<update_confirm2_str>Do you want to download?</update_confirm2_str>
+	<no_updates_str>Currently there are no updates</no_updates_str>
+	<no_get_info_str>Can't get update information</no_get_info_str>
+	<no_btn>No</no_btn>
+	<yes_btn>Yes</yes_btn>
+</update_view>
+
+<sql_view>
+	<sql_title>SQL</sql_title>
+	<execute_btn>Execute</execute_btn>
+	<profile_btn>Profile</profile_btn>
+	<error_sql>Error SQL query</error_sql>
+</sql_view>
+
+<errors>
+	<error_str>Error</error_str>
+	<lang_error>The language file is not compatible with this version of the program</lang_error>
+	<sess_run_error>Session runs!</sess_run_error>
+	<mysql_conn_error>Error connection to MySQL server. Try to correct connection in Settings.</mysql_conn_error>
+</errors>
+
+<twin_view>
+	<title_str>Twin sessions</title_str>
+	<replays_col>Replays</replays_col>
+	<rows_col>Rows</rows_col>
+	<sql_col>SQL code</sql_col>
+	<not_found>Replays not found</not_found>
+</twin_view>
+</general>

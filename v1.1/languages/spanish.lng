@@ -1,0 +1,175 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<general>
+<version>
+	<language>Español</language>
+	<compatible>1.1</compatible>
+	<date>2012-11-15</date>
+	<translator>Emilio Melgarejo Kalinin</translator>
+</version>
+
+<toolbar>
+	<start_btn>Start</start_btn>
+	<stop_btn>Stop</stop_btn>
+	<sql_btn>SQL</sql_btn>
+	<settings_btn>Configuración</settings_btn>
+	<about_btn>Acerca</about_btn>
+</toolbar>
+
+<settings_view>
+	<settings_title>Configuración</settings_title>
+	
+	<general_group>Generales</general_group>
+	<language_str>Idioma</language_str>
+	<check_new_str>Comprobar actualización del programa</check_new_str>
+	
+	<server_group>Servidor</server_group>
+	<server_host_str>Host</server_host_str>
+	<server_port_str>Puerto</server_port_str>
+	<server_login>Login</server_login>
+	<server_password>Contraseña</server_password>
+	<check_status_str>Comprobar el estado</check_status_str>
+	<status_str>Periodo de comprobación</status_str>
+	<status_sec_str>seg</status_sec_str>
+	
+	<profiler_group>Profiler</profiler_group>
+	<profiler_port_str>Puerto del profiler</profiler_port_str>
+	<auto_open_str>Sesión automática en la pestaña</auto_open_str>
+	<auto_start_str>Autostart</auto_start_str>
+	<net_connect>Aceptar conexiones de red</net_connect>
+</settings_view>
+
+<about_view>
+	<about_title>Acerca del programa</about_title>
+	
+	<version_str>Versión</version_str>
+	<license_str>Licencia: Gratis</license_str>
+	<disclaimer_str>Renuncia de responsabilidad: Este software se presenta por la SRL Neor en forma de versión “As Is” y no se dan ningunas garantías expresas o supuestas, incluyendo, pero sin limitarse, a garantías del estado y utilidad del producto. El propietario del derecho de autor o los participantes, en ningún caso, asumirán la responsabilidad por cualesquiera daños directos, indirectos, accidentales, especiales o indirectos, incluyendo, pero no limitándose con la adquisición de productos o servicios relevantes; pérdida de datos o beneficios).</disclaimer_str>
+</about_view>
+
+<statistics_view>
+	<statistics_title>Estadística</statistics_title>
+	
+	<stat_schedule_str>Gráfico de carga de base de datos</stat_schedule_str>
+	
+	<stat_server_group>Servidor BD</stat_server_group>
+	<server_version_str>Versión de MySQL:</server_version_str>
+	<server_uptime_str>Tiempo de funcionamiento:</server_uptime_str>
+	<stat_avgqueries_str>Solicitudes promedias a BD por seg:</stat_avgqueries_str>
+	<stat_nodata_str>No</stat_nodata_str>
+	
+	<profiler_group>Estadística del profiler</profiler_group>
+	<queries_sent_str>Solicitudes enviadas:</queries_sent_str>
+	<rows_str>Líneas recibidas:</rows_str>
+	<data_str>Datos recibidos:</data_str>
+	
+	<settings_group>Configuración </settings_group>
+	<dbport_str>Puerto BD:</dbport_str>
+	<dbhost_str>Host BD:</dbhost_str>
+	<profiler_port_str>Puerto del profiler:</profiler_port_str>
+
+	<top_group>TOP 5 del profiler </top_group>
+	<database_group>Base de datos</database_group>
+	<tables_group>Tablas</tables_group>
+	<queries_group>Solicitud</queries_group>
+	
+	<profiler_stopped_str>Detenido</profiler_stopped_str>
+</statistics_view>
+
+<sessions_view>
+	<session_title>Sesiones</session_title>
+	
+	<clear_all_btn>Limpiar todo</clear_all_btn>
+	<save_session_btn>Guardar sesión</save_session_btn>
+	<compare_btn>Comparar</compare_btn>
+	<open_tab_btn>Abrir en pestaña</open_tab_btn>
+	
+	<id_col>Id</id_col>
+	<datetime_col>Fecha/hora</datetime_col>
+	<db_col>BD</db_col>
+	<user_col>Usuario</user_col>
+	<queries_col>Solicitudes</queries_col>
+	<elapsed_col>Pasó</elapsed_col>
+	<rows_col>Líneas</rows_col>
+	<recieved_col>Kb recibidos</recieved_col>
+	<saved_col>Guardado</saved_col>
+
+	<sess_performed_str>En curso</sess_performed_str>
+	<sess_saved_yes_str>Si</sess_saved_yes_str>
+	<sess_saved_no_str>No</sess_saved_no_str>
+</sessions_view>
+
+<saved_sessions_view>
+	<saved_sessions_title>Sesiones guardadas</saved_sessions_title>
+
+	<clear_all_btn>Limpiar todo</clear_all_btn>
+	<delete_btn>Eliminar</delete_btn>
+	<comment_btn>Comentario</comment_btn>	
+	<compare_btn>Comparar</compare_btn>
+	<open_tab_btn>Abrir en pestaña</open_tab_btn>	
+
+	<id_col>Id</id_col>
+	<datetime_col>Fecha/hora</datetime_col>
+	<db_col>BD</db_col>
+	<user_col> Usuario </user_col>
+	<queries_col>Solicitudes</queries_col>
+	<elapsed_col>Pasó</elapsed_col>
+	<rows_col>Líneas</rows_col>
+	<recieved_col>Kb recibidos</recieved_col>
+	<comment_col>Comentario</comment_col>
+</saved_sessions_view>
+
+<session_view>
+	<queries_str>solicitudes</queries_str>
+	<get_str>recibido</get_str>
+	<sent_str>enviado</sent_str>
+	<kb_str>Kb</kb_str>
+	<rows_str>líneas</rows_str>
+	<elapsed_str>duración</elapsed_str>
+	<performed_str>en curso</performed_str>
+	<export_csv_btn>Exportar CSV</export_csv_btn>
+	<export_xml_btn>Exportar XML</export_xml_btn>
+	<twin_btn>Repeticiones</twin_btn>
+	<code_query_str>Código SQL de solicitud</code_query_str>
+	<copy_btn>Copiar al portapapeles</copy_btn>
+	<num_col>#</num_col>
+	<time_ms_col>Tiempo ms</time_ms_col>
+	<time_per_col> Tiempo %</time_per_col>
+	<longest_per_col>Duración %</longest_per_col>
+	<rows_col>Líneas</rows_col>
+	<get_col> Kb recibidos </get_col>
+	<sent_col>Kb enviados</sent_col>
+	<query_col>Solicitud</query_col>
+</session_view>
+
+<update_view>
+	<update_title>Actualización</update_title>
+	<update_confirm1_str>Está disponible la nueva versión del programa.</update_confirm1_str>
+	<update_confirm2_str>¿Desea descargarla?</update_confirm2_str>
+	<no_updates_str>Actualmente no hay actualizaciones</no_updates_str>
+	<no_get_info_str>No puedo recibir datos de la actualización</no_get_info_str>
+	<no_btn>No</no_btn>
+    <yes_btn>Si</yes_btn>
+</update_view>
+
+<sql_view>
+	<sql_title>SQL</sql_title>
+	<execute_btn>Ejecutar</execute_btn>
+	<profile_btn>Perfilar</profile_btn>
+	<error_sql>Error de solicitud SQL</error_sql>
+</sql_view>
+
+<errors>
+	<error_str>Error</error_str>
+	<lang_error>La versión del archivo de traducción no es compatible con esta versión del programa</lang_error>
+	<sess_run_error>¡Sesión en curso!</sess_run_error>
+	<mysql_conn_error>Error de conexión a MySQL servidor</mysql_conn_error>
+</errors>
+
+<twin_view>
+	<title_str>Repeticiones de sesión</title_str>
+	<replays_col>Repeticiones</replays_col>
+	<rows_col>Líneas</rows_col>
+	<sql_col>Código SQL</sql_col>
+	<not_found>no se encontraron solicitudes repetidas</not_found>
+</twin_view>
+</general>
