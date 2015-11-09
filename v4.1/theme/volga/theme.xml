@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<general>
+
+<statistics_graph>
+    <title_clr>#808080</title_clr>
+    <border_clr>#808080</border_clr>
+    <grid_clr>#aaaaaa</grid_clr>
+    <label_grid_clr>#eeeeee</label_grid_clr>
+    <legend_txt_clr>#808080</legend_txt_clr>
+    <select_clr>#2485fd</select_clr>
+    <update_clr>#fcc622</update_clr>
+    <insert_clr>#ff6565</insert_clr>
+    <delete_clr>#69d067</delete_clr>
+    <other_clr>#a06bac</other_clr>
+</statistics_graph>
+
+<statistics_mini_graph>
+    <text_clr>#808080</text_clr>
+    <grid_clr>#eeeeee</grid_clr>
+    <graph_clr>#2485fd</graph_clr>
+</statistics_mini_graph>
+
+<sessions_tab>
+    <row_one_error_clr>#ffb7b7</row_one_error_clr>
+    <row_all_error_clr>#fe5e5e</row_all_error_clr>
+    <row_connect_error_clr>#eeeeee</row_connect_error_clr>
+    <text_performed_clr>#d15257</text_performed_clr>
+    <row_compare_noequal_clr>#fde9d9</row_compare_noequal_clr>
+</sessions_tab>
+
+<session_tab>
+    <graph_clr>#2485fd</graph_clr>
+    <title_graph_clr>#808080</title_graph_clr>
+    <border_graph_clr>#808080</border_graph_clr>
+    <line_graph_cur_clr>#ff0000</line_graph_cur_clr>
+    <queries_txt_clr>#626262</queries_txt_clr>
+    <received_txt_clr>#74b67f</received_txt_clr>
+    <send_txt_clr>#5f89de</send_txt_clr>
+    <elapsed_txt_clr>#74b67f</elapsed_txt_clr>
+    <rows_txt_clr>#5f89de</rows_txt_clr>
+    <row_error_clr>#fe5e5e</row_error_clr>
+</session_tab>
+
+<sql_tab>
+    <data_txt_clr>#3a9790</data_txt_clr>
+    <data_null_txt_clr>#8cc7c3</data_null_txt_clr>
+    <profile_upper_txt_clr>#800000</profile_upper_txt_clr>
+    <explain_warning_clr>#fde9d9</explain_warning_clr>
+</sql_tab>
+
+<table_bar_clr>#58b3e3</table_bar_clr>
+
+</general>

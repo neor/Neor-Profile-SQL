@@ -1,0 +1,318 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<general>
+<version>
+	<language>Slovak</language>
+    <compatible>4.1</compatible>
+    <date>2015-11-09</date>
+    <translator>solarmartin@gmail.com</translator>
+</version>
+
+<toolbar>
+    <start_btn>Spustiť</start_btn>
+	<stop_btn>Zastaviť</stop_btn>
+	<sql_btn>SQL</sql_btn>
+    <connections_btn>Pripojenia</connections_btn>
+	<settings_btn>Nastavenia</settings_btn>
+	<about_btn>O programe</about_btn>
+    <archive_btn>Archív</archive_btn>
+</toolbar>
+
+<settings_view>
+	<settings_title>Nastavenia</settings_title>
+	
+	<general_group>Všeobecné</general_group>
+	<language_str>Jazyk</language_str>
+    <check_new_str>Vyhľadávať aktualizácie</check_new_str>
+	<auto_open_str>Auto. otvorenie relácie v záložke</auto_open_str>
+    <auto_start_str>Spustiť automaticky</auto_start_str>
+    <stay_on_top_str>Vždy navrchu</stay_on_top_str>
+
+    <max_lines_in_flow_str>Max riadkov v záložke Flow</max_lines_in_flow_str>
+    <max_sessions_in_sessions_str>Max relácie v záložke Relácie</max_sessions_in_sessions_str>
+    <always_tunneling_str>Vždy tunelovanie v režime na pozadí</always_tunneling_str>
+</settings_view>
+
+<about_view>
+	<about_title>O programe</about_title>
+	
+	<version_str>Verzia</version_str>
+	<license_str>Licencia: Freeware</license_str>
+	<disclaimer_str>Disclaimer: This software is provided by Neor LLC "as is" and any express or implied warranties, including, but not limited to, the implied warranties of merchantability and fitness for a particular purpose are disclaimed. In no event shall the copyright owner or contributors be liable for any direct, indirect, incidental, special, exemplary, or consequential damages (including, but not limited to, procurement of substitute goods or services; loss of use, data, or profits; or business interruption) however caused and on any theory of liability, whether in contract, strict liability, or tort (including negligence or otherwise) arising in any way out of the use of this software, even if advised of the possibility of such damage.</disclaimer_str>
+    <update_btn>Vyhľadať aktualizáciu</update_btn>
+    <close_btn>Zatvoriť</close_btn>
+</about_view>
+
+<statistics_view>
+    <statistics_title>Monitor</statistics_title>
+	
+	<stat_schedule_str>Záznam príkazov</stat_schedule_str>
+	<stat_shedule_other_str>Iný</stat_shedule_other_str>
+    <stat_shedule_no_status_str>Nie je možné spustiť príkaz SHOW STATUS</stat_shedule_no_status_str>
+	
+    <stat_server_group>DB server</stat_server_group>
+	<server_uptime_str>Doba prevádzky:</server_uptime_str>
+	<stat_avgqueries_str>Príkazov za sekundu:</stat_avgqueries_str>
+	<stat_nodata_str>Nedostupné</stat_nodata_str>
+    <stat_username>Používateľ:</stat_username>
+    <stopped_str>Zastavené</stopped_str>
+    <running_str>Spustené</running_str>
+	
+    <profiler_stat_group>Štatistiky profileru</profiler_stat_group>
+	<queries_sent_str>Spustené príkazy:</queries_sent_str>
+	<rows_str>Prijaté riadky:</rows_str>
+	<data_str>Prijaté dáta:</data_str>
+    <sessions_str>Relácie:</sessions_str>
+    <error_con_str>Chybné pripojenia:</error_con_str>
+    <error_queries_str>Chybné príkazy:</error_queries_str>
+	
+    <profiler_group>Profiler</profiler_group>
+
+    <server_tab>DB Server</server_tab>
+    <profiler_tab>Profiler</profiler_tab>
+    <connections_graph_str>Pripojenia</connections_graph_str>
+    <queries_graph_str>Príkazy</queries_graph_str>
+    <upload_graph_str>Prevádzka k serveru</upload_graph_str>
+    <download_graph_str>Prevádzka zo serveru</download_graph_str>
+
+    <top_db_group>TOP</top_db_group>
+    <databases_db_group>Otvorené databázy</databases_db_group>
+    <tables_db_group>Otvorené tabuľky</tables_db_group>
+    <queries_db_group>Príkazy</queries_db_group>
+	<processes_group>Procesy</processes_group>
+
+    <top_prof_group>TOP</top_prof_group>
+    <databases_prof_group>Databázy</databases_prof_group>
+    <queries_prof_group>Príkazy</queries_prof_group>
+
+    <num_col>#</num_col>
+    <user_col>Používateľ</user_col>
+    <query_col>Príkaz</query_col>
+    <table_col>Tabuľka</table_col>
+    <database_col>Databáza</database_col>
+    <count_col>Počet</count_col>
+    <id_col>Identifikátor</id_col>
+    <host_col>Hostiteľ</host_col>
+    <db_col>Databáza</db_col>
+    <command_col>Príkaz</command_col>
+    <time_col>Čas</time_col>
+
+    <commands_db_group>Príkazy</commands_db_group>
+    <per_hour_col>Za hodinu</per_hour_col>
+    <per_sec_col>Za druhý</per_sec_col>
+    <percent_col>Percento</percent_col>
+</statistics_view>
+
+<sessions_view>
+	<session_title>Relácie</session_title>
+	
+	<clear_all_btn>Vyčistiť všetko</clear_all_btn>
+	<save_session_btn>Uložiť reláciu</save_session_btn>
+	<compare_btn>Porovnať</compare_btn>
+	<open_tab_btn>Otvoriť v záložke</open_tab_btn>
+	
+	<id_col>Identifikátor</id_col>
+	<datetime_col>Dátum</datetime_col>
+	<db_col>Databáza</db_col>
+	<user_col>Používateľ</user_col>
+	<queries_col>Príkazov</queries_col>
+	<elapsed_col>Trvanie</elapsed_col>
+	<rows_col>Riadkov</rows_col>
+	<recieved_col>Prijaté kB</recieved_col>
+	<saved_col>Uložená relácia</saved_col>
+
+	<sess_performed_str>Prebieha</sess_performed_str>
+	<sess_saved_yes_str>Áno</sess_saved_yes_str>
+	<sess_saved_no_str>Nie</sess_saved_no_str>
+</sessions_view>
+
+<archive_view>
+    <archive_title>Archív</archive_title>
+
+	<clear_all_btn>Vyčistiť všetko</clear_all_btn>
+	<delete_btn>Vymazať</delete_btn>
+	<comment_btn>Komentár</comment_btn>
+	<compare_btn>Porovnať</compare_btn>
+	<open_tab_btn>Otvoriť v záložke</open_tab_btn>
+
+	<id_col>Identifikátor</id_col>
+	<datetime_col>Dátum</datetime_col>
+	<db_col>Databáza</db_col>
+	<user_col>Používateľ</user_col>
+	<queries_col>Príkazov</queries_col>
+	<elapsed_col>Trvanie</elapsed_col>
+	<rows_col>Riadkov</rows_col>
+	<recieved_col>Prijaté kB</recieved_col>
+	<comment_col>Poznámka</comment_col>
+</archive_view>
+
+<session_view>
+	<queries_str>príkazov</queries_str>
+	<get_str>prijatých</get_str>
+	<sent_str>odoslaných</sent_str>
+	<kb_str>kB</kb_str>
+	<rows_str>riadkov</rows_str>
+	<elapsed_str>trvanie</elapsed_str>
+	<performed_str>prebieha</performed_str>
+    <export_btn>Výstup</export_btn>
+    <twin_btn>Opakovania</twin_btn>
+	<code_query_str>SQL príkaz</code_query_str>
+	<copy_btn>Skopírovať do schránky</copy_btn>
+    <to_sql_editor_btn>Vykonať</to_sql_editor_btn>
+    <explain_btn>Vysvetliť</explain_btn>
+	<num_col>#</num_col>
+	<time_ms_col>Čas ms</time_ms_col>
+	<time_per_col>Čas %</time_per_col>
+	<longest_per_col>Najdlhší %</longest_per_col>
+	<rows_col>Riadkov</rows_col>
+	<get_col>Prijaté kB</get_col>
+	<sent_col>Odoslané kB</sent_col>
+	<query_col>Príkaz</query_col>
+    <filter_btn>Filter</filter_btn>
+    <filter_all_str>Všetky</filter_all_str>
+    <filter_read_str>Príkazy čítania (SELECT, SHOW, DESCRIBE)</filter_read_str>
+    <filter_write_str>Príkazy zápisu (INSERT, DELETE, UPDATE, CREATE, DROP, ALTER, REPLACE)</filter_write_str>
+    <filter_error_str>Chybné príkazy</filter_error_str>
+    <filter_keyword_str>Kľúčové slovo</filter_keyword_str>
+    <filter_type_str>Typ príkazu</filter_type_str>
+</session_view>
+
+<flow_view>
+    <flow_title>Priebeh</flow_title>
+    <num_col>#</num_col>
+    <query_col>Príkaz</query_col>
+    <time_ms_col>Čas ms</time_ms_col>
+    <get_col>Prijaté kB</get_col>
+    <rows_col>Riadkov</rows_col>
+    <code_query_str>SQL príkaz</code_query_str>
+    <copy_btn>Skopírovať do schránky</copy_btn>
+    <to_sql_editor_btn>Vykonať</to_sql_editor_btn>
+    <explain_btn>Vysvetliť</explain_btn>
+
+    <session_col>Relácia</session_col>
+    <stat_schedule_str>Prikazov v Profiler</stat_schedule_str>
+    <stat_shedule_other_str>Ostatné</stat_shedule_other_str>
+    <stat_shedule_no_status_str>Nemožno získať SHOW STATUS</stat_shedule_no_status_str>
+
+    <export_btn>Výstup</export_btn>
+    <filter_btn>Filter</filter_btn>
+</flow_view>
+
+<update_view>
+	<update_title>Aktualizovať</update_title>
+	<update_confirm1_str>Nová verzia je dostupná.</update_confirm1_str>
+	<update_confirm2_str>Chcete ju stiahnuť?</update_confirm2_str>
+	<no_updates_str>Aktuálne nie je dostupná nová verzia</no_updates_str>
+	<no_get_info_str>Nie je možné získať informácie o novej verzii</no_get_info_str>
+	<no_btn>Nie</no_btn>
+	<yes_btn>Áno</yes_btn>
+</update_view>
+
+<sql_view>
+    <sql_title>SQL</sql_title>
+    <db_name_str>Databáza</db_name_str>
+    <execute_btn>Vykonať</execute_btn>
+    <profile_btn>Profilovať</profile_btn>
+    <explain_btn>Vysvetliť</explain_btn>
+    <vexplain_btn>Vysvetliť+</vexplain_btn>
+    <export_btn>Výstup</export_btn>
+    <error_sql>Chybný SQL príkaz</error_sql>
+    <log_title_str>Záznam spustených SQL príkazov</log_title_str>
+    <execute_tab_title>Vykonanie</execute_tab_title>
+    <profile_tab_title>Profilovať</profile_tab_title>
+    <explain_tab_title>Vysvetliť</explain_tab_title>
+    <explain_key_null>Nebol nájdený index príkazu</explain_key_null>
+    <explain_type_index>Vykonané prehľadávanie celej tabuľky</explain_type_index>
+    <explain_type_all>Načíta všetky dáta z tabuľky</explain_type_all>
+    <explain_rows_100>Výsledok má príliš veľa riadkov</explain_rows_100>
+    <filter_str>Filter</filter_str>
+    <num_col>#</num_col>
+    <query_col>Príkaz</query_col>
+    <rows_col>Riadkov</rows_col>
+    <duration_col>Trvanie ms</duration_col>
+
+    <undo_btn>Zrušiť</undo_btn>
+    <find_btn>Vyhľadávanie</find_btn>
+    <find_title>Vyhľadávanie</find_title>
+    <wordwrap_btn>Zalamovanie</wordwrap_btn>
+    <highlight_btn>Farba svetlo</highlight_btn>
+    <size_str>Veľkosť</size_str>
+    <explain_mdb_btn>Vysvetliť MariaDB</explain_mdb_btn>
+
+    <status_str>Nadpis:</status_str>
+    <status_duration_str>Čas</status_duration_str>
+    <status_ms_str>ms</status_ms_str>
+    <status_rows_str>Nájdených riadkov</status_rows_str>
+</sql_view>
+
+<errors>
+    <error_str>Chyba</error_str>
+	<lang_error>Súbor s jazykom nie je kompatibilný s verziou tohto programu</lang_error>
+	<sess_run_error>Relácia je spustená!</sess_run_error>
+    <mysql_conn_error>Zlyhalo pripojenie k MySQL serveru.
+Skúste upraviť nastavenie pripojenia.</mysql_conn_error>
+</errors>
+
+<twin_view>
+	<title_str>Opakovania príkazov</title_str>
+	<replays_col>Opakovania</replays_col>
+	<rows_col>Riadky</rows_col>
+	<sql_col>SQL príkaz</sql_col>
+	<not_found>Opakovania neboli zistené</not_found>
+</twin_view>
+
+<connections_view>
+    <connections_title>Pripojenia</connections_title>
+    <new_btn>Nové</new_btn>
+    <delete_btn>Zmazať</delete_btn>
+    <test_btn>Test</test_btn>
+    <cancel_btn>Zrušiť</cancel_btn>
+    <server_group>Databázový server</server_group>
+    <connect_name_str>Názov pripojenia</connect_name_str>
+    <db_type_str>Typ databázy</db_type_str>
+    <connect_meth_str>Spôsob pripojenia</connect_meth_str>
+    <server_host_str>Hostiteľ alebo IP</server_host_str>
+    <server_port_str>Port</server_port_str>
+    <server_username>Používateľ</server_username>
+    <server_password>Heslo</server_password>
+    <compres_str>Komprimované pripojenie</compres_str>
+    <local_socket_str>Local socket/Pipe</local_socket_str>
+    <interact_pass_str>Neukladať heslo</interact_pass_str>
+    <interact_pass_enter_title>Vložte heslo</interact_pass_enter_title>
+
+    <status_group>Stav</status_group>
+    <check_status_str>Kontrolovať stav databázy</check_status_str>
+    <status_str>Interval kontroly</status_str>
+    <status_sec_str>sek</status_sec_str>
+
+    <profiler_group>Profiler</profiler_group>
+    <profiler_port_str>Port profileru</profiler_port_str>
+    <net_connect>Povoliť vzdialený prístup</net_connect>
+
+    <exists_error_title>Chyba</exists_error_title>
+    <exists_error_str>Profil s rovnakým menom už existuje</exists_error_str>
+    <delete_question_title>Zmazať</delete_question_title>
+    <delete_question_str>Chcete zmazať profil?</delete_question_str>
+    <test_title>Test</test_title>
+    <test_success_str>Test bol úspešný</test_success_str>
+    <test_failed_str>Test nebol úspešný</test_failed_str>
+</connections_view>
+
+<data_view>
+    <data_title>Dáta</data_title>
+    <copy_to_clipboard>Skopírovať do schránky</copy_to_clipboard>
+</data_view>
+
+<compare_view>
+    <title_str>Porovnať relácie</title_str>
+</compare_view>
+
+<export_view>
+    <export_title>Výstup</export_title>
+    <fields_group>Exportovať pole</fields_group>
+    <file_group>Cesta k súboru</file_group>
+    <browse_btn>Listovať</browse_btn>
+    <ok_btn>Výstup</ok_btn>
+    <cancel_btn>Zrušiť</cancel_btn>
+    <type_file_group>Typ súboru</type_file_group>
+</export_view>
+</general>

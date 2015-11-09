@@ -1,0 +1,319 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<general>
+<version>
+	<language>Deutsch</language>
+	<compatible>4.0</compatible>
+	<date>2015-05-22</date>
+	<translator>Tatiana Chervova, Nikolay Lisienko, Axel Becker</translator>
+</version>
+
+<toolbar>
+	<start_btn>Start</start_btn>
+	<stop_btn>Stop</stop_btn>
+	<sql_btn>SQL</sql_btn>
+    <connections_btn>Verbindungen</connections_btn>
+	<settings_btn>Einstellungen</settings_btn>
+	<about_btn>Info</about_btn>
+    <archive_btn>Archiv</archive_btn>
+</toolbar>
+
+<settings_view>
+	<settings_title>Einstellungen</settings_title>
+	
+	<general_group>Allgemein</general_group>
+	<language_str>Sprache</language_str>
+	<check_new_str>Auf Updates überprüfen</check_new_str>
+	<auto_open_str>Neue Sitzung in neuem Tab öffnen</auto_open_str>
+    <auto_start_str>Automatischer Start</auto_start_str>
+    <stay_on_top_str>Im Vordergrund bleiben</stay_on_top_str>
+
+    <max_lines_in_flow_str>Max Linien in Fluss</max_lines_in_flow_str>
+    <max_sessions_in_sessions_str>Max Sitzungen in Sessions</max_sessions_in_sessions_str>
+    <always_tunneling_str>Immer Tunnel im Hintergrundmodus</always_tunneling_str>
+</settings_view>
+
+<about_view>
+	<about_title>Info</about_title>
+	
+	<version_str>Version</version_str>
+	<license_str>Lizenz: Freeware</license_str>
+	<disclaimer_str>Haftungsausschluss: Diese Software wird von Neor LLC "so wie sie ist" zur Verfügung gestellt und alle expliziten oder impliziten Garantien einschließlich, aber nicht beschränkt auf die stillschweigenden Garantien auf Mängelgewährleistung und Gebrauchstauglichkeit, sind ausgeschlossen. Der Eigentümer des Autorenrechts oder die Mitwirkenden haften auf keinen Fall für jegliche direkte, indirekte, zufällige oder spezielle Verluste (einschließlich, aber nicht beschränkt auf die Anschaffung der Ersatzwaren oder -Leistungen; Daten- oder Gewinnverlust).</disclaimer_str>
+    <update_btn>Update suchen</update_btn>
+    <close_btn>Schließen</close_btn>
+</about_view>
+
+<statistics_view>
+	<statistics_title>Monitor</statistics_title>
+	
+	<stat_schedule_str>Auslastungsdiagramm der Datenbank</stat_schedule_str>
+	<stat_shedule_other_str>Sonstiges</stat_shedule_other_str>
+    <stat_shedule_no_status_str>SHOW STATUS konnte nicht ausgeführt werden</stat_shedule_no_status_str>
+	
+	<stat_server_group>Datenbankserver</stat_server_group>
+	<server_uptime_str>Laufzeit:</server_uptime_str>
+	<stat_avgqueries_str>Datenbankabfragen pro sek:</stat_avgqueries_str>
+	<stat_nodata_str>Keine</stat_nodata_str>
+    <stat_username>Benutzer:</stat_username>
+    <stopped_str>gestoppt</stopped_str>
+    <running_str>gestartet</running_str>
+	
+	<profiler_stat_group>Profilerstatistik</profiler_stat_group>
+	<queries_sent_str>Abfragen gesendet:</queries_sent_str>
+	<rows_str>Zeilen empfangen:</rows_str>
+	<data_str>Daten empfangen:</data_str>
+	<sessions_str>Sessions:</sessions_str>
+    <error_con_str>Fehlerhafte Verbindungen:</error_con_str>
+    <error_queries_str>Fehlerhafte Abfragen:</error_queries_str>
+	
+    <profiler_group>Profiler</profiler_group>
+
+    <server_tab>Datenbankserver</server_tab>
+    <profiler_tab>Profiler</profiler_tab>
+    <connections_graph_str>Verbindungen</connections_graph_str>
+    <queries_graph_str>Abfragen</queries_graph_str>
+    <upload_graph_str>Netzwerk-Upload</upload_graph_str>
+    <download_graph_str>Netzwerk-Download</download_graph_str>
+
+    <top_db_group>TOP</top_db_group>
+    <databases_db_group>Offene Datenbanken</databases_db_group>
+    <tables_db_group>Offene Tabellen</tables_db_group>
+    <queries_db_group>Abfragen</queries_db_group>
+	<processes_group>Prozesse</processes_group>
+
+    <top_prof_group>TOP</top_prof_group>
+    <databases_prof_group>Datenbanken</databases_prof_group>
+    <queries_prof_group>Abfragen</queries_prof_group>
+
+    <num_col>Nr.</num_col>
+    <user_col>Benutzer</user_col>
+    <query_col>Abfrage</query_col>
+    <table_col>Tabelle</table_col>
+    <database_col>Datenbank</database_col>
+    <count_col>Anzahl</count_col>
+    <id_col>Id</id_col>
+    <host_col>Host</host_col>
+    <db_col>DB</db_col>
+    <command_col>Befehl</command_col>
+    <time_col>Laufzeit</time_col>
+
+    <commands_db_group>Befehle</commands_db_group>
+    <per_hour_col>Pro Stunde</per_hour_col>
+    <per_sec_col>Pro Sek.</per_sec_col>
+    <percent_col>Prozent</percent_col>
+</statistics_view>
+
+<sessions_view>
+	<session_title>Sessions</session_title>
+	
+	<clear_all_btn>Alles löschen</clear_all_btn>
+	<save_session_btn>Session speichern</save_session_btn>
+	<compare_btn>Vergleichen</compare_btn>
+	<open_tab_btn>Im Tab öffnen</open_tab_btn>
+	
+	<id_col>ID</id_col>
+	<datetime_col>Datum/Zeit</datetime_col>
+	<db_col>DB</db_col>
+	<user_col>Benutzer</user_col>
+	<queries_col>Abfragen</queries_col>
+	<elapsed_col>Laufzeit</elapsed_col>
+	<rows_col>Zeilen</rows_col>
+	<recieved_col>Empfangen Kb</recieved_col>
+	<saved_col>Gespeichert</saved_col>
+
+	<sess_performed_str>Wird ausgeführt</sess_performed_str>
+	<sess_saved_yes_str>Ja</sess_saved_yes_str>
+	<sess_saved_no_str>Nein</sess_saved_no_str>
+</sessions_view>
+
+<archive_view>
+	<archive_title>Archiv</archive_title>
+
+	<clear_all_btn>Alles löschen</clear_all_btn>
+	<delete_btn>Löschen</delete_btn>
+	<comment_btn>Kommentar</comment_btn>	
+	<compare_btn>Vergleichen</compare_btn>
+	<open_tab_btn>Im Tab öffnen</open_tab_btn>	
+
+	<id_col>ID</id_col>
+	<datetime_col>Datum/Zeit</datetime_col>
+	<db_col>DB</db_col>
+	<user_col>Benutzer</user_col>
+	<queries_col>Abfragen</queries_col>
+	<elapsed_col>Laufzeit</elapsed_col>
+	<rows_col>Zeilen</rows_col>
+	<recieved_col>Empfangen Kb</recieved_col>
+	<comment_col>Kommentar</comment_col>
+</archive_view>
+
+<session_view>
+	<queries_str>Abfragen</queries_str>
+	<get_str>Empfangen</get_str>
+	<sent_str>Gesendet</sent_str>
+	<kb_str>Kb</kb_str>
+	<rows_str>Zeilen</rows_str>
+	<elapsed_str>Laufzeit</elapsed_str>
+	<performed_str>Wird ausgeführt</performed_str>
+	<export_btn>Exportieren</export_btn>
+	<twin_btn>Wiederholung</twin_btn>
+	<code_query_str>SQL-Anfrage</code_query_str>
+	<copy_btn>In die Zwischenablage kopieren</copy_btn>
+    <to_sql_editor_btn>Ausführen</to_sql_editor_btn>
+    <explain_btn>Erklären</explain_btn>
+	<num_col>Nr.</num_col>
+	<time_ms_col>Zeit ms</time_ms_col>
+	<time_per_col>Zeit %</time_per_col>
+	<longest_per_col>Dauer %</longest_per_col>
+	<rows_col>Zeilen</rows_col>
+	<get_col>Empfangen Kb</get_col>
+	<sent_col>Gesendet Kb</sent_col>
+	<query_col>Abfrage</query_col>
+    <filter_btn>Filter</filter_btn>
+    <filter_all_str>Alle</filter_all_str>
+    <filter_read_str>Lesende Abfragen (SELECT, SHOW, DESCRIBE)</filter_read_str>
+    <filter_write_str>Schreibende Abfragen (INSERT, DELETE, UPDATE, CREATE, DROP, ALTER, REPLACE)</filter_write_str>
+    <filter_error_str>Fehlerhafte Abfragen</filter_error_str>
+    <filter_keyword_str>Suchwort</filter_keyword_str>
+    <filter_type_str>Abfragentyp</filter_type_str>
+</session_view>
+
+<flow_view>
+    <flow_title>Fluss</flow_title>
+    <num_col>Nr.</num_col>
+    <query_col>Abfrage</query_col>
+    <time_ms_col>Zeit ms</time_ms_col>
+    <get_col>Empfangen Kb</get_col>
+    <rows_col>Zeilen</rows_col>
+    <code_query_str>SQL-Anfrage</code_query_str>
+    <copy_btn>In die Zwischenablage kopieren</copy_btn>
+    <to_sql_editor_btn>Ausführen</to_sql_editor_btn>
+    <explain_btn>Erklären</explain_btn>
+
+    <session_col>Session</session_col>
+    <stat_schedule_str>Abfragen im Profiler</stat_schedule_str>
+    <stat_shedule_other_str>Andere</stat_shedule_other_str>
+    <stat_shedule_no_status_str>Kann nicht SHOW STATUS</stat_shedule_no_status_str>
+
+    <export_btn>Exportieren</export_btn>
+    <filter_btn>Filter</filter_btn>
+</flow_view>
+
+<update_view>
+	<update_title>Update</update_title> 
+	<update_confirm1_str>Eine neue Version des Programms ist verfügbar.</update_confirm1_str>
+	<update_confirm2_str>Möchten Sie diese installieren?</update_confirm2_str> 
+	<no_updates_str>Zur Zeit sind keine Updates verfügbar</no_updates_str>
+	<no_get_info_str>Informationen über konnten nicht geladen werden</no_get_info_str>
+	<no_btn>Nein</no_btn>
+	<yes_btn>Ja</yes_btn>
+</update_view>
+
+<sql_view>
+	<sql_title>SQL</sql_title>
+    <db_name_str>Datenbank</db_name_str>
+	<execute_btn>Ausführen</execute_btn>
+	<profile_btn>Profile</profile_btn>
+    <explain_btn>Erklären</explain_btn>
+    <vexplain_btn>Erklären+</vexplain_btn>
+    <export_btn>Exportieren</export_btn>
+	<error_sql>Fehler der SQL-Anfrage</error_sql>
+    <log_title_str>Protokoll</log_title_str>
+    <execute_tab_title>Ausführung</execute_tab_title>
+    <profile_tab_title>Profilierung</profile_tab_title>
+    <explain_tab_title>Erklärung</explain_tab_title>
+    <explain_key_null>Abfrageschlüssel nicht gefunden</explain_key_null>
+    <explain_type_index>Die ganze Tabelle wird durchsucht (Full-Table-Scan)</explain_type_index>
+    <explain_type_all>Alle Daten der Tabelle werden gelesen</explain_type_all>
+    <explain_rows_100>Das Ergebnis liefert zuviele Zeilen</explain_rows_100>
+    <filter_str>Filter</filter_str>
+    <num_col>Nr.</num_col>
+    <query_col>Abfrage</query_col>
+    <rows_col>Zeilen</rows_col>
+    <duration_col>Laufzeit (ms)</duration_col>
+
+    <undo_btn>Rückgängig machen</undo_btn>
+    <find_btn>Suche</find_btn>
+    <find_title>Suche</find_title>
+    <wordwrap_btn>Zeilenumbruch</wordwrap_btn>
+    <highlight_btn>Höhepunkt</highlight_btn>
+    <size_str>Größe</size_str>
+    <explain_mdb_btn>Erklären MariaDB</explain_mdb_btn>
+
+    <status_str>Status:</status_str>
+    <status_duration_str>Dauer</status_duration_str>
+    <status_ms_str>ms</status_ms_str>
+    <status_rows_str>Gefunden Zeilen</status_rows_str>
+</sql_view>
+
+<errors>
+	<error_str>Fehler</error_str>
+	<lang_error>Die Version der Sprachdatei 
+ist inkompatibel mit dieser Programmversion</lang_error>
+	<sess_run_error>Session läuft!</sess_run_error>
+	<mysql_conn_error>MySQL-Verbindungsfehler. Versuchen Sie, 
+die Verbindung im Profil zu korrigieren.</mysql_conn_error>
+</errors>
+
+<twin_view>
+	<title_str>Wiederholte Abfragen</title_str>
+	<replays_col>Wiederholungen</replays_col>
+	<rows_col>Zeilen</rows_col>
+	<sql_col>SQL-Anfrage</sql_col>
+	<not_found>Keine wiederholte Abfragen gefunden</not_found>
+</twin_view>
+
+<connections_view>
+    <connections_title>Verbindungen</connections_title>
+	<new_btn>Neu</new_btn>
+	<delete_btn>Löschen</delete_btn>
+	<test_btn>Test</test_btn>
+    <cancel_btn>Schließen</cancel_btn>
+	<server_group>Datenbankserver</server_group>
+	<connect_name_str>Name der Verbindung</connect_name_str>
+	<db_type_str>Datenbanktyp</db_type_str>
+	<connect_meth_str>Verbindungsmethode</connect_meth_str>
+	<server_host_str>Host oder IP</server_host_str>
+	<server_port_str>Port</server_port_str>
+	<server_username>Benutzer</server_username>
+	<server_password>Passwort</server_password>
+	<compres_str>Komprimierung</compres_str>
+    <local_socket_str>Lokaler Socket/Pipe</local_socket_str>
+    <interact_pass_str>Passwort nicht speichern</interact_pass_str>
+    <interact_pass_enter_title>Bitte geben Sie das Passwort an</interact_pass_enter_title>
+	
+	<status_group>Status</status_group>
+	<check_status_str>Statuscheck</check_status_str>
+	<status_str>Prüfintervall</status_str>
+	<status_sec_str>Sek.</status_sec_str>
+	
+	<profiler_group>Profiler</profiler_group>
+	<profiler_port_str>Profilerport</profiler_port_str>
+	<net_connect>Externe Netzwerkverbindungen erlauben</net_connect>
+
+    <exists_error_title>Fehler</exists_error_title>
+    <exists_error_str>Ein Profil mit diesem Namen existiert schon</exists_error_str>
+    <delete_question_title>Löschen</delete_question_title>
+    <delete_question_str>Möchten Sie den Profil löschen</delete_question_str>
+    <test_title>Test</test_title>
+    <test_success_str>Test wurde erfolgreich ausgeführt</test_success_str>
+    <test_failed_str>Test ist fehlgeschlagen</test_failed_str>
+</connections_view>
+
+<data_view>
+    <data_title>Daten</data_title>
+    <copy_to_clipboard>In die Zwischenablage kopieren</copy_to_clipboard>
+</data_view>
+
+<compare_view>
+    <title_str>Sessions vergleichen</title_str>
+</compare_view>
+
+<export_view>
+    <export_title>Exportieren</export_title>
+    <fields_group>Export Felder</fields_group>
+    <file_group>Dateipfad</file_group>
+    <browse_btn>Durchsuchen</browse_btn>
+    <ok_btn>Exportieren</ok_btn>
+    <cancel_btn>Schließen</cancel_btn>
+    <type_file_group>Dateityp</type_file_group>
+</export_view>
+</general>
