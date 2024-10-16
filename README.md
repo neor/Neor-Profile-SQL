@@ -1,4 +1,4 @@
-# Neor-Profile-SQL
+# Neor Profile SQL
 Cross-platform database optimization application. It works like a proxy for catching sessions and SQL queries to the database.
 
 ## Main features
