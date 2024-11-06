@@ -19,4 +19,4 @@ Cross-platform database optimization application. It works like a proxy for catc
 - Linux RPM/DEB 32/64
 
 Official site:
-http://profilesql.com/
+https://profilesql.com/
