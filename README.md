@@ -8,15 +8,18 @@ Cross-platform database optimization application. It works like a proxy for catc
 - Find duplicate queries
 - Explain SQL queries
 - SQL editor
+- Multilanguage
+- Cross-platform
 
 ## Support databases
 - MySQL
 - MariaDB
+- PostgreSQL
  
 ## Support OS
-- Windows
-- Mac
-- Linux RPM/DEB 32/64
+- Windows 
+- MacOS
+- Linux
 
 Official site:
 https://profilesql.com/
