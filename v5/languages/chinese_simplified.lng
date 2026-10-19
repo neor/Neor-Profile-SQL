@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="utf-8"?>
+<general>
+<version>
+    <language>简体中文</language>
+    <compatible>5.1</compatible>
+    <translator>Neor Digital</translator>
+</version>
+
+<toolbar>
+    <start_btn>启动</start_btn>
+    <stop_btn>停止</stop_btn>
+    <sql_btn>SQL</sql_btn>
+    <connections_btn>连接</connections_btn>
+    <settings_btn>设置</settings_btn>
+    <about_btn>关于</about_btn>
+    <archive_btn>归档</archive_btn>
+</toolbar>
+
+<settings_view>
+    <settings_title>设置</settings_title>
+    <general_group>常规</general_group>
+    <language_str>语言</language_str>
+    <check_new_str>检查新版本</check_new_str>
+    <auto_open_str>自动在新标签页中打开会话</auto_open_str>
+    <auto_start_str>自动启动</auto_start_str>
+    <stay_on_top_str>窗口置顶</stay_on_top_str>
+    <max_lines_in_flow_str>实时查询标签页的最大行数</max_lines_in_flow_str>
+    <max_sessions_in_sessions_str>会话标签页的最大会话数</max_sessions_in_sessions_str>
+    <always_tunneling_str>始终在后台转发流量</always_tunneling_str>
+    <theme_str>主题（重启后生效）</theme_str>
+    <theme_system_str>跟随系统</theme_system_str>
+    <theme_light_str>浅色</theme_light_str>
+    <theme_dark_str>深色</theme_dark_str>
+</settings_view>
+
+<about_view>
+    <about_title>关于</about_title>
+    <version_str>版本</version_str>
+    <license_str>许可证：专有免费软件</license_str>
+    <license_usage_str>可免费用于个人和商业用途。</license_usage_str>
+    <disclaimer_str>免责声明：本软件由 Neor Digital 按“原样”提供，不附带任何明示或默示的保证，包括但不限于对适销性和特定用途适用性的默示保证。在任何情况下，无论基于何种责任理论，无论是合同责任、严格责任还是侵权责任（包括疏忽或其他情形），版权持有人或贡献者均不对因使用本软件而以任何方式产生的任何直接、间接、附带、特殊、惩罚性或后果性损害承担责任，包括但不限于购买替代商品或服务、使用损失、数据损失、利润损失或业务中断，即使事先已被告知此类损害的可能性。</disclaimer_str>
+    <update_btn>检查更新</update_btn>
+    <close_btn>关闭</close_btn>
+</about_view>
+
+<statistics_view>
+    <statistics_title>监控</statistics_title>
+    <stat_schedule_str>数据库查询趋势</stat_schedule_str>
+    <stat_shedule_other_str>其他</stat_shedule_other_str>
+    <stat_shedule_no_status_str>无法获取 SHOW STATUS</stat_shedule_no_status_str>
+    <stat_server_group>数据库服务器</stat_server_group>
+    <server_uptime_str>运行时间：</server_uptime_str>
+    <stat_avgqueries_str>每秒查询数：</stat_avgqueries_str>
+    <stat_nodata_str>无</stat_nodata_str>
+    <stat_username>用户名：</stat_username>
+    <stopped_str>已停止</stopped_str>
+    <running_str>运行中</running_str>
+    <profiler_stat_group>性能分析统计</profiler_stat_group>
+    <queries_sent_str>已发送查询：</queries_sent_str>
+    <rows_str>已接收行数：</rows_str>
+    <data_str>已接收数据：</data_str>
+    <sessions_str>会话数：</sessions_str>
+    <error_con_str>连接错误数：</error_con_str>
+    <error_queries_str>查询错误数：</error_queries_str>
+    <profiler_group>性能分析器</profiler_group>
+    <server_tab>数据库服务器</server_tab>
+    <profiler_tab>性能分析器</profiler_tab>
+    <connections_graph_str>连接数</connections_graph_str>
+    <queries_graph_str>查询数</queries_graph_str>
+    <upload_graph_str>上传流量</upload_graph_str>
+    <download_graph_str>下载流量</download_graph_str>
+    <top_db_group>排行</top_db_group>
+    <databases_db_group>已打开的数据库</databases_db_group>
+    <tables_db_group>已打开的表</tables_db_group>
+    <queries_db_group>查询</queries_db_group>
+    <processes_group>进程</processes_group>
+    <top_prof_group>排行</top_prof_group>
+    <databases_prof_group>数据库</databases_prof_group>
+    <queries_prof_group>查询</queries_prof_group>
+    <num_col>#</num_col>
+    <user_col>用户</user_col>
+    <query_col>查询</query_col>
+    <table_col>表</table_col>
+    <database_col>数据库</database_col>
+    <count_col>次数</count_col>
+    <id_col>ID</id_col>
+    <host_col>主机</host_col>
+    <db_col>数据库</db_col>
+    <command_col>命令</command_col>
+    <time_col>时间</time_col>
+    <commands_db_group>命令</commands_db_group>
+    <per_hour_col>每小时</per_hour_col>
+    <per_sec_col>每秒</per_sec_col>
+    <percent_col>百分比</percent_col>
+    <pg_transactions_rate>事务/秒</pg_transactions_rate>
+    <pg_transactions>事务数</pg_transactions>
+    <pg_rows_changed>变更行数</pg_rows_changed>
+    <pg_state>状态</pg_state>
+    <pg_network_unavailable>网络流量计数不可用</pg_network_unavailable>
+    <pg_statement_unavailable>服务器语句计数不可用</pg_statement_unavailable>
+    <pg_server_scope>统计范围为所有数据库，包括监控产生的事务和连接。计数更新可能存在延迟。</pg_server_scope>
+    <pg_table_scope>自统计信息重置以来，当前连接数据库中各表的变更行数。</pg_table_scope>
+    <pg_restricted>权限不足</pg_restricted>
+    <pg_tables>表（当前数据库）</pg_tables>
+    <pg_databases>数据库（服务器）</pg_databases>
+</statistics_view>
+
+<sessions_view>
+    <session_title>会话</session_title>
+    <clear_all_btn>全部清空</clear_all_btn>
+    <save_session_btn>保存会话</save_session_btn>
+    <compare_btn>比较</compare_btn>
+    <open_tab_btn>在标签页中打开</open_tab_btn>
+    <id_col>ID</id_col>
+    <datetime_col>日期时间</datetime_col>
+    <db_col>数据库</db_col>
+    <user_col>用户</user_col>
+    <queries_col>查询数</queries_col>
+    <elapsed_col>耗时</elapsed_col>
+    <rows_col>行数</rows_col>
+    <recieved_col>接收量（KB）</recieved_col>
+    <saved_col>会话已保存</saved_col>
+    <sess_performed_str>已执行</sess_performed_str>
+    <sess_saved_yes_str>是</sess_saved_yes_str>
+    <sess_saved_no_str>否</sess_saved_no_str>
+</sessions_view>
+
+<archive_view>
+    <archive_title>归档</archive_title>
+    <clear_all_btn>全部清空</clear_all_btn>
+    <delete_btn>删除</delete_btn>
+    <comment_btn>备注</comment_btn>
+    <compare_btn>比较</compare_btn>
+    <open_tab_btn>在标签页中打开</open_tab_btn>
+    <id_col>ID</id_col>
+    <datetime_col>日期时间</datetime_col>
+    <db_col>数据库</db_col>
+    <user_col>用户</user_col>
+    <queries_col>查询数</queries_col>
+    <elapsed_col>耗时</elapsed_col>
+    <rows_col>行数</rows_col>
+    <recieved_col>接收量（KB）</recieved_col>
+    <comment_col>备注</comment_col>
+</archive_view>
+
+<session_view>
+    <queries_str>查询数</queries_str>
+    <get_str>已接收</get_str>
+    <sent_str>已发送</sent_str>
+    <kb_str>KB</kb_str>
+    <rows_str>行数</rows_str>
+    <elapsed_str>耗时</elapsed_str>
+    <performed_str>已执行</performed_str>
+    <export_btn>导出</export_btn>
+    <twin_btn>重复查询</twin_btn>
+    <code_query_str>SQL 查询代码</code_query_str>
+    <copy_btn>复制到剪贴板</copy_btn>
+    <to_sql_editor_btn>执行</to_sql_editor_btn>
+    <explain_btn>执行计划</explain_btn>
+    <num_col>#</num_col>
+    <time_ms_col>耗时（ms）</time_ms_col>
+    <time_per_col>耗时占比</time_per_col>
+    <longest_per_col>最长耗时占比</longest_per_col>
+    <rows_col>行数</rows_col>
+    <get_col>接收量（KB）</get_col>
+    <sent_col>发送量（KB）</sent_col>
+    <query_col>查询</query_col>
+    <filter_btn>筛选</filter_btn>
+    <filter_all_str>全部</filter_all_str>
+    <filter_read_str>读取请求（SELECT、SHOW、DESCRIBE）</filter_read_str>
+    <filter_write_str>写入请求（INSERT、DELETE、UPDATE、CREATE、DROP、ALTER、REPLACE）</filter_write_str>
+    <filter_error_str>出错的请求</filter_error_str>
+    <filter_keyword_str>关键字</filter_keyword_str>
+    <filter_type_str>请求类型</filter_type_str>
+</session_view>
+
+<flow_view>
+    <flow_title>实时查询</flow_title>
+    <num_col>#</num_col>
+    <query_col>查询</query_col>
+    <time_ms_col>耗时（ms）</time_ms_col>
+    <get_col>接收量（KB）</get_col>
+    <rows_col>行数</rows_col>
+    <code_query_str>SQL 查询代码</code_query_str>
+    <copy_btn>复制到剪贴板</copy_btn>
+    <to_sql_editor_btn>执行</to_sql_editor_btn>
+    <explain_btn>执行计划</explain_btn>
+    <session_col>会话</session_col>
+    <stat_schedule_str>分析器中的查询</stat_schedule_str>
+    <stat_shedule_other_str>其他</stat_shedule_other_str>
+    <stat_shedule_no_status_str>无法获取 SHOW STATUS</stat_shedule_no_status_str>
+    <export_btn>导出</export_btn>
+    <filter_btn>筛选</filter_btn>
+</flow_view>
+
+<update_view>
+    <update_title>更新</update_title>
+    <update_confirm1_str>有新版本可用。</update_confirm1_str>
+    <update_confirm2_str>是否下载？</update_confirm2_str>
+    <no_updates_str>当前没有可用更新</no_updates_str>
+    <no_get_info_str>无法获取更新信息</no_get_info_str>
+    <no_btn>否</no_btn>
+    <yes_btn>是</yes_btn>
+</update_view>
+
+<sql_view>
+    <sql_title>SQL</sql_title>
+    <db_name_str>数据库名称</db_name_str>
+    <execute_btn>执行</execute_btn>
+    <profile_btn>性能分析</profile_btn>
+    <explain_btn>执行计划</explain_btn>
+    <vexplain_btn>执行计划+</vexplain_btn>
+    <export_btn>导出</export_btn>
+    <error_sql>SQL 查询错误</error_sql>
+    <log_title_str>SQL 执行日志</log_title_str>
+    <execute_tab_title>执行</execute_tab_title>
+    <profile_tab_title>性能分析</profile_tab_title>
+    <explain_tab_title>执行计划</explain_tab_title>
+    <explain_key_null>查询未使用索引</explain_key_null>
+    <explain_type_index>执行全表扫描</explain_type_index>
+    <explain_type_all>读取表中的全部数据</explain_type_all>
+    <explain_rows_100>预计扫描的行数过多</explain_rows_100>
+    <filter_str>筛选</filter_str>
+    <num_col>#</num_col>
+    <query_col>查询</query_col>
+    <rows_col>行数</rows_col>
+    <duration_col>耗时（ms）</duration_col>
+    <undo_btn>撤销</undo_btn>
+    <find_btn>查找</find_btn>
+    <find_title>查找</find_title>
+    <wordwrap_btn>自动换行</wordwrap_btn>
+    <highlight_btn>语法高亮</highlight_btn>
+    <size_str>大小</size_str>
+    <explain_mdb_btn>MariaDB 执行计划</explain_mdb_btn>
+    <status_str>状态：</status_str>
+    <status_duration_str>耗时</status_duration_str>
+    <status_ms_str>ms</status_ms_str>
+    <status_rows_str>结果行数</status_rows_str>
+    <pg_schema>模式</pg_schema>
+    <pg_analyze>ANALYZE（执行）</pg_analyze>
+    <pg_analyze_executes>EXPLAIN ANALYZE 会实际执行语句，并可能修改数据。</pg_analyze_executes>
+    <pg_explain_only>显示预估执行计划，不执行语句。</pg_explain_only>
+    <pg_finish_transaction>切换数据库前，请先结束当前事务。</pg_finish_transaction>
+    <pg_single_explain>EXPLAIN 仅支持一条 SQL 语句。</pg_single_explain>
+    <pg_copy_client>COPY STDIN/STDOUT 需要支持流式传输的数据库客户端。代理支持此操作，SQL 编辑器不支持。</pg_copy_client>
+</sql_view>
+
+<errors>
+    <error_str>错误</error_str>
+    <lang_error>语言文件与当前程序版本不兼容</lang_error>
+    <sess_run_error>会话正在运行！</sess_run_error>
+    <mysql_conn_error>连接 MySQL 服务器失败。
+请检查连接设置。</mysql_conn_error>
+</errors>
+
+<twin_view>
+    <title_str>重复查询</title_str>
+    <replays_col>重复次数</replays_col>
+    <rows_col>行数</rows_col>
+    <sql_col>SQL 代码</sql_col>
+    <not_found>未找到重复查询</not_found>
+</twin_view>
+
+<connections_view>
+    <connections_title>连接</connections_title>
+    <new_btn>新建</new_btn>
+    <delete_btn>删除</delete_btn>
+    <test_btn>测试</test_btn>
+    <close_btn>关闭</close_btn>
+    <server_group>数据库服务器</server_group>
+    <connect_name_str>连接名称</connect_name_str>
+    <db_type_str>数据库类型</db_type_str>
+    <connect_meth_str>连接方式</connect_meth_str>
+    <server_host_str>主机名或 IP</server_host_str>
+    <server_port_str>端口</server_port_str>
+    <server_username>用户名</server_username>
+    <server_password>密码</server_password>
+    <compres_str>压缩协议</compres_str>
+    <local_socket_str>本地套接字/管道</local_socket_str>
+    <interact_pass_str>不保存密码</interact_pass_str>
+    <interact_pass_enter_title>输入密码</interact_pass_enter_title>
+    <status_group>状态</status_group>
+    <check_status_str>监控数据库状态</check_status_str>
+    <status_str>状态检查间隔</status_str>
+    <status_sec_str>秒</status_sec_str>
+    <profiler_group>性能分析器</profiler_group>
+    <profiler_port_str>分析器端口</profiler_port_str>
+    <net_connect>允许远程计算机访问</net_connect>
+    <exists_error_title>错误</exists_error_title>
+    <exists_error_str>已存在同名连接配置</exists_error_str>
+    <delete_question_title>删除</delete_question_title>
+    <delete_question_str>是否删除此连接配置</delete_question_str>
+    <test_title>测试</test_title>
+    <test_success_str>测试成功</test_success_str>
+    <test_failed_str>测试失败</test_failed_str>
+    <database_str>数据库</database_str>
+    <ssl_mode_str>SSL（程序连接）</ssl_mode_str>
+    <ssl_root_cert_str>根证书</ssl_root_cert_str>
+    <pg_capture_notice>要采集 SQL，客户端连接必须不加密。TLS 流量仅转发，不采集 SQL。</pg_capture_notice>
+    <pg_monitor_pending>此版本不支持 PostgreSQL 服务器监控。</pg_monitor_pending>
+    <pg_sql_pending>此版本不支持 PostgreSQL SQL 工具。</pg_sql_pending>
+    <pg_capture_unavailable>无法采集 SQL</pg_capture_unavailable>
+</connections_view>
+
+<data_view>
+    <data_title>数据</data_title>
+    <copy_to_clipboard>复制到剪贴板</copy_to_clipboard>
+</data_view>
+
+<compare_view>
+    <title_str>比较会话</title_str>
+</compare_view>
+
+<export_view>
+    <export_title>导出</export_title>
+    <fields_group>导出字段</fields_group>
+    <file_group>文件路径</file_group>
+    <browse_btn>浏览</browse_btn>
+    <ok_btn>导出</ok_btn>
+    <cancel_btn>取消</cancel_btn>
+    <type_file_group>文件类型</type_file_group>
+</export_view>
+</general>
