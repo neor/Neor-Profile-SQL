@@ -24,5 +24,5 @@ Cross-platform database optimization application. It works like a proxy for catc
 ## Last releases
 https://github.com/neor/Neor-Profile-SQL/releases
 
-## Official site:
+## Official site
 https://profilesql.com/
