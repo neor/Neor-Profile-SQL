@@ -1,7 +1,7 @@
 # Neor-Profile-SQL
-Cross-platform database optimization application. It works like a proxy for catching sessions and SQL queries to the database.
+Cross-platform database optimization application. It works like a proxy for catching sessions and SQL queries to the database MySQL / MariaDB or Postgres.
 
-<img width="1193" height="829" alt="main window" src="https://github.com/user-attachments/assets/36b8e342-1f31-4c44-9b40-51378b0d1239" />
+<img width="1193" height="971" alt="main window" src="https://github.com/user-attachments/assets/3c700e42-ce78-444d-97b3-1ee06628d2d4" />
 
 ## Main features
 - Database loading
@@ -9,6 +9,8 @@ Cross-platform database optimization application. It works like a proxy for catc
 - Show all queries
 - Find duplicate queries
 - Explain SQL queries
+- Profile SQL queries
+- Index Analyzer
 - SQL editor
 - Multilanguage
 - Cross-platform
@@ -16,7 +18,7 @@ Cross-platform database optimization application. It works like a proxy for catc
 ## Support databases
 - MySQL
 - MariaDB
-- PostgreSQL
+- Postgres
  
 ## Support OS
 - Windows 
