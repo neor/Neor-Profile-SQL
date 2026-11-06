@@ -1,0 +1,561 @@
+<?xml version="1.0" encoding="utf-8"?>
+<general>
+<version>
+	<language>Español</language>
+	<compatible>6.1</compatible>
+	<translator>Emilio Melgarejo Kalinin, Nikolay Lisienko</translator>
+</version>
+
+<toolbar>
+	<start_btn>Start</start_btn>
+	<stop_btn>Stop</stop_btn>
+	<sql_btn>Consulta SQL</sql_btn>
+    <connections_btn>Conexiones</connections_btn>
+	<settings_btn>Configuración</settings_btn>
+	<about_btn>Acerca</about_btn>
+    <archive_btn>Archivo</archive_btn>
+    <sql_tooltip>Editor SQL</sql_tooltip>
+    <archive_tooltip>Archivo de sesiones</archive_tooltip>
+</toolbar>
+
+<settings_view>
+	<settings_title>Configuración</settings_title>
+	
+	<general_group>Generales</general_group>
+	<language_str>Idioma</language_str>
+	<check_new_str>Comprobar actualización del programa</check_new_str>
+	<auto_open_str>Auto abrir nueva sesión en la pestaña</auto_open_str>
+    <auto_start_str>Inicio automático</auto_start_str>
+    <stay_on_top_str>Mantente al tanto</stay_on_top_str>
+
+    <max_lines_in_flow_str>Máximo de líneas en ficha Flujo</max_lines_in_flow_str>
+    <max_sessions_in_sessions_str>Máximo de sesiones en ficha Sesiones</max_sessions_in_sessions_str>
+    <always_tunneling_str>Siempre túnel en modo de fondo</always_tunneling_str>
+
+    <theme_str>Tema (al reiniciar)</theme_str>
+    <theme_system_str>Sistema</theme_system_str>
+    <theme_light_str>Claro</theme_light_str>
+    <theme_dark_str>Oscuro</theme_dark_str>
+</settings_view>
+
+<about_view>
+	<about_title>Acerca del programa</about_title>
+	
+	<version_str>Versión</version_str>
+	<license_str>Licencia: Freeware propietario</license_str>
+	<license_usage_str>Gratis para uso personal y comercial.</license_usage_str>
+	<disclaimer_str>Renuncia de responsabilidad: Este software se presenta por la Neor Digital en forma de versión “As Is” y no se dan ningunas garantías expresas o supuestas, incluyendo, pero sin limitarse, a garantías del estado y utilidad del producto. El propietario del derecho de autor o los participantes, en ningún caso, asumirán la responsabilidad por cualesquiera daños directos, indirectos, accidentales, especiales o indirectos, incluyendo, pero no limitándose con la adquisición de productos o servicios relevantes; pérdida de datos o beneficios).</disclaimer_str>
+    <update_btn>Compruebe la actualización</update_btn>
+    <close_btn>Cerrar</close_btn>
+</about_view>
+
+<statistics_view>
+	<statistics_title>Monitor</statistics_title>
+
+	<stat_schedule_str>Gráfico de carga de base de datos</stat_schedule_str>
+	<stat_shedule_other_str>Otro</stat_shedule_other_str>
+    <stat_shedule_no_status_str>No se puede obtener SHOW STATUS</stat_shedule_no_status_str>
+	
+    <stat_server_group>Servidor de base de datos</stat_server_group>
+	<server_uptime_str>Tiempo de funcionamiento:</server_uptime_str>
+	<stat_avgqueries_str>Solicitudes a BD por seg:</stat_avgqueries_str>
+	<stat_nodata_str>No</stat_nodata_str>
+    <stat_username>Usuario:</stat_username>
+    <stopped_str>Detenido</stopped_str>
+    <running_str>Marcha</running_str>
+	
+    <profiler_stat_group>Estadística del profiler</profiler_stat_group>
+	<queries_sent_str>Solicitudes enviadas:</queries_sent_str>
+	<rows_str>Líneas recibidas:</rows_str>
+	<data_str>Datos recibidos:</data_str>
+    <sessions_str>Sesiones:</sessions_str>
+    <error_con_str>Conexiones de error:</error_con_str>
+    <error_queries_str>Solicitudes de error:</error_queries_str>
+	
+    <profiler_group>Profiler</profiler_group>
+    <profiler_server_group>Servidor del perfilador</profiler_server_group>
+
+    <live_data_tab>Datos en tiempo real</live_data_tab>
+    <profiler_tab>Profiler</profiler_tab>
+    <connections_graph_str>Conexiones</connections_graph_str>
+    <queries_graph_str>Consultas</queries_graph_str>
+    <upload_graph_str>Carga de tráfico</upload_graph_str>
+    <download_graph_str>Descarga de tráfico</download_graph_str>
+
+    <top_db_group>TOP</top_db_group>
+    <databases_db_group>Abrir DB</databases_db_group>
+    <tables_db_group>Abrir tablas</tables_db_group>
+    <queries_db_group>Solicitudes</queries_db_group>
+	<processes_group>Procesos</processes_group>
+
+    <top_prof_group>TOP</top_prof_group>
+    <databases_prof_group>BD</databases_prof_group>
+    <queries_prof_group>Solicitudes</queries_prof_group>
+
+    <num_col>#</num_col>
+    <user_col>Usuario</user_col>
+    <query_col>Solicitud</query_col>
+    <table_col>Tabla</table_col>
+    <database_col>BD</database_col>
+    <count_col>Contar</count_col>
+    <id_col>Id</id_col>
+    <host_col>Host</host_col>
+    <db_col>BD</db_col>
+    <command_col>Comando</command_col>
+    <time_col>Tiempo</time_col>
+
+    <commands_db_group>Comandos</commands_db_group>
+    <per_hour_col>Por hora</per_hour_col>
+    <per_sec_col>Por seg</per_sec_col>
+    <percent_col>por ciento</percent_col>
+    <pg_transactions_rate>Transacciones/s</pg_transactions_rate>
+    <pg_transactions>Transacciones</pg_transactions>
+    <pg_rows_changed>Filas modificadas</pg_rows_changed>
+    <pg_state>Estado</pg_state>
+    <pg_network_unavailable>Contadores de red no disponibles</pg_network_unavailable>
+    <pg_statement_unavailable>Contadores SQL del servidor no disponibles</pg_statement_unavailable>
+    <pg_server_scope>Todas las bases, incluidas las transacciones y conexiones de supervisión. Los contadores pueden actualizarse con retraso.</pg_server_scope>
+    <pg_table_scope>Filas modificadas en la base conectada desde el reinicio de las estadísticas.</pg_table_scope>
+    <pg_restricted>Privilegios insuficientes</pg_restricted>
+    <pg_tables>Tablas de la base</pg_tables>
+    <pg_databases>Bases del servidor</pg_databases>
+    <monitor_tooltip>Monitor de base de datos</monitor_tooltip>
+</statistics_view>
+
+<sessions_view>
+	<session_title>Sesiones</session_title>
+	
+	<clear_all_btn>Limpiar todo</clear_all_btn>
+	<save_session_btn>Guardar sesión</save_session_btn>
+	<compare_btn>Comparar</compare_btn>
+	<open_tab_btn>Abrir en pestaña</open_tab_btn>
+	
+	<id_col>Id</id_col>
+	<datetime_col>Fecha/hora</datetime_col>
+	<db_col>BD</db_col>
+	<user_col>Usuario</user_col>
+	<queries_col>Solicitudes</queries_col>
+	<elapsed_col>Pasó</elapsed_col>
+	<rows_col>Líneas</rows_col>
+	<recieved_col>Kb recibidos</recieved_col>
+	<saved_col>Guardado</saved_col>
+
+	<sess_performed_str>En curso</sess_performed_str>
+	<sess_saved_yes_str>Si</sess_saved_yes_str>
+	<sess_saved_no_str>No</sess_saved_no_str>
+    <sessions_tooltip>Todas las sesiones</sessions_tooltip>
+</sessions_view>
+
+<archive_view>
+	<archive_title>Archivo</archive_title>
+
+	<clear_all_btn>Limpiar todo</clear_all_btn>
+	<delete_btn>Eliminar</delete_btn>
+	<comment_btn>Comentario</comment_btn>	
+	<compare_btn>Comparar</compare_btn>
+	<open_tab_btn>Abrir en pestaña</open_tab_btn>	
+
+	<id_col>Id</id_col>
+	<datetime_col>Fecha/hora</datetime_col>
+	<db_col>BD</db_col>
+	<user_col>Usuario</user_col>
+	<queries_col>Solicitudes</queries_col>
+	<elapsed_col>Pasó</elapsed_col>
+	<rows_col>Líneas</rows_col>
+	<recieved_col>Kb recibidos</recieved_col>
+	<comment_col>Comentario</comment_col>
+</archive_view>
+
+<session_view>
+	<queries_str>solicitudes</queries_str>
+	<get_str>recibido</get_str>
+	<sent_str>enviado</sent_str>
+	<kb_str>Kb</kb_str>
+	<rows_str>líneas</rows_str>
+	<elapsed_str>duración</elapsed_str>
+	<performed_str>en curso</performed_str>
+	<export_btn>Exportar</export_btn>
+	<twin_btn>Repeticiones</twin_btn>
+	<code_query_str>Código SQL de solicitud</code_query_str>
+	<copy_btn>Copiar al portapapeles</copy_btn>
+    <to_sql_editor_btn>Ejecutar</to_sql_editor_btn>
+    <explain_btn>Plan de ejecución</explain_btn>
+	<num_col>#</num_col>
+	<time_ms_col>Tiempo ms</time_ms_col>
+	<time_per_col>Tiempo %</time_per_col>
+	<longest_per_col>Duración %</longest_per_col>
+	<rows_col>Líneas</rows_col>
+	<get_col>Kb recibidos</get_col>
+	<sent_col>Kb enviados</sent_col>
+	<query_col>Solicitud</query_col>
+    <filter_btn>Filtro</filter_btn>
+    <filter_all_str>Todo</filter_all_str>
+    <filter_read_str>Leer solicitudes (SELECT, SHOW, DESCRIBE)</filter_read_str>
+    <filter_write_str>Escribe solicitudes (INSERT, DELETE, UPDATE, CREATE, DROP, ALTER, REPLACE)</filter_write_str>
+    <filter_error_str>De error solicitudes</filter_error_str>
+    <filter_keyword_str>Palabra clave</filter_keyword_str>
+    <filter_type_str>Tipo de una solicitud</filter_type_str>
+    <session_tooltip>Sesión</session_tooltip>
+</session_view>
+
+<flow_view>
+    <flow_title>Flujo</flow_title>
+    <num_col>#</num_col>
+    <query_col>Solicitud</query_col>
+    <time_ms_col>Tiempo ms</time_ms_col>
+    <get_col>Kb recibidos</get_col>
+    <rows_col>Líneas</rows_col>
+    <code_query_str>Código SQL de solicitud</code_query_str>
+    <copy_btn>Copiar al portapapeles</copy_btn>
+    <to_sql_editor_btn>Ejecutar</to_sql_editor_btn>
+    <explain_btn>Plan de ejecución</explain_btn>
+
+    <session_col>Sesión</session_col>
+    <stat_schedule_str>Consultas en el Perfil</stat_schedule_str>
+    <stat_shedule_other_str>Otro</stat_shedule_other_str>
+    <stat_shedule_no_status_str>No se puede obtener SHOW STATUS</stat_shedule_no_status_str>
+
+    <export_btn>Exportar</export_btn>
+    <filter_btn>Filtro</filter_btn>
+    <flow_tooltip>Flujo de consultas de las sesiones</flow_tooltip>
+    <clear_btn>Limpiar</clear_btn>
+    <freeze_btn>Congelar</freeze_btn>
+    <newest_first>Más recientes primero</newest_first>
+    <oldest_first>Más antiguas primero</oldest_first>
+    <close_preview>Cerrar vista previa SQL</close_preview>
+</flow_view>
+
+<update_view>
+	<update_title>Actualización</update_title>
+	<update_confirm1_str>Está disponible la nueva versión del programa.</update_confirm1_str>
+	<update_confirm2_str>¿Desea descargarla?</update_confirm2_str>
+	<no_updates_str>Actualmente no hay actualizaciones</no_updates_str>
+	<no_get_info_str>No puedo recibir datos de la actualización</no_get_info_str>
+	<no_btn>No</no_btn>
+    <yes_btn>Si</yes_btn>
+</update_view>
+
+<sql_view>
+	<sql_title>SQL</sql_title>
+    <db_name_str>Servidor</db_name_str>
+	<execute_btn>Ejecutar</execute_btn>
+	<profile_btn>Perfilar</profile_btn>
+    <explain_btn>Plan de ejecución</explain_btn>
+	<vexplain_btn>Plan de ejecución+</vexplain_btn>
+    <export_btn>Exportar</export_btn>
+	<error_sql>Error de solicitud SQL</error_sql>
+    <log_title_str>SQL ejecutar log</log_title_str>
+    <execute_tab_title>Ejecutar</execute_tab_title>
+    <profile_tab_title>Perfil</profile_tab_title>
+    <explain_tab_title>Plan de ejecución</explain_tab_title>
+    <explain_key_null>Índice de consulta no se encuentra</explain_key_null>
+    <explain_type_index>Un escaneo completo de tabla se realiza</explain_type_index>
+    <explain_type_all>Lee todos los datos de la tabla</explain_type_all>
+    <explain_rows_100>El resultado es demasiadas filas</explain_rows_100>
+    <filter_str>Filtro</filter_str>
+    <num_col>#</num_col>
+    <query_col>Solicitud</query_col>
+    <rows_col>Líneas</rows_col>
+    <duration_col>Duración ms</duration_col>
+
+    <undo_btn>Deshacer</undo_btn>
+    <find_btn>Búsqueda</find_btn>
+    <find_title>Búsqueda</find_title>
+    <wordwrap_btn>Ajuste de línea</wordwrap_btn>
+    <highlight_btn>Resaltado</highlight_btn>
+    <size_str>Tamaño</size_str>
+    <explain_mdb_btn>Plan de ejecución de MariaDB</explain_mdb_btn>
+
+    <status_str>Estado:</status_str>
+    <status_duration_str>Duración</status_duration_str>
+    <status_ms_str>ms</status_ms_str>
+    <status_rows_str>Líneas encontradas</status_rows_str>
+    <pg_schema>Esquema</pg_schema>
+    <pg_analyze>ANALYZE (ejecutar)</pg_analyze>
+    <pg_analyze_executes>EXPLAIN ANALYZE ejecuta la sentencia y puede modificar datos.</pg_analyze_executes>
+    <pg_explain_only>Mostrar el plan estimado sin ejecutar la sentencia.</pg_explain_only>
+    <pg_finish_transaction>Finalice la transacción antes de cambiar de base de datos.</pg_finish_transaction>
+    <pg_single_explain>EXPLAIN requiere exactamente una sentencia SQL.</pg_single_explain>
+    <pg_copy_client>COPY STDIN/STDOUT requiere un cliente con transferencia de datos. El proxy lo admite, el editor SQL no.</pg_copy_client>
+    <query_tooltip>Consulta SQL</query_tooltip>
+    <refresh_databases>Leer bases de datos</refresh_databases>
+    <maximize_code>Ampliar código</maximize_code>
+    <maximize_log>Ampliar registro</maximize_log>
+</sql_view>
+
+<errors>
+	<error_str>Error</error_str>
+	<lang_error>La versión del archivo de traducción 
+no es compatible con esta versión del programa</lang_error>
+	<sess_run_error>¡Sesión en curso!</sess_run_error>
+	<mysql_conn_error>Error de conexión a MySQL servidor</mysql_conn_error>
+</errors>
+
+<twin_view>
+	<title_str>Repeticiones de sesión</title_str>
+	<replays_col>Repeticiones</replays_col>
+	<rows_col>Líneas</rows_col>
+	<sql_col>Código SQL</sql_col>
+	<not_found>No se encontraron solicitudes repetidas</not_found>
+</twin_view>
+
+<connections_view>
+	<connections_title>Conexiones</connections_title>
+	<new_btn>Nuevo</new_btn>
+	<delete_btn>Borrar</delete_btn>
+	<test_btn>Ensayo</test_btn>
+    <close_btn>Cerrar</close_btn>
+	<server_group>Servidor</server_group>
+	<connect_name_str>Nombre de conexión</connect_name_str>
+	<db_type_str>Tipo</db_type_str>
+	<connect_meth_str>Método de conexión</connect_meth_str>
+	<server_host_str>Hostname o IP</server_host_str>
+	<server_port_str>Puerto</server_port_str>
+	<server_username>Usuario</server_username>
+	<server_password>Contraseña</server_password>
+	<compres_str>Protocolo de compresión</compres_str>
+    <local_socket_str>Socket local/canalización</local_socket_str>
+    <interact_pass_str>No guarde la contraseña</interact_pass_str>
+    <interact_pass_enter_title>Introduce el password</interact_pass_enter_title>
+	
+	<status_group>Estado</status_group>
+	<check_status_str>Comprobar el estado</check_status_str>
+	<status_str>Periodo de comprobación</status_str>
+	<status_sec_str>seg</status_sec_str>
+	
+	<profiler_group>Profiler</profiler_group>
+	<profiler_port_str>Puerto del profiler</profiler_port_str>
+	<net_connect>Aceptar conexiones de red</net_connect>
+
+    <exists_error_title>Error</exists_error_title>
+    <exists_error_str>Perfil con el mismo nombre ya existe</exists_error_str>
+    <delete_question_title>Borrar</delete_question_title>
+    <delete_question_str>¿Quieres eliminar el perfil</delete_question_str>
+    <test_title>Prueba</test_title>
+    <test_success_str>La prueba es exitosa</test_success_str>
+    <test_failed_str>Prueba falla</test_failed_str>
+
+    <database_str>Base de datos</database_str>
+    <ssl_mode_str>SSL (conexión de la aplicación)</ssl_mode_str>
+    <ssl_root_cert_str>Certificado raíz</ssl_root_cert_str>
+    <pg_capture_notice>La captura SQL requiere conexiones de clientes sin cifrar. El tráfico TLS se reenvía sin captura SQL.</pg_capture_notice>
+    <pg_monitor_pending>La supervisión del servidor PostgreSQL no está disponible en esta compilación.</pg_monitor_pending>
+    <pg_sql_pending>Las herramientas SQL de PostgreSQL no están disponibles en esta compilación.</pg_sql_pending>
+    <pg_capture_unavailable>Captura SQL no disponible</pg_capture_unavailable>
+</connections_view>
+
+<data_view>
+    <data_title>Datos</data_title>
+    <copy_to_clipboard>Copiar al portapapeles</copy_to_clipboard>
+</data_view>
+
+<compare_view>
+    <title_str>Comparar sesiones</title_str>
+</compare_view>
+
+<export_view>
+    <export_title>Exportar</export_title>
+    <fields_group>Campos de exportación</fields_group>
+    <file_group>Ruta de archivo</file_group>
+    <browse_btn>Navega</browse_btn>
+    <ok_btn>Exportar</ok_btn>
+    <cancel_btn>Cancelar</cancel_btn>
+    <type_file_group>Tipo de archivo</type_file_group>
+</export_view>
+<query_tools>
+    <text source="Database">Base de datos</text>
+    <text source="Indexes">Índices</text>
+    <text source="expression">expresión</text>
+    <text source="Index usage statistics are unavailable. %1">Las estadísticas de uso de índices no están disponibles. %1</text>
+    <text source="Performance Schema is disabled on this server.&#10;&#10;To enable it on MySQL or MariaDB:&#10;1. Open the server configuration file (my.cnf on Linux or my.ini on Windows).&#10;2. Add the following setting to the existing [mysqld] section:&#10;&#10;[mysqld]&#10;performance_schema = ON&#10;&#10;3. Restart the database service and check that the setting is ON:&#10;&#10;SHOW VARIABLES LIKE 'performance_schema';&#10;&#10;Let the server collect statistics during normal use, then run Analyze database again.">Performance Schema está desactivado en este servidor.&#10;&#10;Para activarlo en MySQL o MariaDB:&#10;1. Abre el archivo de configuración del servidor (my.cnf en Linux o my.ini en Windows).&#10;2. Añade este ajuste a la sección [mysqld] existente:&#10;&#10;[mysqld]&#10;performance_schema = ON&#10;&#10;3. Reinicia el servicio de base de datos y comprueba que el ajuste esté en ON:&#10;&#10;SHOW VARIABLES LIKE 'performance_schema';&#10;&#10;Deja que el servidor recopile estadísticas durante el uso normal y vuelve a analizar la base de datos.</text>
+    <text source="Performance Schema table I/O instrumentation is disabled.">La instrumentación de E/S de tablas está desactivada en Performance Schema.</text>
+    <text source="No table reads have been observed for this database in the current counters.">Los contadores actuales no registran lecturas de tablas en esta base de datos.</text>
+    <text source="Table">Tabla</text>
+    <text source="Index">Índice</text>
+    <text source="Key parts">Columnas de la clave</text>
+    <text source="Index reads">Lecturas por índice</text>
+    <text source="Table reads">Lecturas de la tabla</text>
+    <text source="Reason">Motivo</text>
+    <text source="Table was read, but this index recorded no reads.">Se leyó la tabla, pero no se registraron lecturas por este índice.</text>
+    <text source="Based on the current Performance Schema counters. Unique indexes and indexes starting with a visible foreign-key column are excluded. Counters can reset and may cover only part of the workload.">Según los contadores actuales de Performance Schema. Se excluyen los índices únicos y los que empiezan por una columna visible de clave foránea. Los contadores pueden reiniciarse y cubrir solo parte de la carga.</text>
+    <text source="Finding">Hallazgo</text>
+    <text source="Matching index">Índice coincidente</text>
+    <text source="Matching key parts">Columnas de la clave coincidente</text>
+    <text source="Duplicate">Duplicado</text>
+    <text source="Left-prefix overlap">Solapamiento del prefijo izquierdo</text>
+    <text source="Compares visible BTREE indexes with named columns. Primary keys are excluded. Review constraints and usage before changing indexes.">Compara índices BTREE visibles con columnas con nombre, excepto claves primarias. Revisa las restricciones y el uso antes de cambiar los índices.</text>
+    <text source="Filter by table or index name">Filtrar por nombre de tabla o índice</text>
+    <text source="Index recommendations are unavailable for this query. Use a SELECT on one table with simple WHERE filters, an INNER JOIN of up to three tables, or a LEFT JOIN of two tables. Join conditions must use qualified columns.">No hay recomendaciones para esta consulta. Usa un SELECT sobre una tabla con filtros WHERE simples, un INNER JOIN de hasta tres tablas o un LEFT JOIN de dos tablas. Califica las columnas de las condiciones de unión.</text>
+    <text source="Current indexes">Índices existentes</text>
+    <text source="Index suggestions">Recomendaciones de índices</text>
+    <text source="Key columns are listed in index order. Recommendations consider visible BTREE indexes with named columns.">Las columnas de la clave aparecen en el orden del índice. Las recomendaciones consideran índices BTREE visibles con columnas con nombre.</text>
+    <text source="%1 (alias: %2)">%1 (alias: %2)</text>
+    <text source="primary key">clave primaria</text>
+    <text source="unique index">índice único</text>
+    <text source="non-unique index">índice no único</text>
+    <text source=" · excluded from matching"> · excluido de la comparación</text>
+    <text source="No indexes found in the table metadata.">No se encontraron índices en los metadatos de la tabla.</text>
+    <text source="Cannot suggest an index for this JOIN. Each pair of join columns must have matching supported types and collations.">No se puede recomendar un índice para este JOIN. Cada par de columnas debe tener tipos admitidos y reglas de cotejo coincidentes.</text>
+    <text source="Suggestions consider a plan that starts with %1 and joins the other tables in SQL order. Check EXPLAIN for the actual join order.">Las recomendaciones suponen que se lee primero %1 y se unen las demás tablas en el orden del SQL. Consulta EXPLAIN para ver el orden real.</text>
+    <text source="ORDER BY is not evaluated by these suggestions.">Estas recomendaciones no evalúan ORDER BY.</text>
+    <text source="Cannot suggest an index for %1. The column is unavailable or its type does not match a supported literal comparison.">No se puede recomendar un índice para %1. La columna no está disponible o su tipo no admite esta comparación con un literal.</text>
+    <text source="No supported lookup or filter columns for this table.">Esta tabla no tiene columnas admitidas para búsquedas o filtros.</text>
+    <text source="No supported WHERE filter on the left table. The join condition can be used to look up matching rows on the right.">No hay un filtro WHERE admitido en la tabla izquierda. La condición de unión permite buscar filas coincidentes en la tabla derecha.</text>
+    <text source="The join supplies a lookup value for %1 when the other table is read first.">Si se lee primero la otra tabla, la unión proporciona un valor de búsqueda para %1.</text>
+    <text source="When the other table is read first, a composite key can look up the combination (%1) together, narrowing the search to rows that match all join columns.">Si se lee primero la otra tabla, una clave compuesta permite buscar la combinación (%1) y limitar la búsqueda a las filas que coinciden en todas las columnas de unión.</text>
+    <text source="Check EXPLAIN for the actual join order.">Consulta EXPLAIN para ver el orden real de unión.</text>
+    <text source="&#10;&#10;The unique key can find the row first. Remaining join conditions are checked on that row. Check EXPLAIN for the actual join order.">&#10;&#10;La clave única permite encontrar primero la fila y comprobar después las demás condiciones de unión. Consulta EXPLAIN para ver el orden real.</text>
+    <text source="Existing index: %1 on %2 (%3).&#10;&#10;%4">Índice existente: %1 en %2 (%3).&#10;&#10;%4</text>
+    <text source="Equality conditions match its full unique key, so the server can look up at most one row.">Las condiciones de igualdad cubren toda la clave única, así que el servidor encuentra como máximo una fila.</text>
+    <text source="Its leading columns match the equality conditions and a range condition, if present.">Las primeras columnas coinciden con las condiciones de igualdad y con una condición de rango, si la hay.</text>
+    <text source="No candidate shown because the combined key exceeds the analyzer's 767-byte limit.">No se muestra un candidato porque la clave compuesta supera el límite de 767 bytes del analizador.</text>
+    <text source="Leading equality columns can narrow the index search to matching values.">Las primeras columnas con condiciones de igualdad pueden limitar la búsqueda a valores coincidentes.</text>
+    <text source="The key can narrow the search using these filters: %1.">La clave puede acotar la búsqueda con estos filtros: %1.</text>
+    <text source="The next column, %1, can limit the scan to the requested range.">La siguiente columna, %1, puede limitar el recorrido al rango solicitado.</text>
+    <text source="Other range conditions still need to be checked after finding candidate rows.">Las demás condiciones de rango deben comprobarse en las filas encontradas.</text>
+    <text source="Actual benefit depends on selectivity and workload. Compare EXPLAIN plans before adopting the index.">El beneficio depende de la selectividad y la carga. Compara los planes EXPLAIN antes de adoptar el índice.</text>
+    <text source="Candidate BTREE index on %1 (%2)&#10;&#10;%3">Índice BTREE propuesto en %1 (%2)&#10;&#10;%3</text>
+    <text source="&#10;&#10;Some join columns have unsupported types, lengths or collations and are excluded from this lookup.">&#10;&#10;Algunas columnas de unión se excluyen de esta búsqueda por tener tipos, longitudes o reglas de cotejo no admitidos.</text>
+    <text source="&amp;Database">&amp;Base de datos</text>
+    <text source="Analyze database">Analizar base de datos</text>
+    <text source="Data Size">Tamaño de los datos</text>
+    <text source="Estimated space allocated for table data in the selected database.">Espacio estimado asignado a los datos de las tablas de la base seleccionada.</text>
+    <text source="Index Size">Tamaño de los índices</text>
+    <text source="Estimated space allocated for indexes. For InnoDB, this is secondary index space.">Espacio estimado asignado a los índices. En InnoDB corresponde a los índices secundarios.</text>
+    <text source="Index Share">Proporción de los índices</text>
+    <text source="Index Size divided by Data Size plus Index Size.">Tamaño de los índices dividido por la suma del tamaño de los datos y los índices.</text>
+    <text source="Candidates">Candidatos</text>
+    <text source="Total candidates on the active tab, including rows hidden by a filter. For Query suggestions, counts proposed indexes for the SQL query.">Total de candidatos en la pestaña activa, incluidas las filas ocultas por filtros. En las recomendaciones cuenta los índices propuestos para la consulta SQL.</text>
+    <text source="Duplicates and overlaps">Duplicados y solapamientos</text>
+    <text source="Potentially unused">Posiblemente sin usar</text>
+    <text source="Enter a SELECT to get index suggestions.">Introduce un SELECT para obtener recomendaciones de índices.</text>
+    <text source="SQL query">Consulta SQL</text>
+    <text source="Analyze query">Analizar consulta</text>
+    <text source="Query suggestions">Recomendaciones para la consulta</text>
+    <text source="Select database">Seleccionar base de datos</text>
+    <text source="Copy">Copiar</text>
+    <text source="Copy rows">Copiar filas</text>
+    <text source="Share">Proporción</text>
+    <text source="Table access order">Orden de acceso a las tablas</text>
+    <text source="Rows are estimates per lookup.">El número de filas por búsqueda es estimado.</text>
+    <text source="Type  %1">Tipo  %1</text>
+    <text source="Key  %1">Clave  %1</text>
+    <text source="Rows  %1">Filas  %1</text>
+    <text source="Extra  %1">Información adicional  %1</text>
+    <text source="Step #%1">Paso #%1</text>
+    <text source="Stage details">Detalles de la etapa</text>
+    <text source="Status">Estado</text>
+    <text source="Duration">Duración</text>
+    <text source="Execution position">Posición en la ejecución</text>
+    <text source="Description">Descripción</text>
+    <text source="%1 of %2">%1 de %2</text>
+    <text source="The server processes and returns rows during this stage. The name can cover work inside the server.">El servidor procesa y devuelve filas en esta etapa. El nombre también puede abarcar operaciones internas del servidor.</text>
+    <text source="No profile stages returned.">El servidor no devolvió etapas de perfilado.</text>
+    <text source="Total Duration">Duración total</text>
+    <text source="Stages">Etapas</text>
+    <text source="Longest Stage">Etapa más larga</text>
+    <text source="Longest Duration">Duración máxima</text>
+    <text source="Longest first">Más largas primero</text>
+    <text source="Execution order">Orden de ejecución</text>
+    <text source="Show all stages">Mostrar todas las etapas</text>
+    <text source="No time scale is available for this profile.">No hay escala temporal disponible para este perfil.</text>
+    <text source="Time units">Unidades de tiempo</text>
+    <text source="Time units for all profile views">Unidades de tiempo para todas las vistas del perfil</text>
+    <text source="Auto">Auto</text>
+    <text source="Overview">Resumen</text>
+    <text source="Timeline">Cronología</text>
+    <text source="Visual">Diagrama</text>
+    <text source="Visual is unavailable for this execution plan.">El diagrama no está disponible para este plan de ejecución.</text>
+    <text source="No JSON plan returned.">El servidor no devolvió un plan JSON.</text>
+    <text source="JSON plan unavailable.&#10;%1">Plan JSON no disponible.&#10;%1</text>
+    <text source="Index Analyzer">Analizador de índices</text>
+    <text source="Nested loop">Bucle anidado</text>
+    <text source="≈ %1 rows">≈ %1 filas</text>
+    <text source="Join output">Salida de la unión</text>
+    <text source="Cards show estimated rows per lookup. Arrows show estimated output rows when available.">Las tarjetas muestran las filas estimadas por búsqueda. Las flechas muestran las filas de salida estimadas, si están disponibles.</text>
+    <text source="Sort">Ordenación</text>
+    <text source="Materialize">Materialización</text>
+    <text source="The optimizer plans an explicit sort of the input rows.">El optimizador prevé ordenar explícitamente las filas de entrada.</text>
+    <text source="The optimizer plans to store the subquery result for use by the outer query.">El optimizador prevé guardar el resultado de la subconsulta para la consulta externa.</text>
+    <text source="Query block #%1">Bloque de consulta #%1</text>
+    <text source="Query block">Bloque de consulta</text>
+    <text source="Subquery">Subconsulta</text>
+    <text source="Correlated subquery #%1">Subconsulta correlacionada #%1</text>
+    <text source="Correlated subquery">Subconsulta correlacionada</text>
+    <text source="Subquery #%1">Subconsulta #%1</text>
+    <text source="Uses values from the outer query. Its result depends on the current outer row.">Utiliza valores de la consulta externa. Su resultado depende de la fila actual de esa consulta.</text>
+    <text source="Enclosing query block #%1">Bloque de consulta externo #%1</text>
+    <text source="Sorting and filtering use the full result. Export saves all matching rows; copy uses the selection.">La ordenación y el filtro se aplican al resultado completo. La exportación guarda todas las filas coincidentes; la copia usa la selección.</text>
+    <text source="Loaded: %1 of %2 matching rows">Cargadas: %1 de %2 filas coincidentes</text>
+    <text source="Window functions">Funciones de ventana</text>
+    <text source="Blocks">Bloques</text>
+    <text source="Tree">Árbol</text>
+    <text source="Fit">Ajustar</text>
+    <text source="Zoom in">Acercar</text>
+    <text source="Zoom out">Alejar</text>
+    <text source="Subqueries (%1)">Subconsultas (%1)</text>
+    <text source="Branches: %1">Ramas: %1</text>
+    <text source="Lines show plan nesting. Click a block for details; +/− expands branches. Ctrl+wheel zooms.">Las líneas muestran el anidamiento del plan. Pulse un bloque para ver detalles; +/− expande las ramas. Ctrl+rueda ajusta el zoom.</text>
+    <text source="Tables: %1">Tablas: %1</text>
+    <text source="History cleared">Historial borrado</text>
+    <text source="Ready to capture queries">Listo para capturar consultas</text>
+    <text source="Starting Profiler">Iniciando Profiler</text>
+    <text source="Start capturing SQL queries">Empiece a capturar consultas SQL</text>
+    <text source="Waiting for new queries. The graphs will return automatically.">Esperando nuevas consultas. Los gráficos volverán automáticamente.</text>
+    <text source="Connect your application through the proxy to see the first queries.">Conecte su aplicación a través del proxy para ver las primeras consultas.</text>
+    <text source="Opening the proxy listener. Your other tools remain available.">Iniciando el proxy. Las demás herramientas siguen disponibles.</text>
+    <text source="Choose a connection and start Profiler. Then connect your application through the proxy.">Elija una conexión e inicie Profiler. Después conecte su aplicación a través del proxy.</text>
+    <text source="Profiler running">Profiler en ejecución</text>
+    <text source="Profiler stopped">Profiler detenido</text>
+    <text source="Start Profiler">Iniciar Profiler</text>
+    <text source="SELECTED CONNECTION">CONEXIÓN SELECCIONADA</text>
+    <text source="DATABASE SERVER">SERVIDOR DE BASE DE DATOS</text>
+    <text source="Change connection">Cambiar conexión</text>
+    <text source="Use the proxy address in your application">Use la dirección del proxy en su aplicación</text>
+    <text source="Change the database host and port. Keep the same username, password and database name.">Cambie el servidor y el puerto de la base de datos. Mantenga el usuario, la contraseña y el nombre de la base.</text>
+    <text source="Assigned when Profiler starts">Se asigna al iniciar Profiler</text>
+    <text source="Proxy address">Dirección del proxy</text>
+    <text source="Copy address">Copiar dirección</text>
+    <text source="For an application on another computer, replace 127.0.0.1 with this computer's network address.">Para una aplicación en otro equipo, sustituya 127.0.0.1 por la dirección de red de este equipo.</text>
+    <text source="Run any SQL query">Ejecute cualquier consulta SQL</text>
+    <text source="For example, open a website page or perform an action in your application.">Por ejemplo, abra una página del sitio o realice una acción en su aplicación.</text>
+    <text source="Results will appear automatically">Los resultados aparecerán automáticamente</text>
+    <text source="After the first query, Profiler will show graphs and TOP. History will appear in %1 and %2.">Tras la primera consulta, Profiler mostrará gráficos y TOP. El historial aparecerá en %1 y %2.</text>
+    <text source="Or open another tool">O abra otra herramienta</text>
+    <text source="Open SQL Editor">Abrir editor SQL</text>
+    <text source="Database monitoring">Monitorización de la base de datos</text>
+    <text source="Profiler is running in the background. Waiting for SQL queries.">Profiler se ejecuta en segundo plano. Esperando consultas SQL.</text>
+    <text source="Start Profiler to begin capturing SQL queries.">Inicie Profiler para empezar a capturar consultas SQL.</text>
+    <text source="Yes">Sí</text>
+    <text source="No">No</text>
+    <text source="Access type">Tipo de acceso</text>
+    <text source="Possible indexes">Índices posibles</text>
+    <text source="Index columns">Columnas del índice</text>
+    <text source="Index key length (bytes)">Longitud de la clave del índice (bytes)</text>
+    <text source="Reference values">Valores de búsqueda</text>
+    <text source="Estimated rows per lookup">Filas estimadas por búsqueda</text>
+    <text source="Estimated output rows">Filas estimadas de salida</text>
+    <text source="Estimated rows passing the filter (%)">Filas estimadas tras el filtro (%)</text>
+    <text source="Sort keys">Claves de ordenación</text>
+    <text source="Index condition">Condición del índice</text>
+    <text source="Filter condition">Condición del filtro</text>
+    <text source="Outer-row condition">Condición de la fila externa</text>
+    <text source="HAVING condition">Condición HAVING</text>
+    <text source="Used columns">Columnas utilizadas</text>
+    <text source="Temporary table">Tabla temporal</text>
+    <text source="Explicit sort">Ordenación explícita</text>
+    <text source="Depends on the outer query">Depende de la consulta externa</text>
+    <text source="Cacheable result">Resultado almacenable en caché</text>
+    <text source="Subquery cache">Caché de la subconsulta</text>
+    <text source="Optimizer message">Mensaje del optimizador</text>
+    <text source="Estimated cost">Coste estimado</text>
+    <text source="Estimated read cost">Coste estimado de lectura</text>
+    <text source="Estimated evaluation cost">Coste estimado de evaluación</text>
+    <text source="Estimated cumulative cost">Coste acumulado estimado</text>
+    <text source="Estimated sort cost">Coste estimado de ordenación</text>
+    <text source="The plan provides no additional properties for this operation.">El plan no proporciona propiedades adicionales para esta operación.</text>
+    <text source="queries/s">consultas/s</text>
+    <text source="KB/s">KB/s</text>
+    <text source="transactions/s">transacciones/s</text>
+</query_tools>
+</general>

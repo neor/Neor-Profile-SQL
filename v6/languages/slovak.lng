@@ -1,0 +1,561 @@
+<?xml version="1.0" encoding="utf-8"?>
+<general>
+<version>
+	<language>Slovak</language>
+    <compatible>6.1</compatible>
+    <translator>solarmartin@gmail.com</translator>
+</version>
+
+<toolbar>
+    <start_btn>Spustiť</start_btn>
+	<stop_btn>Zastaviť</stop_btn>
+	<sql_btn>SQL dotaz</sql_btn>
+    <connections_btn>Pripojenia</connections_btn>
+	<settings_btn>Nastavenia</settings_btn>
+	<about_btn>O programe</about_btn>
+    <archive_btn>Archív</archive_btn>
+    <sql_tooltip>SQL editor</sql_tooltip>
+    <archive_tooltip>Archív relácií</archive_tooltip>
+</toolbar>
+
+<settings_view>
+	<settings_title>Nastavenia</settings_title>
+	
+	<general_group>Všeobecné</general_group>
+	<language_str>Jazyk</language_str>
+    <check_new_str>Vyhľadávať aktualizácie</check_new_str>
+	<auto_open_str>Auto. otvorenie relácie v záložke</auto_open_str>
+    <auto_start_str>Spustiť automaticky</auto_start_str>
+    <stay_on_top_str>Vždy navrchu</stay_on_top_str>
+
+    <max_lines_in_flow_str>Max riadkov v záložke Flow</max_lines_in_flow_str>
+    <max_sessions_in_sessions_str>Max relácie v záložke Relácie</max_sessions_in_sessions_str>
+    <always_tunneling_str>Vždy tunelovanie v režime na pozadí</always_tunneling_str>
+
+    <theme_str>Téma (po reštarte)</theme_str>
+    <theme_system_str>Systémová</theme_system_str>
+    <theme_light_str>Svetlá</theme_light_str>
+    <theme_dark_str>Tmavá</theme_dark_str>
+</settings_view>
+
+<about_view>
+	<about_title>O programe</about_title>
+	
+	<version_str>Verzia</version_str>
+	<license_str>Licencia: Proprietárny freeware</license_str>
+	<license_usage_str>Bezplatné na osobné aj komerčné použitie.</license_usage_str>
+	<disclaimer_str>Vylúčenie zodpovednosti: Spoločnosť Neor Digital poskytuje tento softvér „tak, ako je“. Vylučujú sa všetky výslovné aj predpokladané záruky vrátane predpokladaných záruk predajnosti a vhodnosti na konkrétny účel. Vlastník autorských práv ani prispievatelia v žiadnom prípade nezodpovedajú za priame, nepriame, náhodné, osobitné, exemplárne ani následné škody vrátane nákladov na obstaranie náhradného tovaru alebo služieb, straty možnosti používania, údajov alebo zisku či prerušenia činnosti. Platí to bez ohľadu na príčinu a právny základ zodpovednosti, či už ide o zmluvnú, objektívnu alebo mimozmluvnú zodpovednosť vrátane nedbanlivosti, ak škoda akýmkoľvek spôsobom vznikne v dôsledku používania softvéru, aj keď boli upozornení na možnosť jej vzniku.</disclaimer_str>
+    <update_btn>Vyhľadať aktualizáciu</update_btn>
+    <close_btn>Zatvoriť</close_btn>
+</about_view>
+
+<statistics_view>
+    <statistics_title>Monitor</statistics_title>
+	
+	<stat_schedule_str>Záznam príkazov</stat_schedule_str>
+	<stat_shedule_other_str>Iný</stat_shedule_other_str>
+    <stat_shedule_no_status_str>Nie je možné spustiť príkaz SHOW STATUS</stat_shedule_no_status_str>
+	
+    <stat_server_group>Databázový server</stat_server_group>
+	<server_uptime_str>Doba prevádzky:</server_uptime_str>
+	<stat_avgqueries_str>Príkazov za sekundu:</stat_avgqueries_str>
+	<stat_nodata_str>Nedostupné</stat_nodata_str>
+    <stat_username>Používateľ:</stat_username>
+    <stopped_str>Zastavené</stopped_str>
+    <running_str>Spustené</running_str>
+	
+    <profiler_stat_group>Štatistiky profileru</profiler_stat_group>
+	<queries_sent_str>Spustené príkazy:</queries_sent_str>
+	<rows_str>Prijaté riadky:</rows_str>
+	<data_str>Prijaté dáta:</data_str>
+    <sessions_str>Relácie:</sessions_str>
+    <error_con_str>Chybné pripojenia:</error_con_str>
+    <error_queries_str>Chybné príkazy:</error_queries_str>
+	
+    <profiler_group>Profiler</profiler_group>
+    <profiler_server_group>Server profilovača</profiler_server_group>
+
+    <live_data_tab>Živé údaje</live_data_tab>
+    <profiler_tab>Profiler</profiler_tab>
+    <connections_graph_str>Pripojenia</connections_graph_str>
+    <queries_graph_str>Príkazy</queries_graph_str>
+    <upload_graph_str>Prevádzka k serveru</upload_graph_str>
+    <download_graph_str>Prevádzka zo serveru</download_graph_str>
+
+    <top_db_group>TOP</top_db_group>
+    <databases_db_group>Otvorené databázy</databases_db_group>
+    <tables_db_group>Otvorené tabuľky</tables_db_group>
+    <queries_db_group>Príkazy</queries_db_group>
+	<processes_group>Procesy</processes_group>
+
+    <top_prof_group>TOP</top_prof_group>
+    <databases_prof_group>Databázy</databases_prof_group>
+    <queries_prof_group>Príkazy</queries_prof_group>
+
+    <num_col>#</num_col>
+    <user_col>Používateľ</user_col>
+    <query_col>Príkaz</query_col>
+    <table_col>Tabuľka</table_col>
+    <database_col>Databáza</database_col>
+    <count_col>Počet</count_col>
+    <id_col>Identifikátor</id_col>
+    <host_col>Hostiteľ</host_col>
+    <db_col>Databáza</db_col>
+    <command_col>Príkaz</command_col>
+    <time_col>Čas</time_col>
+
+    <commands_db_group>Príkazy</commands_db_group>
+    <per_hour_col>Za hodinu</per_hour_col>
+    <per_sec_col>Za druhý</per_sec_col>
+    <percent_col>Percento</percent_col>
+    <pg_transactions_rate>Transakcie/s</pg_transactions_rate>
+    <pg_transactions>Transakcie</pg_transactions>
+    <pg_rows_changed>Zmenené riadky</pg_rows_changed>
+    <pg_state>Stav</pg_state>
+    <pg_network_unavailable>Sieťové počítadlá nie sú dostupné</pg_network_unavailable>
+    <pg_statement_unavailable>Počítadlá SQL servera nie sú dostupné</pg_statement_unavailable>
+    <pg_server_scope>Všetky databázy vrátane monitorovacích transakcií a pripojení. Počítadlá sa môžu aktualizovať oneskorene.</pg_server_scope>
+    <pg_table_scope>Zmenené riadky pripojenej databázy od obnovenia štatistík.</pg_table_scope>
+    <pg_restricted>Nedostatočné oprávnenia</pg_restricted>
+    <pg_tables>Tabuľky databázy</pg_tables>
+    <pg_databases>Databázy servera</pg_databases>
+    <monitor_tooltip>Monitor databázy</monitor_tooltip>
+</statistics_view>
+
+<sessions_view>
+	<session_title>Relácie</session_title>
+	
+	<clear_all_btn>Vyčistiť všetko</clear_all_btn>
+	<save_session_btn>Uložiť reláciu</save_session_btn>
+	<compare_btn>Porovnať</compare_btn>
+	<open_tab_btn>Otvoriť v záložke</open_tab_btn>
+	
+	<id_col>Identifikátor</id_col>
+	<datetime_col>Dátum</datetime_col>
+	<db_col>Databáza</db_col>
+	<user_col>Používateľ</user_col>
+	<queries_col>Príkazov</queries_col>
+	<elapsed_col>Trvanie</elapsed_col>
+	<rows_col>Riadkov</rows_col>
+	<recieved_col>Prijaté kB</recieved_col>
+	<saved_col>Uložená relácia</saved_col>
+
+	<sess_performed_str>Prebieha</sess_performed_str>
+	<sess_saved_yes_str>Áno</sess_saved_yes_str>
+	<sess_saved_no_str>Nie</sess_saved_no_str>
+    <sessions_tooltip>Všetky relácie</sessions_tooltip>
+</sessions_view>
+
+<archive_view>
+    <archive_title>Archív</archive_title>
+
+	<clear_all_btn>Vyčistiť všetko</clear_all_btn>
+	<delete_btn>Vymazať</delete_btn>
+	<comment_btn>Komentár</comment_btn>
+	<compare_btn>Porovnať</compare_btn>
+	<open_tab_btn>Otvoriť v záložke</open_tab_btn>
+
+	<id_col>Identifikátor</id_col>
+	<datetime_col>Dátum</datetime_col>
+	<db_col>Databáza</db_col>
+	<user_col>Používateľ</user_col>
+	<queries_col>Príkazov</queries_col>
+	<elapsed_col>Trvanie</elapsed_col>
+	<rows_col>Riadkov</rows_col>
+	<recieved_col>Prijaté kB</recieved_col>
+	<comment_col>Poznámka</comment_col>
+</archive_view>
+
+<session_view>
+	<queries_str>príkazov</queries_str>
+	<get_str>prijatých</get_str>
+	<sent_str>odoslaných</sent_str>
+	<kb_str>kB</kb_str>
+	<rows_str>riadkov</rows_str>
+	<elapsed_str>trvanie</elapsed_str>
+	<performed_str>prebieha</performed_str>
+    <export_btn>Výstup</export_btn>
+    <twin_btn>Opakovania</twin_btn>
+	<code_query_str>SQL príkaz</code_query_str>
+	<copy_btn>Skopírovať do schránky</copy_btn>
+    <to_sql_editor_btn>Vykonať</to_sql_editor_btn>
+    <explain_btn>Vysvetliť</explain_btn>
+	<num_col>#</num_col>
+	<time_ms_col>Čas ms</time_ms_col>
+	<time_per_col>Čas %</time_per_col>
+	<longest_per_col>Najdlhší %</longest_per_col>
+	<rows_col>Riadkov</rows_col>
+	<get_col>Prijaté kB</get_col>
+	<sent_col>Odoslané kB</sent_col>
+	<query_col>Príkaz</query_col>
+    <filter_btn>Filter</filter_btn>
+    <filter_all_str>Všetky</filter_all_str>
+    <filter_read_str>Príkazy čítania (SELECT, SHOW, DESCRIBE)</filter_read_str>
+    <filter_write_str>Príkazy zápisu (INSERT, DELETE, UPDATE, CREATE, DROP, ALTER, REPLACE)</filter_write_str>
+    <filter_error_str>Chybné príkazy</filter_error_str>
+    <filter_keyword_str>Kľúčové slovo</filter_keyword_str>
+    <filter_type_str>Typ príkazu</filter_type_str>
+    <session_tooltip>Relácia</session_tooltip>
+</session_view>
+
+<flow_view>
+    <flow_title>Priebeh</flow_title>
+    <num_col>#</num_col>
+    <query_col>Príkaz</query_col>
+    <time_ms_col>Čas ms</time_ms_col>
+    <get_col>Prijaté kB</get_col>
+    <rows_col>Riadkov</rows_col>
+    <code_query_str>SQL príkaz</code_query_str>
+    <copy_btn>Skopírovať do schránky</copy_btn>
+    <to_sql_editor_btn>Vykonať</to_sql_editor_btn>
+    <explain_btn>Vysvetliť</explain_btn>
+
+    <session_col>Relácia</session_col>
+    <stat_schedule_str>Prikazov v Profiler</stat_schedule_str>
+    <stat_shedule_other_str>Ostatné</stat_shedule_other_str>
+    <stat_shedule_no_status_str>Nemožno získať SHOW STATUS</stat_shedule_no_status_str>
+
+    <export_btn>Výstup</export_btn>
+    <filter_btn>Filter</filter_btn>
+    <flow_tooltip>Tok dopytov relácií</flow_tooltip>
+    <clear_btn>Vymazať</clear_btn>
+    <freeze_btn>Zmraziť</freeze_btn>
+    <newest_first>Najnovšie najprv</newest_first>
+    <oldest_first>Najstaršie najprv</oldest_first>
+    <close_preview>Zavrieť náhľad SQL</close_preview>
+</flow_view>
+
+<update_view>
+	<update_title>Aktualizovať</update_title>
+	<update_confirm1_str>Nová verzia je dostupná.</update_confirm1_str>
+	<update_confirm2_str>Chcete ju stiahnuť?</update_confirm2_str>
+	<no_updates_str>Aktuálne nie je dostupná nová verzia</no_updates_str>
+	<no_get_info_str>Nie je možné získať informácie o novej verzii</no_get_info_str>
+	<no_btn>Nie</no_btn>
+	<yes_btn>Áno</yes_btn>
+</update_view>
+
+<sql_view>
+    <sql_title>SQL</sql_title>
+    <db_name_str>Databáza</db_name_str>
+    <execute_btn>Vykonať</execute_btn>
+    <profile_btn>Profilovať</profile_btn>
+    <explain_btn>Vysvetliť</explain_btn>
+    <vexplain_btn>Vysvetliť+</vexplain_btn>
+    <export_btn>Výstup</export_btn>
+    <error_sql>Chybný SQL príkaz</error_sql>
+    <log_title_str>Záznam spustených SQL príkazov</log_title_str>
+    <execute_tab_title>Vykonanie</execute_tab_title>
+    <profile_tab_title>Profilovať</profile_tab_title>
+    <explain_tab_title>Vysvetliť</explain_tab_title>
+    <explain_key_null>Nebol nájdený index príkazu</explain_key_null>
+    <explain_type_index>Vykonané prehľadávanie celej tabuľky</explain_type_index>
+    <explain_type_all>Načíta všetky dáta z tabuľky</explain_type_all>
+    <explain_rows_100>Výsledok má príliš veľa riadkov</explain_rows_100>
+    <filter_str>Filter</filter_str>
+    <num_col>#</num_col>
+    <query_col>Príkaz</query_col>
+    <rows_col>Riadkov</rows_col>
+    <duration_col>Trvanie ms</duration_col>
+
+    <undo_btn>Zrušiť</undo_btn>
+    <find_btn>Vyhľadávanie</find_btn>
+    <find_title>Vyhľadávanie</find_title>
+    <wordwrap_btn>Zalamovanie</wordwrap_btn>
+    <highlight_btn>Farba svetlo</highlight_btn>
+    <size_str>Veľkosť</size_str>
+    <explain_mdb_btn>Vysvetliť MariaDB</explain_mdb_btn>
+
+    <status_str>Nadpis:</status_str>
+    <status_duration_str>Čas</status_duration_str>
+    <status_ms_str>ms</status_ms_str>
+    <status_rows_str>Nájdených riadkov</status_rows_str>
+    <pg_schema>Schéma</pg_schema>
+    <pg_analyze>ANALYZE (vykonať)</pg_analyze>
+    <pg_analyze_executes>EXPLAIN ANALYZE vykoná príkaz a môže zmeniť údaje.</pg_analyze_executes>
+    <pg_explain_only>Zobraziť odhadovaný plán bez vykonania príkazu.</pg_explain_only>
+    <pg_finish_transaction>Pred zmenou databázy dokončite transakciu.</pg_finish_transaction>
+    <pg_single_explain>EXPLAIN vyžaduje práve jeden príkaz SQL.</pg_single_explain>
+    <pg_copy_client>COPY STDIN/STDOUT vyžaduje klienta s prenosom údajov. Proxy tento režim podporuje, editor SQL nie.</pg_copy_client>
+    <query_tooltip>SQL dopyt</query_tooltip>
+    <refresh_databases>Načítať databázy</refresh_databases>
+    <maximize_code>Rozbaliť kód</maximize_code>
+    <maximize_log>Rozbaliť protokol</maximize_log>
+</sql_view>
+
+<errors>
+    <error_str>Chyba</error_str>
+	<lang_error>Súbor s jazykom nie je kompatibilný s verziou tohto programu</lang_error>
+	<sess_run_error>Relácia je spustená!</sess_run_error>
+    <mysql_conn_error>Zlyhalo pripojenie k MySQL serveru.
+Skúste upraviť nastavenie pripojenia.</mysql_conn_error>
+</errors>
+
+<twin_view>
+	<title_str>Opakovania príkazov</title_str>
+	<replays_col>Opakovania</replays_col>
+	<rows_col>Riadky</rows_col>
+	<sql_col>SQL príkaz</sql_col>
+	<not_found>Opakovania neboli zistené</not_found>
+</twin_view>
+
+<connections_view>
+    <connections_title>Pripojenia</connections_title>
+    <new_btn>Nové</new_btn>
+    <delete_btn>Zmazať</delete_btn>
+    <test_btn>Test</test_btn>
+    <close_btn>Zatvoriť</close_btn>
+    <server_group>Databázový server</server_group>
+    <connect_name_str>Názov pripojenia</connect_name_str>
+    <db_type_str>Typ databázy</db_type_str>
+    <connect_meth_str>Spôsob pripojenia</connect_meth_str>
+    <server_host_str>Hostiteľ alebo IP</server_host_str>
+    <server_port_str>Port</server_port_str>
+    <server_username>Používateľ</server_username>
+    <server_password>Heslo</server_password>
+    <compres_str>Komprimované pripojenie</compres_str>
+    <local_socket_str>Local socket/Pipe</local_socket_str>
+    <interact_pass_str>Neukladať heslo</interact_pass_str>
+    <interact_pass_enter_title>Vložte heslo</interact_pass_enter_title>
+
+    <status_group>Stav</status_group>
+    <check_status_str>Kontrolovať stav databázy</check_status_str>
+    <status_str>Interval kontroly</status_str>
+    <status_sec_str>sek</status_sec_str>
+
+    <profiler_group>Profiler</profiler_group>
+    <profiler_port_str>Port profileru</profiler_port_str>
+    <net_connect>Povoliť vzdialený prístup</net_connect>
+
+    <exists_error_title>Chyba</exists_error_title>
+    <exists_error_str>Profil s rovnakým menom už existuje</exists_error_str>
+    <delete_question_title>Zmazať</delete_question_title>
+    <delete_question_str>Chcete zmazať profil?</delete_question_str>
+    <test_title>Test</test_title>
+    <test_success_str>Test bol úspešný</test_success_str>
+    <test_failed_str>Test nebol úspešný</test_failed_str>
+
+    <database_str>Databáza</database_str>
+    <ssl_mode_str>SSL (pripojenie aplikácie)</ssl_mode_str>
+    <ssl_root_cert_str>Koreňový certifikát</ssl_root_cert_str>
+    <pg_capture_notice>Zachytávanie SQL vyžaduje nešifrované pripojenia klientov. Prenos TLS sa preposiela bez zachytávania SQL.</pg_capture_notice>
+    <pg_monitor_pending>Monitorovanie servera PostgreSQL nie je v tejto zostave dostupné.</pg_monitor_pending>
+    <pg_sql_pending>Nástroje SQL pre PostgreSQL nie sú v tejto zostave dostupné.</pg_sql_pending>
+    <pg_capture_unavailable>Zachytávanie SQL nie je dostupné</pg_capture_unavailable>
+</connections_view>
+
+<data_view>
+    <data_title>Dáta</data_title>
+    <copy_to_clipboard>Skopírovať do schránky</copy_to_clipboard>
+</data_view>
+
+<compare_view>
+    <title_str>Porovnať relácie</title_str>
+</compare_view>
+
+<export_view>
+    <export_title>Výstup</export_title>
+    <fields_group>Exportovať pole</fields_group>
+    <file_group>Cesta k súboru</file_group>
+    <browse_btn>Listovať</browse_btn>
+    <ok_btn>Výstup</ok_btn>
+    <cancel_btn>Zrušiť</cancel_btn>
+    <type_file_group>Typ súboru</type_file_group>
+</export_view>
+<query_tools>
+    <text source="Database">Databáza</text>
+    <text source="Indexes">Indexy</text>
+    <text source="expression">výraz</text>
+    <text source="Index usage statistics are unavailable. %1">Štatistiky používania indexov nie sú dostupné. %1</text>
+    <text source="Performance Schema is disabled on this server.&#10;&#10;To enable it on MySQL or MariaDB:&#10;1. Open the server configuration file (my.cnf on Linux or my.ini on Windows).&#10;2. Add the following setting to the existing [mysqld] section:&#10;&#10;[mysqld]&#10;performance_schema = ON&#10;&#10;3. Restart the database service and check that the setting is ON:&#10;&#10;SHOW VARIABLES LIKE 'performance_schema';&#10;&#10;Let the server collect statistics during normal use, then run Analyze database again.">Performance Schema je na tomto serveri vypnutá.&#10;&#10;Zapnutie v MySQL alebo MariaDB:&#10;1. Otvorte konfiguračný súbor servera (my.cnf v Linuxe alebo my.ini vo Windows).&#10;2. Do existujúcej sekcie [mysqld] pridajte toto nastavenie:&#10;&#10;[mysqld]&#10;performance_schema = ON&#10;&#10;3. Reštartujte databázovú službu a overte, že nastavenie je ON:&#10;&#10;SHOW VARIABLES LIKE 'performance_schema';&#10;&#10;Nechajte server zbierať štatistiky pri bežnej prevádzke a potom databázu analyzujte znova.</text>
+    <text source="Performance Schema table I/O instrumentation is disabled.">Monitorovanie V/V tabuliek v Performance Schema je vypnuté.</text>
+    <text source="No table reads have been observed for this database in the current counters.">Aktuálne počítadlá nezaznamenali čítanie tabuliek v tejto databáze.</text>
+    <text source="Table">Tabuľka</text>
+    <text source="Index">Index</text>
+    <text source="Key parts">Stĺpce kľúča</text>
+    <text source="Index reads">Čítania cez index</text>
+    <text source="Table reads">Čítania tabuľky</text>
+    <text source="Reason">Dôvod</text>
+    <text source="Table was read, but this index recorded no reads.">Tabuľka bola čítaná, ale cez tento index sa nezaznamenalo žiadne čítanie.</text>
+    <text source="Based on the current Performance Schema counters. Unique indexes and indexes starting with a visible foreign-key column are excluded. Counters can reset and may cover only part of the workload.">Na základe aktuálnych počítadiel Performance Schema. Jedinečné indexy a indexy začínajúce viditeľným stĺpcom cudzieho kľúča sú vylúčené. Počítadlá sa môžu vynulovať a pokrývať iba časť záťaže.</text>
+    <text source="Finding">Zistenie</text>
+    <text source="Matching index">Zhodný index</text>
+    <text source="Matching key parts">Stĺpce zhodného kľúča</text>
+    <text source="Duplicate">Duplikát</text>
+    <text source="Left-prefix overlap">Prekrytie ľavého prefixu</text>
+    <text source="Compares visible BTREE indexes with named columns. Primary keys are excluded. Review constraints and usage before changing indexes.">Porovnávajú sa viditeľné indexy BTREE s pomenovanými stĺpcami okrem primárnych kľúčov. Pred zmenou indexov skontrolujte obmedzenia a používanie.</text>
+    <text source="Filter by table or index name">Filtrovať podľa názvu tabuľky alebo indexu</text>
+    <text source="Index recommendations are unavailable for this query. Use a SELECT on one table with simple WHERE filters, an INNER JOIN of up to three tables, or a LEFT JOIN of two tables. Join conditions must use qualified columns.">Pre tento dotaz nie sú dostupné odporúčania. Použite SELECT nad jednou tabuľkou s jednoduchými filtrami WHERE, INNER JOIN najviac troch tabuliek alebo LEFT JOIN dvoch tabuliek. V podmienkach spojenia kvalifikujte stĺpce.</text>
+    <text source="Current indexes">Existujúce indexy</text>
+    <text source="Index suggestions">Odporúčania pre indexy</text>
+    <text source="Key columns are listed in index order. Recommendations consider visible BTREE indexes with named columns.">Stĺpce kľúča sú uvedené v poradí indexu. Odporúčania zohľadňujú viditeľné indexy BTREE s pomenovanými stĺpcami.</text>
+    <text source="%1 (alias: %2)">%1 (alias: %2)</text>
+    <text source="primary key">primárny kľúč</text>
+    <text source="unique index">jedinečný index</text>
+    <text source="non-unique index">nejedinečný index</text>
+    <text source=" · excluded from matching"> · vylúčený z porovnávania</text>
+    <text source="No indexes found in the table metadata.">V metadátach tabuľky sa nenašli žiadne indexy.</text>
+    <text source="Cannot suggest an index for this JOIN. Each pair of join columns must have matching supported types and collations.">Pre tento JOIN nemožno odporučiť index. Každá dvojica stĺpcov musí mať zhodné podporované typy a kolácie.</text>
+    <text source="Suggestions consider a plan that starts with %1 and joins the other tables in SQL order. Check EXPLAIN for the actual join order.">Odporúčania predpokladajú, že sa najprv číta %1 a ďalšie tabuľky sa pripájajú v poradí SQL. Skutočné poradie overte pomocou EXPLAIN.</text>
+    <text source="ORDER BY is not evaluated by these suggestions.">Tieto odporúčania nevyhodnocujú ORDER BY.</text>
+    <text source="Cannot suggest an index for %1. The column is unavailable or its type does not match a supported literal comparison.">Pre %1 nemožno odporučiť index. Stĺpec nie je dostupný alebo jeho typ nepodporuje toto porovnanie s literálom.</text>
+    <text source="No supported lookup or filter columns for this table.">Táto tabuľka nemá podporované stĺpce na vyhľadávanie ani filtrovanie.</text>
+    <text source="No supported WHERE filter on the left table. The join condition can be used to look up matching rows on the right.">Ľavá tabuľka nemá podporovaný filter WHERE. Podmienka spojenia môže vyhľadať zodpovedajúce riadky v pravej tabuľke.</text>
+    <text source="The join supplies a lookup value for %1 when the other table is read first.">Ak sa druhá tabuľka číta ako prvá, spojenie poskytne hodnotu na vyhľadanie podľa %1.</text>
+    <text source="When the other table is read first, a composite key can look up the combination (%1) together, narrowing the search to rows that match all join columns.">Ak sa druhá tabuľka číta ako prvá, zložený kľúč vyhľadá kombináciu (%1) a obmedzí výsledok na riadky zhodné vo všetkých stĺpcoch spojenia.</text>
+    <text source="Check EXPLAIN for the actual join order.">Skutočné poradie spojení overte pomocou EXPLAIN.</text>
+    <text source="&#10;&#10;The unique key can find the row first. Remaining join conditions are checked on that row. Check EXPLAIN for the actual join order.">&#10;&#10;Jedinečný kľúč najprv nájde riadok. Potom sa overia ostatné podmienky spojenia. Skutočné poradie overte pomocou EXPLAIN.</text>
+    <text source="Existing index: %1 on %2 (%3).&#10;&#10;%4">Existujúci index: %1 na %2 (%3).&#10;&#10;%4</text>
+    <text source="Equality conditions match its full unique key, so the server can look up at most one row.">Podmienky rovnosti pokrývajú celý jedinečný kľúč, takže server nájde najviac jeden riadok.</text>
+    <text source="Its leading columns match the equality conditions and a range condition, if present.">Úvodné stĺpce zodpovedajú podmienkam rovnosti a prípadnej podmienke rozsahu.</text>
+    <text source="No candidate shown because the combined key exceeds the analyzer's 767-byte limit.">Kandidát sa nezobrazuje, pretože zložený kľúč prekračuje limit analyzátora 767 bajtov.</text>
+    <text source="Leading equality columns can narrow the index search to matching values.">Úvodné stĺpce s podmienkami rovnosti môžu zúžiť vyhľadávanie na zhodné hodnoty.</text>
+    <text source="The key can narrow the search using these filters: %1.">Kľúč môže zúžiť vyhľadávanie pomocou týchto filtrov: %1.</text>
+    <text source="The next column, %1, can limit the scan to the requested range.">Ďalší stĺpec, %1, môže obmedziť prehľadávanie na požadovaný rozsah.</text>
+    <text source="Other range conditions still need to be checked after finding candidate rows.">Ostatné podmienky rozsahu treba overiť na nájdených riadkoch.</text>
+    <text source="Actual benefit depends on selectivity and workload. Compare EXPLAIN plans before adopting the index.">Prínos závisí od selektivity a záťaže. Pred použitím indexu porovnajte plány EXPLAIN.</text>
+    <text source="Candidate BTREE index on %1 (%2)&#10;&#10;%3">Navrhovaný index BTREE na %1 (%2)&#10;&#10;%3</text>
+    <text source="&#10;&#10;Some join columns have unsupported types, lengths or collations and are excluded from this lookup.">&#10;&#10;Niektoré stĺpce spojenia sú z tohto vyhľadávania vylúčené pre nepodporované typy, dĺžky alebo kolácie.</text>
+    <text source="&amp;Database">&amp;Databáza</text>
+    <text source="Analyze database">Analyzovať databázu</text>
+    <text source="Data Size">Veľkosť údajov</text>
+    <text source="Estimated space allocated for table data in the selected database.">Odhad priestoru prideleného údajom tabuliek vo vybranej databáze.</text>
+    <text source="Index Size">Veľkosť indexov</text>
+    <text source="Estimated space allocated for indexes. For InnoDB, this is secondary index space.">Odhad priestoru prideleného indexom. Pri InnoDB ide o sekundárne indexy.</text>
+    <text source="Index Share">Podiel indexov</text>
+    <text source="Index Size divided by Data Size plus Index Size.">Veľkosť indexov vydelená súčtom veľkostí údajov a indexov.</text>
+    <text source="Candidates">Kandidáti</text>
+    <text source="Total candidates on the active tab, including rows hidden by a filter. For Query suggestions, counts proposed indexes for the SQL query.">Celkový počet kandidátov na aktívnej karte vrátane odfiltrovaných riadkov. V odporúčaniach ide o počet indexov navrhnutých pre SQL dotaz.</text>
+    <text source="Duplicates and overlaps">Duplikáty a prekrytia</text>
+    <text source="Potentially unused">Potenciálne nepoužívané</text>
+    <text source="Enter a SELECT to get index suggestions.">Zadajte SELECT a zobrazia sa odporúčania pre indexy.</text>
+    <text source="SQL query">SQL dotaz</text>
+    <text source="Analyze query">Analyzovať dotaz</text>
+    <text source="Query suggestions">Odporúčania pre dotaz</text>
+    <text source="Select database">Vybrať databázu</text>
+    <text source="Copy">Kopírovať</text>
+    <text source="Copy rows">Kopírovať riadky</text>
+    <text source="Share">Podiel</text>
+    <text source="Table access order">Poradie prístupu k tabuľkám</text>
+    <text source="Rows are estimates per lookup.">Počet riadkov na jedno vyhľadanie je odhadovaný.</text>
+    <text source="Type  %1">Typ  %1</text>
+    <text source="Key  %1">Kľúč  %1</text>
+    <text source="Rows  %1">Riadky  %1</text>
+    <text source="Extra  %1">Ďalšie údaje  %1</text>
+    <text source="Step #%1">Krok #%1</text>
+    <text source="Stage details">Podrobnosti fázy</text>
+    <text source="Status">Stav</text>
+    <text source="Duration">Trvanie</text>
+    <text source="Execution position">Pozícia pri vykonávaní</text>
+    <text source="Description">Popis</text>
+    <text source="%1 of %2">%1 z %2</text>
+    <text source="The server processes and returns rows during this stage. The name can cover work inside the server.">Server počas tejto fázy spracúva a vracia riadky. Názov môže zahŕňať aj interné operácie servera.</text>
+    <text source="No profile stages returned.">Server nevrátil žiadne fázy profilovania.</text>
+    <text source="Total Duration">Celkové trvanie</text>
+    <text source="Stages">Fázy</text>
+    <text source="Longest Stage">Najdlhšia fáza</text>
+    <text source="Longest Duration">Najdlhšie trvanie</text>
+    <text source="Longest first">Najdlhšie ako prvé</text>
+    <text source="Execution order">Poradie vykonávania</text>
+    <text source="Show all stages">Zobraziť všetky fázy</text>
+    <text source="No time scale is available for this profile.">Pre tento profil nie je dostupná časová stupnica.</text>
+    <text source="Time units">Časové jednotky</text>
+    <text source="Time units for all profile views">Časové jednotky pre všetky zobrazenia profilu</text>
+    <text source="Auto">Automaticky</text>
+    <text source="Overview">Prehľad</text>
+    <text source="Timeline">Časová os</text>
+    <text source="Visual">Schéma</text>
+    <text source="Visual is unavailable for this execution plan.">Pre tento plán vykonávania nie je dostupná schéma.</text>
+    <text source="No JSON plan returned.">Server nevrátil plán vo formáte JSON.</text>
+    <text source="JSON plan unavailable.&#10;%1">Plán JSON nie je dostupný.&#10;%1</text>
+    <text source="Index Analyzer">Analyzátor indexov</text>
+    <text source="Nested loop">Vnorená slučka</text>
+    <text source="≈ %1 rows">≈ %1 riadkov</text>
+    <text source="Join output">Výstup spojenia</text>
+    <text source="Cards show estimated rows per lookup. Arrows show estimated output rows when available.">Karty zobrazujú odhad počtu riadkov na jedno vyhľadanie. Šípky zobrazujú odhad počtu výstupných riadkov, ak je k dispozícii.</text>
+    <text source="Sort">Triedenie</text>
+    <text source="Materialize">Materializácia</text>
+    <text source="The optimizer plans an explicit sort of the input rows.">Optimalizátor plánuje explicitne zoradiť vstupné riadky.</text>
+    <text source="The optimizer plans to store the subquery result for use by the outer query.">Optimalizátor plánuje uložiť výsledok poddotazu na použitie vo vonkajšom dotaze.</text>
+    <text source="Query block #%1">Blok dotazu #%1</text>
+    <text source="Query block">Blok dotazu</text>
+    <text source="Subquery">Poddotaz</text>
+    <text source="Correlated subquery #%1">Korelovaný poddotaz #%1</text>
+    <text source="Correlated subquery">Korelovaný poddotaz</text>
+    <text source="Subquery #%1">Poddotaz #%1</text>
+    <text source="Uses values from the outer query. Its result depends on the current outer row.">Používa hodnoty z vonkajšieho dotazu. Výsledok závisí od aktuálneho riadka vonkajšieho dotazu.</text>
+    <text source="Enclosing query block #%1">Nadradený blok dotazu #%1</text>
+    <text source="Sorting and filtering use the full result. Export saves all matching rows; copy uses the selection.">Triedenie a filtrovanie používajú celý výsledok. Export uloží všetky zodpovedajúce riadky; kopíruje sa výber.</text>
+    <text source="Loaded: %1 of %2 matching rows">Načítané: %1 z %2 zodpovedajúcich riadkov</text>
+    <text source="Window functions">Okenné funkcie</text>
+    <text source="Blocks">Bloky</text>
+    <text source="Tree">Strom</text>
+    <text source="Fit">Prispôsobiť</text>
+    <text source="Zoom in">Priblížiť</text>
+    <text source="Zoom out">Oddialiť</text>
+    <text source="Subqueries (%1)">Poddopyty (%1)</text>
+    <text source="Branches: %1">Vetvy: %1</text>
+    <text source="Lines show plan nesting. Click a block for details; +/− expands branches. Ctrl+wheel zooms.">Čiary zobrazujú vnorenie plánu. Kliknutím na blok zobrazíte podrobnosti; +/− rozbalí vetvy. Ctrl+koliesko mení mierku.</text>
+    <text source="Tables: %1">Tabuľky: %1</text>
+    <text source="History cleared">História vymazaná</text>
+    <text source="Ready to capture queries">Pripravené na zachytávanie dopytov</text>
+    <text source="Starting Profiler">Spúšťa sa Profiler</text>
+    <text source="Start capturing SQL queries">Začnite zachytávať SQL dopyty</text>
+    <text source="Waiting for new queries. The graphs will return automatically.">Čaká sa na nové dopyty. Grafy sa zobrazia automaticky.</text>
+    <text source="Connect your application through the proxy to see the first queries.">Pripojte aplikáciu cez proxy, aby sa zobrazili prvé dopyty.</text>
+    <text source="Opening the proxy listener. Your other tools remain available.">Spúšťa sa proxy. Ostatné nástroje zostávajú dostupné.</text>
+    <text source="Choose a connection and start Profiler. Then connect your application through the proxy.">Vyberte pripojenie a spustite Profiler. Potom pripojte aplikáciu cez proxy.</text>
+    <text source="Profiler running">Profiler je spustený</text>
+    <text source="Profiler stopped">Profiler je zastavený</text>
+    <text source="Start Profiler">Spustiť Profiler</text>
+    <text source="SELECTED CONNECTION">VYBRANÉ PRIPOJENIE</text>
+    <text source="DATABASE SERVER">DATABÁZOVÝ SERVER</text>
+    <text source="Change connection">Zmeniť pripojenie</text>
+    <text source="Use the proxy address in your application">Zadajte adresu proxy vo svojej aplikácii</text>
+    <text source="Change the database host and port. Keep the same username, password and database name.">Zmeňte adresu a port databázy. Používateľské meno, heslo a názov databázy ponechajte nezmenené.</text>
+    <text source="Assigned when Profiler starts">Pridelí sa pri spustení Profilera</text>
+    <text source="Proxy address">Adresa proxy</text>
+    <text source="Copy address">Kopírovať adresu</text>
+    <text source="For an application on another computer, replace 127.0.0.1 with this computer's network address.">Pre aplikáciu na inom počítači nahraďte 127.0.0.1 sieťovou adresou tohto počítača.</text>
+    <text source="Run any SQL query">Vykonajte ľubovoľný SQL dopyt</text>
+    <text source="For example, open a website page or perform an action in your application.">Napríklad otvorte stránku webu alebo vykonajte akciu vo svojej aplikácii.</text>
+    <text source="Results will appear automatically">Výsledky sa zobrazia automaticky</text>
+    <text source="After the first query, Profiler will show graphs and TOP. History will appear in %1 and %2.">Po prvom dopyte Profiler zobrazí grafy a TOP. História sa zobrazí v %1 a %2.</text>
+    <text source="Or open another tool">Alebo otvorte iný nástroj</text>
+    <text source="Open SQL Editor">Otvoriť SQL editor</text>
+    <text source="Database monitoring">Monitorovanie databázy</text>
+    <text source="Profiler is running in the background. Waiting for SQL queries.">Profiler beží na pozadí. Čaká sa na SQL dopyty.</text>
+    <text source="Start Profiler to begin capturing SQL queries.">Spustite Profiler a začnite zachytávať SQL dopyty.</text>
+    <text source="Yes">Áno</text>
+    <text source="No">Nie</text>
+    <text source="Access type">Typ prístupu</text>
+    <text source="Possible indexes">Možné indexy</text>
+    <text source="Index columns">Stĺpce indexu</text>
+    <text source="Index key length (bytes)">Dĺžka kľúča indexu (bajty)</text>
+    <text source="Reference values">Vyhľadávacie hodnoty</text>
+    <text source="Estimated rows per lookup">Odhad riadkov na jedno vyhľadanie</text>
+    <text source="Estimated output rows">Odhad výstupných riadkov</text>
+    <text source="Estimated rows passing the filter (%)">Odhad riadkov po filtrovaní (%)</text>
+    <text source="Sort keys">Kľúče triedenia</text>
+    <text source="Index condition">Podmienka indexu</text>
+    <text source="Filter condition">Podmienka filtrovania</text>
+    <text source="Outer-row condition">Podmienka vonkajšieho riadka</text>
+    <text source="HAVING condition">Podmienka HAVING</text>
+    <text source="Used columns">Použité stĺpce</text>
+    <text source="Temporary table">Dočasná tabuľka</text>
+    <text source="Explicit sort">Explicitné triedenie</text>
+    <text source="Depends on the outer query">Závisí od vonkajšieho dopytu</text>
+    <text source="Cacheable result">Výsledok možno uložiť do vyrovnávacej pamäte</text>
+    <text source="Subquery cache">Vyrovnávacia pamäť poddopytu</text>
+    <text source="Optimizer message">Správa optimalizátora</text>
+    <text source="Estimated cost">Odhad nákladov</text>
+    <text source="Estimated read cost">Odhad nákladov čítania</text>
+    <text source="Estimated evaluation cost">Odhad nákladov vyhodnotenia</text>
+    <text source="Estimated cumulative cost">Odhad kumulatívnych nákladov</text>
+    <text source="Estimated sort cost">Odhad nákladov triedenia</text>
+    <text source="The plan provides no additional properties for this operation.">Plán neposkytuje ďalšie vlastnosti tejto operácie.</text>
+    <text source="queries/s">dopytov/s</text>
+    <text source="KB/s">KB/s</text>
+    <text source="transactions/s">transakcií/s</text>
+</query_tools>
+</general>

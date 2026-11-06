@@ -1,0 +1,535 @@
+<?xml version="1.0" encoding="utf-8"?>
+<general>
+<version>
+    <language>简体中文</language>
+    <compatible>6.1</compatible>
+    <translator>Neor Digital</translator>
+</version>
+
+<toolbar>
+    <start_btn>启动</start_btn>
+    <stop_btn>停止</stop_btn>
+    <sql_btn>SQL 查询</sql_btn>
+    <connections_btn>连接</connections_btn>
+    <settings_btn>设置</settings_btn>
+    <about_btn>关于</about_btn>
+    <archive_btn>归档</archive_btn>
+    <sql_tooltip>SQL 编辑器</sql_tooltip>
+    <archive_tooltip>会话存档</archive_tooltip>
+</toolbar>
+
+<settings_view>
+    <settings_title>设置</settings_title>
+    <general_group>常规</general_group>
+    <language_str>语言</language_str>
+    <check_new_str>检查新版本</check_new_str>
+    <auto_open_str>自动在新标签页中打开会话</auto_open_str>
+    <auto_start_str>自动启动</auto_start_str>
+    <stay_on_top_str>窗口置顶</stay_on_top_str>
+    <max_lines_in_flow_str>实时查询标签页的最大行数</max_lines_in_flow_str>
+    <max_sessions_in_sessions_str>会话标签页的最大会话数</max_sessions_in_sessions_str>
+    <always_tunneling_str>始终在后台转发流量</always_tunneling_str>
+    <theme_str>主题（重启后生效）</theme_str>
+    <theme_system_str>跟随系统</theme_system_str>
+    <theme_light_str>浅色</theme_light_str>
+    <theme_dark_str>深色</theme_dark_str>
+</settings_view>
+
+<about_view>
+    <about_title>关于</about_title>
+    <version_str>版本</version_str>
+    <license_str>许可证：专有免费软件</license_str>
+    <license_usage_str>可免费用于个人和商业用途。</license_usage_str>
+    <disclaimer_str>免责声明：本软件由 Neor Digital 按“原样”提供，不附带任何明示或默示的保证，包括但不限于对适销性和特定用途适用性的默示保证。在任何情况下，无论基于何种责任理论，无论是合同责任、严格责任还是侵权责任（包括疏忽或其他情形），版权持有人或贡献者均不对因使用本软件而以任何方式产生的任何直接、间接、附带、特殊、惩罚性或后果性损害承担责任，包括但不限于购买替代商品或服务、使用损失、数据损失、利润损失或业务中断，即使事先已被告知此类损害的可能性。</disclaimer_str>
+    <update_btn>检查更新</update_btn>
+    <close_btn>关闭</close_btn>
+</about_view>
+
+<statistics_view>
+    <statistics_title>监控</statistics_title>
+    <stat_schedule_str>数据库查询趋势</stat_schedule_str>
+    <stat_shedule_other_str>其他</stat_shedule_other_str>
+    <stat_shedule_no_status_str>无法获取 SHOW STATUS</stat_shedule_no_status_str>
+    <stat_server_group>数据库服务器</stat_server_group>
+    <server_uptime_str>运行时间：</server_uptime_str>
+    <stat_avgqueries_str>每秒查询数：</stat_avgqueries_str>
+    <stat_nodata_str>无</stat_nodata_str>
+    <stat_username>用户名：</stat_username>
+    <stopped_str>已停止</stopped_str>
+    <running_str>运行中</running_str>
+    <profiler_stat_group>性能分析统计</profiler_stat_group>
+    <queries_sent_str>已发送查询：</queries_sent_str>
+    <rows_str>已接收行数：</rows_str>
+    <data_str>已接收数据：</data_str>
+    <sessions_str>会话数：</sessions_str>
+    <error_con_str>连接错误数：</error_con_str>
+    <error_queries_str>查询错误数：</error_queries_str>
+    <profiler_group>性能分析器</profiler_group>
+    <profiler_server_group>性能分析服务器</profiler_server_group>
+    <live_data_tab>实时数据</live_data_tab>
+    <profiler_tab>性能分析器</profiler_tab>
+    <connections_graph_str>连接数</connections_graph_str>
+    <queries_graph_str>查询数</queries_graph_str>
+    <upload_graph_str>上传流量</upload_graph_str>
+    <download_graph_str>下载流量</download_graph_str>
+    <top_db_group>排行</top_db_group>
+    <databases_db_group>已打开的数据库</databases_db_group>
+    <tables_db_group>已打开的表</tables_db_group>
+    <queries_db_group>查询</queries_db_group>
+    <processes_group>进程</processes_group>
+    <top_prof_group>排行</top_prof_group>
+    <databases_prof_group>数据库</databases_prof_group>
+    <queries_prof_group>查询</queries_prof_group>
+    <num_col>#</num_col>
+    <user_col>用户</user_col>
+    <query_col>查询</query_col>
+    <table_col>表</table_col>
+    <database_col>数据库</database_col>
+    <count_col>次数</count_col>
+    <id_col>ID</id_col>
+    <host_col>主机</host_col>
+    <db_col>数据库</db_col>
+    <command_col>命令</command_col>
+    <time_col>时间</time_col>
+    <commands_db_group>命令</commands_db_group>
+    <per_hour_col>每小时</per_hour_col>
+    <per_sec_col>每秒</per_sec_col>
+    <percent_col>百分比</percent_col>
+    <pg_transactions_rate>事务/秒</pg_transactions_rate>
+    <pg_transactions>事务数</pg_transactions>
+    <pg_rows_changed>变更行数</pg_rows_changed>
+    <pg_state>状态</pg_state>
+    <pg_network_unavailable>网络流量计数不可用</pg_network_unavailable>
+    <pg_statement_unavailable>服务器语句计数不可用</pg_statement_unavailable>
+    <pg_server_scope>统计范围为所有数据库，包括监控产生的事务和连接。计数更新可能存在延迟。</pg_server_scope>
+    <pg_table_scope>自统计信息重置以来，当前连接数据库中各表的变更行数。</pg_table_scope>
+    <pg_restricted>权限不足</pg_restricted>
+    <pg_tables>表（当前数据库）</pg_tables>
+    <pg_databases>数据库（服务器）</pg_databases>
+    <monitor_tooltip>数据库监控</monitor_tooltip>
+</statistics_view>
+
+<sessions_view>
+    <session_title>会话</session_title>
+    <clear_all_btn>全部清空</clear_all_btn>
+    <save_session_btn>保存会话</save_session_btn>
+    <compare_btn>比较</compare_btn>
+    <open_tab_btn>在标签页中打开</open_tab_btn>
+    <id_col>ID</id_col>
+    <datetime_col>日期时间</datetime_col>
+    <db_col>数据库</db_col>
+    <user_col>用户</user_col>
+    <queries_col>查询数</queries_col>
+    <elapsed_col>耗时</elapsed_col>
+    <rows_col>行数</rows_col>
+    <recieved_col>接收量（KB）</recieved_col>
+    <saved_col>会话已保存</saved_col>
+    <sess_performed_str>已执行</sess_performed_str>
+    <sess_saved_yes_str>是</sess_saved_yes_str>
+    <sess_saved_no_str>否</sess_saved_no_str>
+    <sessions_tooltip>所有会话</sessions_tooltip>
+</sessions_view>
+
+<archive_view>
+    <archive_title>归档</archive_title>
+    <clear_all_btn>全部清空</clear_all_btn>
+    <delete_btn>删除</delete_btn>
+    <comment_btn>备注</comment_btn>
+    <compare_btn>比较</compare_btn>
+    <open_tab_btn>在标签页中打开</open_tab_btn>
+    <id_col>ID</id_col>
+    <datetime_col>日期时间</datetime_col>
+    <db_col>数据库</db_col>
+    <user_col>用户</user_col>
+    <queries_col>查询数</queries_col>
+    <elapsed_col>耗时</elapsed_col>
+    <rows_col>行数</rows_col>
+    <recieved_col>接收量（KB）</recieved_col>
+    <comment_col>备注</comment_col>
+</archive_view>
+
+<session_view>
+    <queries_str>查询数</queries_str>
+    <get_str>已接收</get_str>
+    <sent_str>已发送</sent_str>
+    <kb_str>KB</kb_str>
+    <rows_str>行数</rows_str>
+    <elapsed_str>耗时</elapsed_str>
+    <performed_str>已执行</performed_str>
+    <export_btn>导出</export_btn>
+    <twin_btn>重复查询</twin_btn>
+    <code_query_str>SQL 查询代码</code_query_str>
+    <copy_btn>复制到剪贴板</copy_btn>
+    <to_sql_editor_btn>执行</to_sql_editor_btn>
+    <explain_btn>执行计划</explain_btn>
+    <num_col>#</num_col>
+    <time_ms_col>耗时（ms）</time_ms_col>
+    <time_per_col>耗时占比</time_per_col>
+    <longest_per_col>最长耗时占比</longest_per_col>
+    <rows_col>行数</rows_col>
+    <get_col>接收量（KB）</get_col>
+    <sent_col>发送量（KB）</sent_col>
+    <query_col>查询</query_col>
+    <filter_btn>筛选</filter_btn>
+    <filter_all_str>全部</filter_all_str>
+    <filter_read_str>读取请求（SELECT、SHOW、DESCRIBE）</filter_read_str>
+    <filter_write_str>写入请求（INSERT、DELETE、UPDATE、CREATE、DROP、ALTER、REPLACE）</filter_write_str>
+    <filter_error_str>出错的请求</filter_error_str>
+    <filter_keyword_str>关键字</filter_keyword_str>
+    <filter_type_str>请求类型</filter_type_str>
+    <session_tooltip>会话</session_tooltip>
+</session_view>
+
+<flow_view>
+    <flow_title>实时查询</flow_title>
+    <num_col>#</num_col>
+    <query_col>查询</query_col>
+    <time_ms_col>耗时（ms）</time_ms_col>
+    <get_col>接收量（KB）</get_col>
+    <rows_col>行数</rows_col>
+    <code_query_str>SQL 查询代码</code_query_str>
+    <copy_btn>复制到剪贴板</copy_btn>
+    <to_sql_editor_btn>执行</to_sql_editor_btn>
+    <explain_btn>执行计划</explain_btn>
+    <session_col>会话</session_col>
+    <stat_schedule_str>分析器中的查询</stat_schedule_str>
+    <stat_shedule_other_str>其他</stat_shedule_other_str>
+    <stat_shedule_no_status_str>无法获取 SHOW STATUS</stat_shedule_no_status_str>
+    <export_btn>导出</export_btn>
+    <filter_btn>筛选</filter_btn>
+    <flow_tooltip>会话请求流</flow_tooltip>
+    <clear_btn>清空</clear_btn>
+    <freeze_btn>冻结</freeze_btn>
+    <newest_first>最新优先</newest_first>
+    <oldest_first>最早优先</oldest_first>
+    <close_preview>关闭 SQL 预览</close_preview>
+</flow_view>
+
+<update_view>
+    <update_title>更新</update_title>
+    <update_confirm1_str>有新版本可用。</update_confirm1_str>
+    <update_confirm2_str>是否下载？</update_confirm2_str>
+    <no_updates_str>当前没有可用更新</no_updates_str>
+    <no_get_info_str>无法获取更新信息</no_get_info_str>
+    <no_btn>否</no_btn>
+    <yes_btn>是</yes_btn>
+</update_view>
+
+<sql_view>
+    <sql_title>SQL</sql_title>
+    <db_name_str>数据库名称</db_name_str>
+    <execute_btn>执行</execute_btn>
+    <profile_btn>性能分析</profile_btn>
+    <explain_btn>执行计划</explain_btn>
+    <vexplain_btn>执行计划+</vexplain_btn>
+    <export_btn>导出</export_btn>
+    <error_sql>SQL 查询错误</error_sql>
+    <log_title_str>SQL 执行日志</log_title_str>
+    <execute_tab_title>执行</execute_tab_title>
+    <profile_tab_title>性能分析</profile_tab_title>
+    <explain_tab_title>执行计划</explain_tab_title>
+    <explain_key_null>查询未使用索引</explain_key_null>
+    <explain_type_index>执行全表扫描</explain_type_index>
+    <explain_type_all>读取表中的全部数据</explain_type_all>
+    <explain_rows_100>预计扫描的行数过多</explain_rows_100>
+    <filter_str>筛选</filter_str>
+    <num_col>#</num_col>
+    <query_col>查询</query_col>
+    <rows_col>行数</rows_col>
+    <duration_col>耗时（ms）</duration_col>
+    <undo_btn>撤销</undo_btn>
+    <find_btn>查找</find_btn>
+    <find_title>查找</find_title>
+    <wordwrap_btn>自动换行</wordwrap_btn>
+    <highlight_btn>语法高亮</highlight_btn>
+    <size_str>大小</size_str>
+    <explain_mdb_btn>MariaDB 执行计划</explain_mdb_btn>
+    <status_str>状态：</status_str>
+    <status_duration_str>耗时</status_duration_str>
+    <status_ms_str>ms</status_ms_str>
+    <status_rows_str>结果行数</status_rows_str>
+    <pg_schema>模式</pg_schema>
+    <pg_analyze>ANALYZE（执行）</pg_analyze>
+    <pg_analyze_executes>EXPLAIN ANALYZE 会实际执行语句，并可能修改数据。</pg_analyze_executes>
+    <pg_explain_only>显示预估执行计划，不执行语句。</pg_explain_only>
+    <pg_finish_transaction>切换数据库前，请先结束当前事务。</pg_finish_transaction>
+    <pg_single_explain>EXPLAIN 仅支持一条 SQL 语句。</pg_single_explain>
+    <pg_copy_client>COPY STDIN/STDOUT 需要支持流式传输的数据库客户端。代理支持此操作，SQL 编辑器不支持。</pg_copy_client>
+    <query_tooltip>SQL 查询</query_tooltip>
+    <refresh_databases>读取数据库</refresh_databases>
+    <maximize_code>展开代码</maximize_code>
+    <maximize_log>展开日志</maximize_log>
+</sql_view>
+
+<errors>
+    <error_str>错误</error_str>
+    <lang_error>语言文件与当前程序版本不兼容</lang_error>
+    <sess_run_error>会话正在运行！</sess_run_error>
+    <mysql_conn_error>连接 MySQL 服务器失败。
+请检查连接设置。</mysql_conn_error>
+</errors>
+
+<twin_view>
+    <title_str>重复查询</title_str>
+    <replays_col>重复次数</replays_col>
+    <rows_col>行数</rows_col>
+    <sql_col>SQL 代码</sql_col>
+    <not_found>未找到重复查询</not_found>
+</twin_view>
+
+<connections_view>
+    <connections_title>连接</connections_title>
+    <new_btn>新建</new_btn>
+    <delete_btn>删除</delete_btn>
+    <test_btn>测试</test_btn>
+    <close_btn>关闭</close_btn>
+    <server_group>数据库服务器</server_group>
+    <connect_name_str>连接名称</connect_name_str>
+    <db_type_str>数据库类型</db_type_str>
+    <connect_meth_str>连接方式</connect_meth_str>
+    <server_host_str>主机名或 IP</server_host_str>
+    <server_port_str>端口</server_port_str>
+    <server_username>用户名</server_username>
+    <server_password>密码</server_password>
+    <compres_str>压缩协议</compres_str>
+    <local_socket_str>本地套接字/管道</local_socket_str>
+    <interact_pass_str>不保存密码</interact_pass_str>
+    <interact_pass_enter_title>输入密码</interact_pass_enter_title>
+    <status_group>状态</status_group>
+    <check_status_str>监控数据库状态</check_status_str>
+    <status_str>状态检查间隔</status_str>
+    <status_sec_str>秒</status_sec_str>
+    <profiler_group>性能分析器</profiler_group>
+    <profiler_port_str>分析器端口</profiler_port_str>
+    <net_connect>允许远程计算机访问</net_connect>
+    <exists_error_title>错误</exists_error_title>
+    <exists_error_str>已存在同名连接配置</exists_error_str>
+    <delete_question_title>删除</delete_question_title>
+    <delete_question_str>是否删除此连接配置</delete_question_str>
+    <test_title>测试</test_title>
+    <test_success_str>测试成功</test_success_str>
+    <test_failed_str>测试失败</test_failed_str>
+    <database_str>数据库</database_str>
+    <ssl_mode_str>SSL（程序连接）</ssl_mode_str>
+    <ssl_root_cert_str>根证书</ssl_root_cert_str>
+    <pg_capture_notice>要采集 SQL，客户端连接必须不加密。TLS 流量仅转发，不采集 SQL。</pg_capture_notice>
+    <pg_monitor_pending>此版本不支持 PostgreSQL 服务器监控。</pg_monitor_pending>
+    <pg_sql_pending>此版本不支持 PostgreSQL SQL 工具。</pg_sql_pending>
+    <pg_capture_unavailable>无法采集 SQL</pg_capture_unavailable>
+</connections_view>
+
+<data_view>
+    <data_title>数据</data_title>
+    <copy_to_clipboard>复制到剪贴板</copy_to_clipboard>
+</data_view>
+
+<compare_view>
+    <title_str>比较会话</title_str>
+</compare_view>
+
+<export_view>
+    <export_title>导出</export_title>
+    <fields_group>导出字段</fields_group>
+    <file_group>文件路径</file_group>
+    <browse_btn>浏览</browse_btn>
+    <ok_btn>导出</ok_btn>
+    <cancel_btn>取消</cancel_btn>
+    <type_file_group>文件类型</type_file_group>
+</export_view>
+<query_tools>
+    <text source="Database">数据库</text>
+    <text source="Indexes">索引</text>
+    <text source="expression">表达式</text>
+    <text source="Index usage statistics are unavailable. %1">索引使用统计不可用。%1</text>
+    <text source="Performance Schema is disabled on this server.&#10;&#10;To enable it on MySQL or MariaDB:&#10;1. Open the server configuration file (my.cnf on Linux or my.ini on Windows).&#10;2. Add the following setting to the existing [mysqld] section:&#10;&#10;[mysqld]&#10;performance_schema = ON&#10;&#10;3. Restart the database service and check that the setting is ON:&#10;&#10;SHOW VARIABLES LIKE 'performance_schema';&#10;&#10;Let the server collect statistics during normal use, then run Analyze database again.">此服务器已禁用 Performance Schema。&#10;&#10;在 MySQL 或 MariaDB 上启用它：&#10;1. 打开服务器配置文件（Linux 上为 my.cnf，Windows 上为 my.ini）。&#10;2. 在现有的 [mysqld] 段中添加以下设置：&#10;&#10;[mysqld]&#10;performance_schema = ON&#10;&#10;3. 重启数据库服务并确认设置为 ON：&#10;&#10;SHOW VARIABLES LIKE 'performance_schema';&#10;&#10;让服务器在正常使用期间收集统计信息，然后重新分析数据库。</text>
+    <text source="Performance Schema table I/O instrumentation is disabled.">Performance Schema 的表 I/O 监控已禁用。</text>
+    <text source="No table reads have been observed for this database in the current counters.">当前计数器未记录此数据库的表读取。</text>
+    <text source="Table">表格</text>
+    <text source="Index">索引</text>
+    <text source="Key parts">键列</text>
+    <text source="Index reads">索引读取次数</text>
+    <text source="Table reads">表读取次数</text>
+    <text source="Reason">原因</text>
+    <text source="Table was read, but this index recorded no reads.">该表有读取记录，但此索引没有读取记录。</text>
+    <text source="Based on the current Performance Schema counters. Unique indexes and indexes starting with a visible foreign-key column are excluded. Counters can reset and may cover only part of the workload.">数据来自当前 Performance Schema 计数器。排除唯一索引及以可见外键列开头的索引。计数器可能重置，且可能只涵盖部分工作负载。</text>
+    <text source="Finding">检测结果</text>
+    <text source="Matching index">匹配索引</text>
+    <text source="Matching key parts">匹配键列</text>
+    <text source="Duplicate">重复索引</text>
+    <text source="Left-prefix overlap">左前缀重叠</text>
+    <text source="Compares visible BTREE indexes with named columns. Primary keys are excluded. Review constraints and usage before changing indexes.">比较具有命名列的可见 BTREE 索引，主键除外。更改索引前请检查约束和使用情况。</text>
+    <text source="Filter by table or index name">按表名或索引名筛选</text>
+    <text source="Index recommendations are unavailable for this query. Use a SELECT on one table with simple WHERE filters, an INNER JOIN of up to three tables, or a LEFT JOIN of two tables. Join conditions must use qualified columns.">此查询没有可用的索引建议。支持带简单 WHERE 筛选条件的单表 SELECT、最多三表的 INNER JOIN 或两表的 LEFT JOIN。连接条件中的列必须带表名或别名。</text>
+    <text source="Current indexes">现有索引</text>
+    <text source="Index suggestions">索引建议</text>
+    <text source="Key columns are listed in index order. Recommendations consider visible BTREE indexes with named columns.">键列按索引顺序列出。建议仅考虑具有命名列的可见 BTREE 索引。</text>
+    <text source="%1 (alias: %2)">%1（别名：%2）</text>
+    <text source="primary key">主键</text>
+    <text source="unique index">唯一索引</text>
+    <text source="non-unique index">非唯一索引</text>
+    <text source=" · excluded from matching"> · 不参与匹配</text>
+    <text source="No indexes found in the table metadata.">表元数据中未找到索引。</text>
+    <text source="Cannot suggest an index for this JOIN. Each pair of join columns must have matching supported types and collations.">无法为此 JOIN 推荐索引。每对连接列必须具有匹配的受支持类型和排序规则。</text>
+    <text source="Suggestions consider a plan that starts with %1 and joins the other tables in SQL order. Check EXPLAIN for the actual join order.">建议假定先读取 %1，再按 SQL 中的顺序连接其他表。请通过 EXPLAIN 查看实际连接顺序。</text>
+    <text source="ORDER BY is not evaluated by these suggestions.">这些建议不评估 ORDER BY。</text>
+    <text source="Cannot suggest an index for %1. The column is unavailable or its type does not match a supported literal comparison.">无法为 %1 推荐索引。列不可用，或其类型不支持此类字面量比较。</text>
+    <text source="No supported lookup or filter columns for this table.">此表没有受支持的查找列或筛选列。</text>
+    <text source="No supported WHERE filter on the left table. The join condition can be used to look up matching rows on the right.">左表没有受支持的 WHERE 筛选条件。连接条件可用于在右表中查找匹配行。</text>
+    <text source="The join supplies a lookup value for %1 when the other table is read first.">如果先读取另一张表，连接条件将提供 %1 的查找值。</text>
+    <text source="When the other table is read first, a composite key can look up the combination (%1) together, narrowing the search to rows that match all join columns.">如果先读取另一张表，复合键可按组合 (%1) 查找，将范围缩小到所有连接列均匹配的行。</text>
+    <text source="Check EXPLAIN for the actual join order.">请通过 EXPLAIN 查看实际连接顺序。</text>
+    <text source="&#10;&#10;The unique key can find the row first. Remaining join conditions are checked on that row. Check EXPLAIN for the actual join order.">&#10;&#10;唯一键可先找到行，再检查其余连接条件。请通过 EXPLAIN 查看实际连接顺序。</text>
+    <text source="Existing index: %1 on %2 (%3).&#10;&#10;%4">现有索引：%2 上的 %1（%3）。&#10;&#10;%4</text>
+    <text source="Equality conditions match its full unique key, so the server can look up at most one row.">等值条件匹配整个唯一键，因此服务器最多找到一行。</text>
+    <text source="Its leading columns match the equality conditions and a range condition, if present.">索引前导列匹配等值条件，以及存在的范围条件。</text>
+    <text source="No candidate shown because the combined key exceeds the analyzer's 767-byte limit.">组合键超过分析器的 767 字节限制，未显示候选索引。</text>
+    <text source="Leading equality columns can narrow the index search to matching values.">前导等值列可以将索引查找限制为匹配值。</text>
+    <text source="The key can narrow the search using these filters: %1.">该键可利用这些筛选条件缩小查找范围：%1。</text>
+    <text source="The next column, %1, can limit the scan to the requested range.">下一列 %1 可以将扫描限制在所需范围内。</text>
+    <text source="Other range conditions still need to be checked after finding candidate rows.">找到候选行后，仍需检查其他范围条件。</text>
+    <text source="Actual benefit depends on selectivity and workload. Compare EXPLAIN plans before adopting the index.">实际收益取决于选择性和工作负载。采用索引前请比较 EXPLAIN 计划。</text>
+    <text source="Candidate BTREE index on %1 (%2)&#10;&#10;%3">候选 BTREE 索引：%1（%2）&#10;&#10;%3</text>
+    <text source="&#10;&#10;Some join columns have unsupported types, lengths or collations and are excluded from this lookup.">&#10;&#10;部分连接列的类型、长度或排序规则不受支持，已从此次查找中排除。</text>
+    <text source="&amp;Database">数据库(&amp;D)</text>
+    <text source="Analyze database">分析数据库</text>
+    <text source="Data Size">数据大小</text>
+    <text source="Estimated space allocated for table data in the selected database.">所选数据库中表数据占用空间的估算值。</text>
+    <text source="Index Size">索引大小</text>
+    <text source="Estimated space allocated for indexes. For InnoDB, this is secondary index space.">索引分配空间的估算值。对于 InnoDB，此值仅指二级索引。</text>
+    <text source="Index Share">索引占比</text>
+    <text source="Index Size divided by Data Size plus Index Size.">索引大小除以数据和索引的总大小。</text>
+    <text source="Candidates">候选项</text>
+    <text source="Total candidates on the active tab, including rows hidden by a filter. For Query suggestions, counts proposed indexes for the SQL query.">当前选项卡中的候选项总数，包括被筛选隐藏的行。在查询建议中，此值为 SQL 查询的建议索引数。</text>
+    <text source="Duplicates and overlaps">重复与重叠</text>
+    <text source="Potentially unused">可能未使用</text>
+    <text source="Enter a SELECT to get index suggestions.">输入 SELECT 语句以获取索引建议。</text>
+    <text source="SQL query">SQL 查询</text>
+    <text source="Analyze query">分析查询</text>
+    <text source="Query suggestions">查询建议</text>
+    <text source="Select database">选择数据库</text>
+    <text source="Copy">复制</text>
+    <text source="Copy rows">复制行</text>
+    <text source="Share">占比</text>
+    <text source="Table access order">表访问顺序</text>
+    <text source="Rows are estimates per lookup.">行数为每次查找的估算值。</text>
+    <text source="Type  %1">类型  %1</text>
+    <text source="Key  %1">键  %1</text>
+    <text source="Rows  %1">行数  %1</text>
+    <text source="Extra  %1">附加信息  %1</text>
+    <text source="Step #%1">步骤 #%1</text>
+    <text source="Stage details">阶段详情</text>
+    <text source="Status">状态</text>
+    <text source="Duration">耗时</text>
+    <text source="Execution position">执行位置</text>
+    <text source="Description">说明</text>
+    <text source="%1 of %2">第 %1 个，共 %2 个</text>
+    <text source="The server processes and returns rows during this stage. The name can cover work inside the server.">服务器在此阶段处理并返回行。阶段名称也可能涵盖服务器内部工作。</text>
+    <text source="No profile stages returned.">服务器未返回分析阶段。</text>
+    <text source="Total Duration">总耗时</text>
+    <text source="Stages">阶段</text>
+    <text source="Longest Stage">最耗时阶段</text>
+    <text source="Longest Duration">最长耗时</text>
+    <text source="Longest first">耗时最长优先</text>
+    <text source="Execution order">执行顺序</text>
+    <text source="Show all stages">显示所有阶段</text>
+    <text source="No time scale is available for this profile.">此性能分析没有可用的时间刻度。</text>
+    <text source="Time units">时间单位</text>
+    <text source="Time units for all profile views">所有分析视图使用的时间单位</text>
+    <text source="Auto">自动</text>
+    <text source="Overview">概览</text>
+    <text source="Timeline">时间线</text>
+    <text source="Visual">图形</text>
+    <text source="Visual is unavailable for this execution plan.">此执行计划无法以图形显示。</text>
+    <text source="No JSON plan returned.">服务器未返回 JSON 计划。</text>
+    <text source="JSON plan unavailable.&#10;%1">JSON 计划不可用。&#10;%1</text>
+    <text source="Index Analyzer">索引分析器</text>
+    <text source="Nested loop">嵌套循环</text>
+    <text source="≈ %1 rows">约 %1 行</text>
+    <text source="Join output">连接输出</text>
+    <text source="Cards show estimated rows per lookup. Arrows show estimated output rows when available.">卡片显示每次查找的估算行数。若有数据，箭头显示估算输出行数。</text>
+    <text source="Sort">排序</text>
+    <text source="Materialize">物化</text>
+    <text source="The optimizer plans an explicit sort of the input rows.">优化器计划对输入行执行显式排序。</text>
+    <text source="The optimizer plans to store the subquery result for use by the outer query.">优化器计划保存子查询结果，供外层查询使用。</text>
+    <text source="Query block #%1">查询块 #%1</text>
+    <text source="Query block">查询块</text>
+    <text source="Subquery">子查询</text>
+    <text source="Correlated subquery #%1">关联子查询 #%1</text>
+    <text source="Correlated subquery">关联子查询</text>
+    <text source="Subquery #%1">子查询 #%1</text>
+    <text source="Uses values from the outer query. Its result depends on the current outer row.">使用外层查询的值。结果取决于外层查询的当前行。</text>
+    <text source="Enclosing query block #%1">外层查询块 #%1</text>
+    <text source="Sorting and filtering use the full result. Export saves all matching rows; copy uses the selection.">排序和筛选针对完整结果。导出保存所有匹配的行；复制仅使用选中内容。</text>
+    <text source="Loaded: %1 of %2 matching rows">已加载：%1 行，共 %2 行匹配</text>
+    <text source="Window functions">窗口函数</text>
+    <text source="Blocks">方框</text>
+    <text source="Tree">树形</text>
+    <text source="Fit">适应</text>
+    <text source="Zoom in">放大</text>
+    <text source="Zoom out">缩小</text>
+    <text source="Subqueries (%1)">子查询（%1）</text>
+    <text source="Branches: %1">分支：%1</text>
+    <text source="Lines show plan nesting. Click a block for details; +/− expands branches. Ctrl+wheel zooms.">连线表示计划的嵌套关系。单击方框查看详情；+/− 展开分支。Ctrl+滚轮缩放。</text>
+    <text source="Tables: %1">表：%1</text>
+    <text source="History cleared">历史记录已清空</text>
+    <text source="Ready to capture queries">已准备好捕获查询</text>
+    <text source="Starting Profiler">正在启动 Profiler</text>
+    <text source="Start capturing SQL queries">开始捕获 SQL 查询</text>
+    <text source="Waiting for new queries. The graphs will return automatically.">正在等待新查询。图表将自动重新显示。</text>
+    <text source="Connect your application through the proxy to see the first queries.">通过代理连接应用程序以查看首批查询。</text>
+    <text source="Opening the proxy listener. Your other tools remain available.">正在启动代理。其他工具仍可使用。</text>
+    <text source="Choose a connection and start Profiler. Then connect your application through the proxy.">选择连接并启动 Profiler，然后通过代理连接应用程序。</text>
+    <text source="Profiler running">Profiler 正在运行</text>
+    <text source="Profiler stopped">Profiler 已停止</text>
+    <text source="Start Profiler">启动 Profiler</text>
+    <text source="SELECTED CONNECTION">所选连接</text>
+    <text source="DATABASE SERVER">数据库服务器</text>
+    <text source="Change connection">切换连接</text>
+    <text source="Use the proxy address in your application">在应用程序中填写代理地址</text>
+    <text source="Change the database host and port. Keep the same username, password and database name.">更改数据库主机和端口。保持用户名、密码和数据库名称不变。</text>
+    <text source="Assigned when Profiler starts">启动 Profiler 时分配</text>
+    <text source="Proxy address">代理地址</text>
+    <text source="Copy address">复制地址</text>
+    <text source="For an application on another computer, replace 127.0.0.1 with this computer's network address.">如果应用程序位于其他计算机，请将 127.0.0.1 替换为本计算机的网络地址。</text>
+    <text source="Run any SQL query">执行任意 SQL 查询</text>
+    <text source="For example, open a website page or perform an action in your application.">例如，打开网站页面或在应用程序中执行操作。</text>
+    <text source="Results will appear automatically">结果将自动显示</text>
+    <text source="After the first query, Profiler will show graphs and TOP. History will appear in %1 and %2.">执行首个查询后，Profiler 将显示图表和 TOP。历史记录将显示在“%1”和“%2”中。</text>
+    <text source="Or open another tool">或打开其他工具</text>
+    <text source="Open SQL Editor">打开 SQL 编辑器</text>
+    <text source="Database monitoring">数据库监控</text>
+    <text source="Profiler is running in the background. Waiting for SQL queries.">Profiler 正在后台运行。正在等待 SQL 查询。</text>
+    <text source="Start Profiler to begin capturing SQL queries.">启动 Profiler 以开始捕获 SQL 查询。</text>
+    <text source="Yes">是</text>
+    <text source="No">否</text>
+    <text source="Access type">访问类型</text>
+    <text source="Possible indexes">可能的索引</text>
+    <text source="Index columns">索引列</text>
+    <text source="Index key length (bytes)">索引键长度（字节）</text>
+    <text source="Reference values">查找值</text>
+    <text source="Estimated rows per lookup">每次查找的估计行数</text>
+    <text source="Estimated output rows">估计输出行数</text>
+    <text source="Estimated rows passing the filter (%)">估计通过筛选的行数（%）</text>
+    <text source="Sort keys">排序键</text>
+    <text source="Index condition">索引条件</text>
+    <text source="Filter condition">筛选条件</text>
+    <text source="Outer-row condition">外部行条件</text>
+    <text source="HAVING condition">HAVING 条件</text>
+    <text source="Used columns">使用的列</text>
+    <text source="Temporary table">临时表</text>
+    <text source="Explicit sort">显式排序</text>
+    <text source="Depends on the outer query">依赖外部查询</text>
+    <text source="Cacheable result">结果可缓存</text>
+    <text source="Subquery cache">子查询缓存</text>
+    <text source="Optimizer message">优化器消息</text>
+    <text source="Estimated cost">估计成本</text>
+    <text source="Estimated read cost">估计读取成本</text>
+    <text source="Estimated evaluation cost">估计计算成本</text>
+    <text source="Estimated cumulative cost">估计累计成本</text>
+    <text source="Estimated sort cost">估计排序成本</text>
+    <text source="The plan provides no additional properties for this operation.">执行计划未提供此操作的其他属性。</text>
+    <text source="queries/s">查询/秒</text>
+    <text source="KB/s">KB/秒</text>
+    <text source="transactions/s">事务/秒</text>
+</query_tools>
+</general>

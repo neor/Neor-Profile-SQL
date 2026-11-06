@@ -1,0 +1,562 @@
+<?xml version="1.0" encoding="utf-8"?>
+<general>
+<version>
+	<language>Русский</language>
+    <compatible>6.1</compatible>
+	<translator>Neor Digital</translator>
+</version>
+
+<toolbar>
+	<start_btn>Старт</start_btn>
+	<stop_btn>Стоп</stop_btn>
+	<sql_btn>SQL-запрос</sql_btn>
+	<connections_btn>Соединения</connections_btn>
+	<settings_btn>Настройки</settings_btn>
+	<about_btn>О программе</about_btn>
+	<archive_btn>Архив</archive_btn>
+    <sql_tooltip>Редактор SQL</sql_tooltip>
+    <archive_tooltip>Архив сессий</archive_tooltip>
+</toolbar>
+
+<settings_view>
+	<settings_title>Настройки</settings_title>
+	
+	<general_group>Общие</general_group>
+	<language_str>Язык</language_str>
+	<check_new_str>Проверять обновление программы</check_new_str>
+	<auto_open_str>Открыть сессию в закладке автоматически</auto_open_str>
+	<auto_start_str>Авто старт</auto_start_str>
+	<stay_on_top_str>Оставаться поверх окон</stay_on_top_str>
+
+    <max_lines_in_flow_str>Строк в закладке Поток</max_lines_in_flow_str>
+    <max_sessions_in_sessions_str>Строк а закладке Сессии</max_sessions_in_sessions_str>
+    <always_tunneling_str>Всегда туннелировать в фоновом режиме</always_tunneling_str>
+
+    <theme_str>Тема (после перезапуска)</theme_str>
+    <theme_system_str>Системная</theme_system_str>
+    <theme_light_str>Светлая</theme_light_str>
+    <theme_dark_str>Тёмная</theme_dark_str>
+</settings_view>
+
+<about_view>
+	<about_title>О программе</about_title>
+	
+	<version_str>Версия</version_str>
+	<license_str>Лицензия: Проприетарная (Freeware).</license_str>
+	<license_usage_str>Бесплатно для личного и коммерческого использования.</license_usage_str>
+	<disclaimer_str>Отказ от ответственности: Это программное обеспечение предоставляется Neor Digital "как есть" и никаких явных или подразумеваемых гарантий, включая, но не ограничиваясь, подразумеваемые гарантии товарного состояния и пригодности не предоставляется. Ни в коем случае владелец авторского права или участники не несут ответственности за любые прямые, косвенные, случайные, специальные или косвенные убытки (включая, но не ограничиваясь, приобретение заменяющих товаров или услуг; потери данных или прибыли).</disclaimer_str>
+    <update_btn>Проверить обновление</update_btn>
+    <close_btn>Закрыть</close_btn>
+</about_view>
+
+<statistics_view>
+	<statistics_title>Монитор</statistics_title>
+	
+	<stat_schedule_str>График загрузки базы данных</stat_schedule_str>
+	<stat_shedule_other_str>Прочие</stat_shedule_other_str>
+    <stat_shedule_no_status_str>Не возможно получить SHOW STATUS</stat_shedule_no_status_str>
+	
+	<stat_server_group>Сервер базы данных</stat_server_group>
+	<server_uptime_str>Время работы:</server_uptime_str>
+	<stat_avgqueries_str>Запросов в сек:</stat_avgqueries_str>
+	<stat_nodata_str>Нет</stat_nodata_str>
+    <stat_username>Пользователь:</stat_username>
+    <stopped_str>Остановлен</stopped_str>
+    <running_str>Запущен</running_str>
+	
+    <profiler_stat_group>Статистика профайлера</profiler_stat_group>
+	<queries_sent_str>Запросов отправлено:</queries_sent_str>
+	<rows_str>Строк получено:</rows_str>
+	<data_str>Данных получено:</data_str>
+    <sessions_str>Сессии:</sessions_str>
+    <error_con_str>Ошибочных соединений:</error_con_str>
+    <error_queries_str>Ошибочных запросов:</error_queries_str>
+	
+    <profiler_group>Профайлер</profiler_group>
+    <profiler_server_group>Сервер профайлера</profiler_server_group>
+
+    <live_data_tab>Данные в реальном времени</live_data_tab>
+    <profiler_tab>Профайлер</profiler_tab>
+    <connections_graph_str>Соединения</connections_graph_str>
+    <queries_graph_str>Запросы</queries_graph_str>
+    <upload_graph_str>Исходящий трафик</upload_graph_str>
+    <download_graph_str>Входящий трафик</download_graph_str>
+
+    <top_db_group>ТОП</top_db_group>
+    <databases_db_group>Открытые БД</databases_db_group>
+    <tables_db_group>Открытые таблицы</tables_db_group>
+    <queries_db_group>Запросы</queries_db_group>
+	<processes_group>Процессы</processes_group>
+
+    <top_prof_group>ТОП</top_prof_group>
+    <databases_prof_group>Базы данных</databases_prof_group>
+    <queries_prof_group>Запросы</queries_prof_group>
+
+    <num_col>№</num_col>
+    <user_col>Пользователь</user_col>
+    <query_col>Запрос</query_col>
+    <table_col>Таблица</table_col>
+    <database_col>База данных</database_col>
+    <count_col>Количество</count_col>
+    <id_col>Ид.</id_col>
+    <host_col>Хост</host_col>
+    <db_col>БД</db_col>
+    <command_col>Команда</command_col>
+    <time_col>Время</time_col>
+
+    <commands_db_group>Команды</commands_db_group>
+    <per_hour_col>В час</per_hour_col>
+    <per_sec_col>В сек</per_sec_col>
+    <percent_col>Процент</percent_col>
+    <pg_transactions_rate>Транзакций/с</pg_transactions_rate>
+    <pg_transactions>Транзакции</pg_transactions>
+    <pg_rows_changed>Изменено строк</pg_rows_changed>
+    <pg_state>Состояние</pg_state>
+    <pg_network_unavailable>Сетевые счётчики недоступны</pg_network_unavailable>
+    <pg_statement_unavailable>Счётчики SQL сервера недоступны</pg_statement_unavailable>
+    <pg_server_scope>Все базы; учитываются транзакции и соединения мониторинга. Счётчики могут обновляться с задержкой.</pg_server_scope>
+    <pg_table_scope>Изменённые строки таблиц подключённой базы с момента сброса статистики.</pg_table_scope>
+    <pg_restricted>Недостаточно прав</pg_restricted>
+    <pg_tables>Таблицы базы</pg_tables>
+    <pg_databases>Базы сервера</pg_databases>
+    <monitor_tooltip>Монитор базы данных</monitor_tooltip>
+</statistics_view>
+
+<sessions_view>
+	<session_title>Сессии</session_title>
+	
+	<clear_all_btn>Очистить все</clear_all_btn>
+	<save_session_btn>Сохранить сессию</save_session_btn>
+	<compare_btn>Сравнить</compare_btn>
+	<open_tab_btn>Открыть во вкладке</open_tab_btn>
+	
+	<id_col>Ид.</id_col>
+	<datetime_col>Дата/время</datetime_col>
+	<db_col>БД</db_col>
+	<user_col>Пользователь</user_col>
+	<queries_col>Запросы</queries_col>
+	<elapsed_col>Прошло</elapsed_col>
+	<rows_col>Строк</rows_col>
+	<recieved_col>Принято Кб</recieved_col>
+	<saved_col>Сессия сохранена</saved_col>
+
+	<sess_performed_str>Выполняется</sess_performed_str>
+	<sess_saved_yes_str>Да</sess_saved_yes_str>
+	<sess_saved_no_str>Нет</sess_saved_no_str>
+    <sessions_tooltip>Все сессии</sessions_tooltip>
+</sessions_view>
+
+<archive_view>
+    <archive_title>Архив</archive_title>
+
+	<clear_all_btn>Очистить все</clear_all_btn>
+	<delete_btn>Удалить</delete_btn>
+	<comment_btn>Комментарий</comment_btn>	
+	<compare_btn>Сравнить</compare_btn>
+	<open_tab_btn>Открыть во вкладке</open_tab_btn>	
+
+	<id_col>Ид.</id_col>
+	<datetime_col>Дата/время</datetime_col>
+	<db_col>БД</db_col>
+	<user_col>Пользователь</user_col>
+	<queries_col>Запросы</queries_col>
+	<elapsed_col>Прошло</elapsed_col>
+	<rows_col>Строки</rows_col>
+	<recieved_col>Принято Кб</recieved_col>
+	<comment_col>Комментарий</comment_col>
+</archive_view>
+
+<session_view>
+	<queries_str>запросы</queries_str>
+	<get_str>получено</get_str>
+	<sent_str>отправлено</sent_str>
+	<kb_str>Кб</kb_str>
+	<rows_str>строки</rows_str>
+	<elapsed_str>длительность</elapsed_str>
+	<performed_str>выполняется</performed_str>
+	<export_btn>Экспорт</export_btn>
+	<twin_btn>Повторы</twin_btn>
+	<code_query_str>Код SQL запроса</code_query_str>
+	<copy_btn>Копировать в буфер</copy_btn>
+    <to_sql_editor_btn>Выполнить</to_sql_editor_btn>
+    <explain_btn>Оценить</explain_btn>
+	<num_col>№</num_col>
+	<time_ms_col>Время мс</time_ms_col>
+	<time_per_col>Время %</time_per_col>
+	<longest_per_col>Длительность %</longest_per_col>
+	<rows_col>Строки</rows_col>
+	<get_col>Принято Кб</get_col>
+	<sent_col>Отправлено Кб</sent_col>
+	<query_col>Запрос</query_col>
+    <filter_btn>Фильтр</filter_btn>
+    <filter_all_str>Все</filter_all_str>
+    <filter_read_str>Запросы чтения (SELECT, SHOW, DESCRIBE)</filter_read_str>
+    <filter_write_str>Запросы записи (INSERT, DELETE, UPDATE, CREATE, DROP, ALTER, REPLACE)</filter_write_str>
+    <filter_error_str>Ошибочные запросы</filter_error_str>
+    <filter_keyword_str>Искать</filter_keyword_str>
+    <filter_type_str>Тип запроса</filter_type_str>
+    <session_tooltip>Сессия</session_tooltip>
+</session_view>
+
+<flow_view>
+    <flow_title>Поток</flow_title>
+    <num_col>№</num_col>
+    <query_col>Запрос</query_col>
+    <time_ms_col>Время мс</time_ms_col>
+    <get_col>Принято Кб</get_col>
+    <rows_col>Строки</rows_col>
+    <code_query_str>Код SQL запроса</code_query_str>
+    <copy_btn>Копировать в буфер</copy_btn>
+    <to_sql_editor_btn>Выполнить</to_sql_editor_btn>
+    <explain_btn>Оценить</explain_btn>
+
+    <session_col>Сессия</session_col>
+    <stat_schedule_str>Запросов в Профайлере</stat_schedule_str>
+    <stat_shedule_other_str>Другие</stat_shedule_other_str>
+    <stat_shedule_no_status_str>Не возможно получить SHOW STATUS</stat_shedule_no_status_str>
+
+    <export_btn>Экспорт</export_btn>
+    <filter_btn>Фильтр</filter_btn>
+    <flow_tooltip>Поток запросов сессий</flow_tooltip>
+    <clear_btn>Очистить</clear_btn>
+    <freeze_btn>Заморозить</freeze_btn>
+    <newest_first>Новые сверху</newest_first>
+    <oldest_first>Новые снизу</oldest_first>
+    <close_preview>Закрыть SQL Preview</close_preview>
+</flow_view>
+
+<update_view>
+	<update_title>Обновление</update_title>	
+	<update_confirm1_str>Доступна новая версия программы.</update_confirm1_str>
+	<update_confirm2_str>Желаете загрузить?</update_confirm2_str>	
+	<no_updates_str>В данный момент  обновлений нет</no_updates_str>
+	<no_get_info_str>Не возможно получить данные об обновлении</no_get_info_str>
+	<no_btn>Нет</no_btn>
+	<yes_btn>Да</yes_btn>
+</update_view>
+
+<sql_view>
+	<sql_title>SQL</sql_title>
+	<db_name_str>База данных</db_name_str>
+	<execute_btn>Выполнить</execute_btn>
+	<profile_btn>Профилировать</profile_btn>
+    <explain_btn>Оценить</explain_btn>
+    <vexplain_btn>Оценить+</vexplain_btn>
+    <export_btn>Экспорт</export_btn>
+	<error_sql>Ошибка SQL запроса</error_sql>
+    <log_title_str>Лог запуска SQL</log_title_str>
+    <execute_tab_title>Выполнение</execute_tab_title>
+    <profile_tab_title>Профилирование</profile_tab_title>
+    <explain_tab_title>Оценка</explain_tab_title>
+    <explain_key_null>Индекс запроса не найден</explain_key_null>
+    <explain_type_index>Выполнилась переборка всей таблицы</explain_type_index>
+    <explain_type_all>Читаются все данные с таблицы</explain_type_all>
+    <explain_rows_100>Выдается слишком много строк</explain_rows_100>
+    <filter_str>Фильтр</filter_str>
+    <num_col>№</num_col>
+    <query_col>Запрос</query_col>
+    <rows_col>Строки</rows_col>
+    <duration_col>Время мс</duration_col>
+
+    <undo_btn>Отмена</undo_btn>
+    <find_btn>Поиск</find_btn>
+    <find_title>Поиск</find_title>
+    <wordwrap_btn>Без переноса</wordwrap_btn>
+    <highlight_btn>Подсветка</highlight_btn>
+    <size_str>Размер</size_str>
+    <explain_mdb_btn>Оценить MariaDB</explain_mdb_btn>
+
+    <status_str>Статус:</status_str>
+    <status_duration_str>Время выполнения</status_duration_str>
+    <status_ms_str>мс</status_ms_str>
+    <status_rows_str>Найдено строк</status_rows_str>
+    <pg_schema>Схема</pg_schema>
+    <pg_analyze>ANALYZE (выполнить)</pg_analyze>
+    <pg_analyze_executes>EXPLAIN ANALYZE выполняет запрос и может изменить данные.</pg_analyze_executes>
+    <pg_explain_only>Показать оценочный план без выполнения запроса.</pg_explain_only>
+    <pg_finish_transaction>Завершите текущую транзакцию перед сменой базы данных.</pg_finish_transaction>
+    <pg_single_explain>Для EXPLAIN нужен ровно один SQL-запрос.</pg_single_explain>
+    <pg_copy_client>COPY STDIN/STDOUT требует клиента с потоковой передачей данных. Прокси поддерживает этот режим, SQL-редактор — нет.</pg_copy_client>
+    <query_tooltip>SQL-запрос</query_tooltip>
+    <refresh_databases>Прочитать базы</refresh_databases>
+    <maximize_code>Развернуть код</maximize_code>
+    <maximize_log>Развернуть лог</maximize_log>
+</sql_view>
+
+<errors>
+	<error_str>Ошибка</error_str>
+	<lang_error>Версия файла перевода несовместима 
+с данной версией программы</lang_error>
+	<sess_run_error>Сессия выполняется!</sess_run_error>
+	<mysql_conn_error>Ошибка подключения к MySQL серверу.
+Попробуйте исправить данные в Соединении.</mysql_conn_error>
+</errors>
+
+<twin_view>
+	<title_str>Повторяющиеся запросы</title_str>
+	<replays_col>Повторов</replays_col>
+	<rows_col>Строки</rows_col>
+	<sql_col>SQL код</sql_col>
+	<not_found>Повторяющиеся запросы не найдены</not_found>
+</twin_view>
+
+<connections_view>
+    <connections_title>Соединения</connections_title>
+    <new_btn>Новый</new_btn>
+    <delete_btn>Удалить</delete_btn>
+    <test_btn>Тест</test_btn>
+    <close_btn>Закрыть</close_btn>
+    <server_group>Сервер БД</server_group>
+    <connect_name_str>Название соединения</connect_name_str>
+    <db_type_str>Тип базы данных</db_type_str>
+    <connect_meth_str>Метод соединения</connect_meth_str>
+    <server_host_str>Хост или IP</server_host_str>
+    <server_port_str>Порт</server_port_str>
+    <server_username>Пользователь</server_username>
+    <server_password>Пароль</server_password>
+    <compres_str>Протокол компрессии</compres_str>
+    <local_socket_str>Локальный сокет/Pipe</local_socket_str>
+    <interact_pass_str>Не сохранять пароль</interact_pass_str>
+    <interact_pass_enter_title>Ввод пароля</interact_pass_enter_title>
+
+    <status_group>Статус</status_group>
+    <check_status_str>Проверять статус БД</check_status_str>
+    <status_str>Интервал проверки</status_str>
+    <status_sec_str>сек</status_sec_str>
+
+    <profiler_group>Профайлер</profiler_group>
+    <profiler_port_str>Порт профайлера</profiler_port_str>
+    <net_connect>Доступ подключения с удаленных машин</net_connect>
+
+    <exists_error_title>Ошибка</exists_error_title>
+    <exists_error_str>Профиль с таким же названием уже есть</exists_error_str>
+    <delete_question_title>Удалить</delete_question_title>
+    <delete_question_str>Хотите удалить профиль</delete_question_str>
+    <test_title>Тест</test_title>
+    <test_success_str>Тест прошел успешно</test_success_str>
+    <test_failed_str>Тест не удался</test_failed_str>
+
+    <database_str>База данных</database_str>
+    <ssl_mode_str>SSL (соединение программы)</ssl_mode_str>
+    <ssl_root_cert_str>Корневой сертификат</ssl_root_cert_str>
+    <pg_capture_notice>Для перехвата SQL соединения клиентов должны быть незашифрованными. TLS-трафик передаётся без перехвата SQL.</pg_capture_notice>
+    <pg_monitor_pending>Мониторинг сервера PostgreSQL в этой сборке пока недоступен.</pg_monitor_pending>
+    <pg_sql_pending>Инструменты SQL для PostgreSQL в этой сборке пока недоступны.</pg_sql_pending>
+    <pg_capture_unavailable>Перехват SQL недоступен</pg_capture_unavailable>
+</connections_view>
+
+<data_view>
+    <data_title>Данные</data_title>
+    <copy_to_clipboard>Копировать в буфер</copy_to_clipboard>
+</data_view>
+
+<compare_view>
+    <title_str>Сравнение сессий</title_str>
+</compare_view>
+
+<export_view>
+    <export_title>Экспорт</export_title>
+    <fields_group>Экспортируемые поля</fields_group>
+    <file_group>Путь к файлу</file_group>
+    <browse_btn>Обзор</browse_btn>
+    <ok_btn>Экспорт</ok_btn>
+    <cancel_btn>Отмена</cancel_btn>
+    <type_file_group>Тип файла</type_file_group>
+</export_view>
+<query_tools>
+    <text source="Database">База данных</text>
+    <text source="Indexes">Индексы</text>
+    <text source="expression">выражение</text>
+    <text source="Index usage statistics are unavailable. %1">Статистика использования индексов недоступна. %1</text>
+    <text source="Performance Schema is disabled on this server.&#10;&#10;To enable it on MySQL or MariaDB:&#10;1. Open the server configuration file (my.cnf on Linux or my.ini on Windows).&#10;2. Add the following setting to the existing [mysqld] section:&#10;&#10;[mysqld]&#10;performance_schema = ON&#10;&#10;3. Restart the database service and check that the setting is ON:&#10;&#10;SHOW VARIABLES LIKE 'performance_schema';&#10;&#10;Let the server collect statistics during normal use, then run Analyze database again.">Performance Schema отключена на этом сервере.&#10;&#10;Чтобы включить её в MySQL или MariaDB:&#10;1. Откройте файл конфигурации сервера (my.cnf в Linux или my.ini в Windows).&#10;2. Добавьте параметр в существующий раздел [mysqld]:&#10;&#10;[mysqld]&#10;performance_schema = ON&#10;&#10;3. Перезапустите службу базы данных и проверьте, что параметр включён:&#10;&#10;SHOW VARIABLES LIKE 'performance_schema';&#10;&#10;Дайте серверу собрать статистику при обычной работе, затем снова запустите анализ базы данных.</text>
+    <text source="Performance Schema table I/O instrumentation is disabled.">Сбор данных о вводе-выводе таблиц в Performance Schema отключён.</text>
+    <text source="No table reads have been observed for this database in the current counters.">Текущие счётчики не зафиксировали чтений таблиц этой базы данных.</text>
+    <text source="Table">Таблица</text>
+    <text source="Index">Индекс</text>
+    <text source="Key parts">Столбцы ключа</text>
+    <text source="Index reads">Чтения по индексу</text>
+    <text source="Table reads">Чтения таблицы</text>
+    <text source="Reason">Причина</text>
+    <text source="Table was read, but this index recorded no reads.">Таблицу читали, но по этому индексу чтений не зафиксировано.</text>
+    <text source="Based on the current Performance Schema counters. Unique indexes and indexes starting with a visible foreign-key column are excluded. Counters can reset and may cover only part of the workload.">Данные из текущих счётчиков Performance Schema. Уникальные индексы и индексы, начинающиеся с видимого столбца внешнего ключа, исключены. Счётчики могут сбрасываться и отражать только часть нагрузки.</text>
+    <text source="Finding">Результат проверки</text>
+    <text source="Matching index">Совпадающий индекс</text>
+    <text source="Matching key parts">Столбцы совпадающего ключа</text>
+    <text source="Duplicate">Дубликат</text>
+    <text source="Left-prefix overlap">Совпадение по левому префиксу</text>
+    <text source="Compares visible BTREE indexes with named columns. Primary keys are excluded. Review constraints and usage before changing indexes.">Сравниваются видимые индексы BTREE с именованными столбцами. Первичные ключи исключены. Перед изменением индексов проверьте ограничения и использование.</text>
+    <text source="Filter by table or index name">Фильтр по имени таблицы или индекса</text>
+    <text source="Index recommendations are unavailable for this query. Use a SELECT on one table with simple WHERE filters, an INNER JOIN of up to three tables, or a LEFT JOIN of two tables. Join conditions must use qualified columns.">Для этого запроса рекомендации недоступны. Поддерживаются SELECT из одной таблицы с простыми фильтрами WHERE, INNER JOIN до трёх таблиц и LEFT JOIN двух таблиц. В условиях соединения указывайте таблицы или псевдонимы столбцов.</text>
+    <text source="Current indexes">Текущие индексы</text>
+    <text source="Index suggestions">Рекомендации по индексам</text>
+    <text source="Key columns are listed in index order. Recommendations consider visible BTREE indexes with named columns.">Столбцы перечислены в порядке ключа. Для рекомендаций учитываются видимые индексы BTREE с именованными столбцами.</text>
+    <text source="%1 (alias: %2)">%1 (псевдоним: %2)</text>
+    <text source="primary key">первичный ключ</text>
+    <text source="unique index">уникальный индекс</text>
+    <text source="non-unique index">неуникальный индекс</text>
+    <text source=" · excluded from matching"> · исключён из сопоставления</text>
+    <text source="No indexes found in the table metadata.">В метаданных таблицы нет индексов.</text>
+    <text source="Cannot suggest an index for this JOIN. Each pair of join columns must have matching supported types and collations.">Для этого JOIN нет рекомендации. В каждой паре столбцов должны совпадать поддерживаемые типы и правила сравнения.</text>
+    <text source="Suggestions consider a plan that starts with %1 and joins the other tables in SQL order. Check EXPLAIN for the actual join order.">Подсказки предполагают, что сервер начинает с %1 и соединяет остальные таблицы в порядке SQL. Фактический порядок смотрите в EXPLAIN.</text>
+    <text source="ORDER BY is not evaluated by these suggestions.">При подборе индекса ORDER BY не учитывается.</text>
+    <text source="Cannot suggest an index for %1. The column is unavailable or its type does not match a supported literal comparison.">Для %1 нет рекомендации. Столбец недоступен или его тип не поддерживает такое сравнение с литералом.</text>
+    <text source="No supported lookup or filter columns for this table.">У этой таблицы нет поддерживаемых столбцов для поиска или фильтрации.</text>
+    <text source="No supported WHERE filter on the left table. The join condition can be used to look up matching rows on the right.">Для левой таблицы нет поддерживаемого фильтра WHERE. По условию соединения можно найти подходящие строки в правой таблице.</text>
+    <text source="The join supplies a lookup value for %1 when the other table is read first.">Если другую таблицу прочитать первой, условие JOIN даст значение для поиска по %1.</text>
+    <text source="When the other table is read first, a composite key can look up the combination (%1) together, narrowing the search to rows that match all join columns.">Если другую таблицу прочитать первой, составной ключ позволит искать по комбинации (%1) и сразу отбирать строки, совпадающие по всем столбцам соединения.</text>
+    <text source="Check EXPLAIN for the actual join order.">Фактический порядок соединения смотрите в EXPLAIN.</text>
+    <text source="&#10;&#10;The unique key can find the row first. Remaining join conditions are checked on that row. Check EXPLAIN for the actual join order.">&#10;&#10;Уникальный ключ позволяет сначала найти строку и затем проверить на ней остальные условия соединения. Фактический порядок смотрите в EXPLAIN.</text>
+    <text source="Existing index: %1 on %2 (%3).&#10;&#10;%4">Существующий индекс: %1 в таблице %2 (%3).&#10;&#10;%4</text>
+    <text source="Equality conditions match its full unique key, so the server can look up at most one row.">Условия равенства охватывают весь уникальный ключ, поэтому сервер найдёт не более одной строки.</text>
+    <text source="Its leading columns match the equality conditions and a range condition, if present.">Первые столбцы ключа соответствуют условиям равенства и условию диапазона, если оно есть.</text>
+    <text source="No candidate shown because the combined key exceeds the analyzer's 767-byte limit.">Кандидат не показан, поскольку составной ключ превышает лимит анализатора в 767 байт.</text>
+    <text source="Leading equality columns can narrow the index search to matching values.">Первые столбцы ключа позволяют сузить поиск по условиям равенства.</text>
+    <text source="The key can narrow the search using these filters: %1.">Ключ может сузить поиск по следующим фильтрам: %1.</text>
+    <text source="The next column, %1, can limit the scan to the requested range.">Следующий столбец, %1, может ограничить сканирование нужным диапазоном.</text>
+    <text source="Other range conditions still need to be checked after finding candidate rows.">Остальные условия диапазона нужно проверить на найденных строках.</text>
+    <text source="Actual benefit depends on selectivity and workload. Compare EXPLAIN plans before adopting the index.">Выигрыш зависит от избирательности условий и нагрузки. Перед добавлением индекса сравните планы EXPLAIN.</text>
+    <text source="Candidate BTREE index on %1 (%2)&#10;&#10;%3">Предлагаемый индекс BTREE для %1 (%2)&#10;&#10;%3</text>
+    <text source="&#10;&#10;Some join columns have unsupported types, lengths or collations and are excluded from this lookup.">&#10;&#10;Некоторые столбцы соединения исключены из поиска из-за неподдерживаемых типов, размеров или правил сравнения.</text>
+    <text source="&amp;Database">&amp;База данных</text>
+    <text source="Analyze database">Анализ базы данных</text>
+    <text source="Data Size">Размер данных</text>
+    <text source="Estimated space allocated for table data in the selected database.">Оценка объёма, выделенного под данные таблиц выбранной базы.</text>
+    <text source="Index Size">Размер индексов</text>
+    <text source="Estimated space allocated for indexes. For InnoDB, this is secondary index space.">Оценка объёма, выделенного под индексы. Для InnoDB учитываются вторичные индексы.</text>
+    <text source="Index Share">Доля индексов</text>
+    <text source="Index Size divided by Data Size plus Index Size.">Размер индексов, делённый на суммарный размер данных и индексов.</text>
+    <text source="Candidates">Кандидаты</text>
+    <text source="Total candidates on the active tab, including rows hidden by a filter. For Query suggestions, counts proposed indexes for the SQL query.">Число кандидатов на открытой вкладке, включая скрытые фильтром строки. Для рекомендаций считается число предложенных индексов для SQL-запроса.</text>
+    <text source="Duplicates and overlaps">Дубликаты и перекрытия</text>
+    <text source="Potentially unused">Возможно, не используются</text>
+    <text source="Enter a SELECT to get index suggestions.">Введите SELECT, чтобы получить рекомендации по индексам.</text>
+    <text source="SQL query">SQL-запрос</text>
+    <text source="Analyze query">Анализ запроса</text>
+    <text source="Query suggestions">Рекомендации для запроса</text>
+    <text source="Select database">Выберите базу данных</text>
+    <text source="Copy">Копировать</text>
+    <text source="Copy rows">Копировать строки</text>
+    <text source="Share">Доля</text>
+    <text source="Table access order">Порядок доступа к таблицам</text>
+    <text source="Rows are estimates per lookup.">Показано оценочное число строк на один поиск.</text>
+    <text source="Type  %1">Тип  %1</text>
+    <text source="Key  %1">Ключ  %1</text>
+    <text source="Rows  %1">Строки  %1</text>
+    <text source="Extra  %1">Дополнительно  %1</text>
+    <text source="Step #%1">Шаг #%1</text>
+    <text source="Stage details">Сведения об этапе</text>
+    <text source="Status">Состояние</text>
+    <text source="Duration">Длительность</text>
+    <text source="Execution position">Позиция при выполнении</text>
+    <text source="Description">Описание</text>
+    <text source="%1 of %2">%1 из %2</text>
+    <text source="The server processes and returns rows during this stage. The name can cover work inside the server.">На этом этапе сервер обрабатывает и возвращает строки. Название этапа может включать и внутреннюю работу сервера.</text>
+    <text source="No profile stages returned.">Сервер не вернул этапы профилирования.</text>
+    <text source="Total Duration">Общая длительность</text>
+    <text source="Stages">Этапы</text>
+    <text source="Longest Stage">Самый долгий этап</text>
+    <text source="Longest Duration">Максимальная длительность</text>
+    <text source="Longest first">Сначала самые долгие</text>
+    <text source="Execution order">Порядок выполнения</text>
+    <text source="Show all stages">Показать все этапы</text>
+    <text source="No time scale is available for this profile.">Для этого профиля нет шкалы времени.</text>
+    <text source="Time units">Единицы времени</text>
+    <text source="Time units for all profile views">Единицы времени для всех представлений профиля</text>
+    <text source="Auto">Авто</text>
+    <text source="Overview">Обзор</text>
+    <text source="Timeline">Хронология</text>
+    <text source="Visual">Схема</text>
+    <text source="Visual is unavailable for this execution plan.">Для этого плана выполнения схема недоступна.</text>
+    <text source="No JSON plan returned.">Сервер не вернул план в формате JSON.</text>
+    <text source="JSON plan unavailable.&#10;%1">План в формате JSON недоступен.&#10;%1</text>
+    <text source="Index Analyzer">Анализатор индексов</text>
+    <text source="Nested loop">Вложенный цикл</text>
+    <text source="≈ %1 rows">≈ %1 строк</text>
+    <text source="Join output">Результат соединения</text>
+    <text source="Cards show estimated rows per lookup. Arrows show estimated output rows when available.">На карточках указана оценка строк на один поиск. На стрелках — оценка числа строк на выходе, если она доступна.</text>
+    <text source="Sort">Сортировка</text>
+    <text source="Materialize">Материализация</text>
+    <text source="The optimizer plans an explicit sort of the input rows.">Оптимизатор планирует явно отсортировать входные строки.</text>
+    <text source="The optimizer plans to store the subquery result for use by the outer query.">Оптимизатор планирует сохранить результат подзапроса для использования во внешнем запросе.</text>
+    <text source="Query block #%1">Блок запроса #%1</text>
+    <text source="Query block">Блок запроса</text>
+    <text source="Subquery">Подзапрос</text>
+    <text source="Correlated subquery #%1">Коррелированный подзапрос #%1</text>
+    <text source="Correlated subquery">Коррелированный подзапрос</text>
+    <text source="Subquery #%1">Подзапрос #%1</text>
+    <text source="Uses values from the outer query. Its result depends on the current outer row.">Использует значения внешнего запроса. Результат зависит от текущей строки внешнего запроса.</text>
+    <text source="Enclosing query block #%1">Внешний блок запроса #%1</text>
+    <text source="Sorting and filtering use the full result. Export saves all matching rows; copy uses the selection.">Сортировка и фильтр применяются ко всему результату. Экспорт сохраняет все подходящие строки; копирование — выделение.</text>
+    <text source="Loaded: %1 of %2 matching rows">Загружено: %1 из %2 подходящих строк</text>
+    <text source="Window functions">Оконные функции</text>
+    <text source="Blocks">Блоки</text>
+    <text source="Tree">Дерево</text>
+    <text source="Fit">Вписать</text>
+    <text source="Zoom in">Увеличить</text>
+    <text source="Zoom out">Уменьшить</text>
+    <text source="Subqueries (%1)">Подзапросы (%1)</text>
+    <text source="Branches: %1">Ветвей: %1</text>
+    <text source="Lines show plan nesting. Click a block for details; +/− expands branches. Ctrl+wheel zooms.">Линии показывают вложенность плана. Щелчок по блоку открывает детали; +/− раскрывает ветви. Ctrl+колесо меняет масштаб.</text>
+    <text source="Tables: %1">Таблиц: %1</text>
+    <text source="History cleared">История очищена</text>
+    <text source="Ready to capture queries">Готов к перехвату запросов</text>
+    <text source="Starting Profiler">Запускаем Profiler</text>
+    <text source="Start capturing SQL queries">Начните перехват SQL-запросов</text>
+    <text source="Waiting for new queries. The graphs will return automatically.">Ожидаем новые запросы. Графики появятся автоматически.</text>
+    <text source="Connect your application through the proxy to see the first queries.">Подключите приложение через прокси, чтобы увидеть первые данные.</text>
+    <text source="Opening the proxy listener. Your other tools remain available.">Запускаем прокси. Остальные инструменты остаются доступны.</text>
+    <text source="Choose a connection and start Profiler. Then connect your application through the proxy.">Выберите подключение и запустите Profiler. Затем подключите ваше приложение через прокси.</text>
+    <text source="Profiler running">Profiler запущен</text>
+    <text source="Profiler stopped">Profiler остановлен</text>
+    <text source="Start Profiler">Запустить Profiler</text>
+    <text source="SELECTED CONNECTION">ВЫБРАННОЕ ПОДКЛЮЧЕНИЕ</text>
+    <text source="DATABASE SERVER">СЕРВЕР БАЗЫ ДАННЫХ</text>
+    <text source="Change connection">Сменить подключение</text>
+    <text source="Use the proxy address in your application">Укажите адрес прокси в вашем приложении</text>
+    <text source="Change the database host and port. Keep the same username, password and database name.">Замените адрес и порт подключения к БД. Логин, пароль и имя базы оставьте прежними.</text>
+    <text source="Assigned when Profiler starts">Будет назначен при запуске Profiler</text>
+    <text source="Proxy address">Адрес прокси</text>
+    <text source="Copy address">Копировать адрес</text>
+    <text source="For an application on another computer, replace 127.0.0.1 with this computer's network address.">Для приложения на другом компьютере замените 127.0.0.1 на сетевой адрес этого компьютера.</text>
+    <text source="Run any SQL query">Выполните любой SQL-запрос</text>
+    <text source="For example, open a website page or perform an action in your application.">Например, откройте страницу сайта или выполните действие в вашем приложении.</text>
+    <text source="Results will appear automatically">Результаты появятся автоматически</text>
+    <text source="After the first query, Profiler will show graphs and TOP. History will appear in %1 and %2.">После первого запроса Profiler покажет графики и TOP. История появится во вкладках «%1» и «%2».</text>
+    <text source="Or open another tool">Или перейдите к другим инструментам</text>
+    <text source="Open SQL Editor">Открыть SQL Editor</text>
+    <text source="Database monitoring">Мониторинг базы данных</text>
+    <text source="Profiler is running in the background. Waiting for SQL queries.">Profiler работает в фоне. Ожидаем SQL-запросы.</text>
+    <text source="Start Profiler to begin capturing SQL queries.">Запустите Profiler, чтобы начать перехват SQL-запросов.</text>
+    <text source="Yes">Да</text>
+    <text source="No">Нет</text>
+    <text source="Access type">Тип доступа</text>
+    <text source="Possible indexes">Возможные индексы</text>
+    <text source="Index columns">Столбцы индекса</text>
+    <text source="Index key length (bytes)">Длина ключа индекса (байт)</text>
+    <text source="Reference values">Значения для поиска</text>
+    <text source="Estimated rows per lookup">Оценка строк на один поиск</text>
+    <text source="Estimated output rows">Оценка строк на выходе</text>
+    <text source="Estimated rows passing the filter (%)">Оценка строк, прошедших фильтр (%)</text>
+    <text source="Sort keys">Ключи сортировки</text>
+    <text source="Index condition">Условие по индексу</text>
+    <text source="Filter condition">Условие фильтрации</text>
+    <text source="Outer-row condition">Условие по внешней строке</text>
+    <text source="HAVING condition">Условие HAVING</text>
+    <text source="Used columns">Используемые столбцы</text>
+    <text source="Temporary table">Временная таблица</text>
+    <text source="Explicit sort">Явная сортировка</text>
+    <text source="Depends on the outer query">Зависит от внешнего запроса</text>
+    <text source="Cacheable result">Результат можно кэшировать</text>
+    <text source="Subquery cache">Кэш подзапроса</text>
+    <text source="Optimizer message">Сообщение оптимизатора</text>
+    <text source="Estimated cost">Оценка стоимости</text>
+    <text source="Estimated read cost">Оценка стоимости чтения</text>
+    <text source="Estimated evaluation cost">Оценка стоимости вычислений</text>
+    <text source="Estimated cumulative cost">Накопленная оценка стоимости</text>
+    <text source="Estimated sort cost">Оценка стоимости сортировки</text>
+    <text source="The plan provides no additional properties for this operation.">В плане нет дополнительных свойств этой операции.</text>
+    <text source="queries/s">запросов/с</text>
+    <text source="KB/s">КБ/с</text>
+    <text source="transactions/s">транзакций/с</text>
+</query_tools>
+</general>
